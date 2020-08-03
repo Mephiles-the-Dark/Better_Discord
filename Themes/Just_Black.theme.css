@@ -1,0 +1,16 @@
+/**
+ * @name Just_Black
+ * @author Ме́филес#9198
+ * @authorId 376086802961793024
+ * @version 1.0.0
+ * @description Revival of JustBlack by Dddsasul: "A nice and black theme"
+ * @source https://github.com/Mephiles-the-Dark/Better_Discord/tree/master/Themes
+*/
+@import url("https://Mephiles-the-Dark.github.io/Better_Discord/new/master/Themes/Just_Black.css");
+:root {
+	--Active: rgb(51, 153, 51);
+	--Blue: blue;
+	--Fuchsia: fuchsia;
+	--Just_Black_Accent1: 91, 187, 255;
+	--Just_Black_Accent2: 41, 137, 216;
+}
