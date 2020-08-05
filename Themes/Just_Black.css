@@ -181,6 +181,7 @@ body,
 #app-mount .moreSubscribers-1cuWDE,
 #app-mount .news-2KwXHF,
 #app-mount .notDetected-33MY4s,
+#app-mount .notice-2X5hT5,
 #app-mount .or-3THJsp,
 #app-mount .pageWrapper-1PgVDX,
 #app-mount .paginator-166-09,
@@ -295,6 +296,8 @@ body,
 .expanded-13sWhZ,
 .expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e,
 .expandedFolderBackground-2sPsd-,
+.featureCard-1RR4Tl,
+.featureIcon-3p1TC_,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
 .folder-21wGz3,
 .folder-21wGz3.hover-2ji_A7,
@@ -349,6 +352,7 @@ body,
 .paused-3oG15i,
 .peopleList-3c4jOR,
 .pill-1dHPfk,
+.placeholder-2erB-x,
 .placeholderAvatar-damqh6,
 .placeholderUsername-2B_OA9,
 .platform-win .splashBackground-1FRCko:before,
@@ -720,6 +724,7 @@ body,
 .separator-2I32lJ,
 .separator-2IZ9ro,
 .separator-2zcjq8,
+.separator-3wQM3d,
 .separator-42rNt0,
 .side-8zPYf6 .separator-gCa7yv,
 .tabBody-3YRQ8W:before,
@@ -1187,6 +1192,10 @@ img.avatar-1BDn8e::before {
     width: 100%;
     height: 100%;
     display: block;
+}
+/* Guild Roles Tab */
+.colorPickerSwatch-5GX3Ve.default-cS_caM {
+    background-color: transparent !important;
 }
 /* Selected */
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,
