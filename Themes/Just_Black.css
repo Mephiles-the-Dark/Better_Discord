@@ -334,6 +334,7 @@ body,
 .jumpButton-JkYoYK,
 .layer-3QrUeG,
 .loading-1lSwpg,
+.loading-Ags1CY,
 .localBot-GrCgVt,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookGhost-2Fn_0-.colorGrey-2DXtkV,
@@ -730,6 +731,7 @@ body,
 #app-mount .sectionSeparator-2OWiNT,
 #app-mount .separator-2c4hi3,
 #app-mount .separator-XqIyoz,
+.added-2hLRj3::after,
 .attachButtonDivider-3Glu60,
 .channelSeparator-1DOiGt::before,
 .channelSeparator-dTqJ4K::before,
@@ -747,18 +749,21 @@ body,
 .divider-J3ken9,
 .divider-Uf0Wob,
 .dividerEnabled-2TTlcf,
+.fixed-3zCC84::after,
 .friendsTable-133bsv::before,
 .form-2fGMdU::before,
 .gradientOverlayLeft-3w159C,
 .gradientOverlayRight-3vMuS8,
 .guildSeparator-3s64Iy,
 .localBot-GrCgVt::before,
+.improved-1NJK-y::after,
 .isMentionedCozy-3isp7y::after,
 .mentioned-xhSam7::before,
 .planSelectDivider-3KU5-l,
 .pill-1m5BUr,
 .pill-2uzAFe,
 .pill-3YxEhL,
+.progress-YsDrV-::after,
 .searchResult-2N9RV4::after,
 .searchResult-9tQ1uo::after,
 .searchResult-9tQ1uo::before,
@@ -812,6 +817,7 @@ body,
 .contentRegion-3nDuYy,
 .sidebar-2K8pFh,
 .sidebarRegion-VFTUkN,
+.userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 > div > div:last-child > div:last-child > div,
 .wrapper-1Rf91z {
     opacity:0;
     transition: 0.4s ease-in-out;
@@ -822,6 +828,7 @@ body:hover,
 .contentRegion-3nDuYy:hover,
 .sidebar-2K8pFh:hover,
 .sidebarRegion-VFTUkN:hover,
+.userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 > div > div:last-child > div:last-child > div:hover,
 .wrapper-1Rf91z:hover {
     opacity: 1;
 }
@@ -1430,9 +1437,17 @@ img.avatar-1BDn8e::before {
 	background-color: var(--Active, rgb(51, 153, 51));
 	border-radius: 5px;
 }
-/* Connexion Hover */
-.accountBtn-2Nozo3 .accountBtnInner-sj5jLs:hover {
+/* Connexion Hover and Favourite Emote (not emoji) */
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs:hover,
+.fav {
 	background-color: rgba(var(--Just_Black_Accent1), 0.4);
+}
+.fav {
+	top: 0;
+}
+.zalgo-jN1Ica .messageContent-2qWWxC .emotewrapper {
+    overflow: visible;
+		margin: 0;
 }
 /* Guild Member Role Search */
 .selectableItem-1MP3MQ.selected-31soGA {
@@ -1461,6 +1476,11 @@ img.avatar-1BDn8e::before {
 .diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
 	background-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6);
+}
+/* Hide the GIF then the gift button */
+.buttons-3JBrkn > .buttonContainer-28fw2U > .buttonWrapper-1ZmCpA > .button-3AYNKb,
+.buttons-3JBrkn > .noFocus-2C7BQj {
+	display: none;
 }
 /* Tooltip */
 #app-mount .tooltipBlack-PPG47z,
@@ -1685,6 +1705,20 @@ img.avatar-1BDn8e::before {
 /* Voice Call name */
 .overlayTitle-8IcS01.idle-U-LIlZ {
 	opacity: 1;
+}
+/* Direct Message Call Notification to appear over settings */
+.wrapper-3lJCnD {
+    z-index: 103;
+}
+/* Voice Channel Member Count */
+.users-i_3-kL {
+	background-color: rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4);
+}
+.total-3tKGEB {
+	background-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4);
+}
+.total-3tKGEB::after {
+	border-right-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.2);
 }
 /* New Integrations Tab Guild Settings */
 .badge-_BgAUQ {
