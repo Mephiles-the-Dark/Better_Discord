@@ -938,7 +938,6 @@ body,
 	fill: transparent;
 }
 /* Black Magic */
-/*
 html:not(.app-focused),
 body,
 .base-3dtUhz,
@@ -969,7 +968,7 @@ html:not(.app-focused) {
 html.app-focused {
 	visibility: visible;
 	transition-delay: 0s;
-}*/
+}
 /* Scrollbars */
 #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
 #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-thumb,
@@ -2253,12 +2252,13 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .ace-monokai .ace_gutter-active-line {
 	background: linear-gradient(270deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), transparent);
 }
-.theme-light .ace-monokai .ace_punctuation,
-.theme-light .ace-monokai .ace_punctuation.ace_tag,
-.theme-light .ace_paren,
 .theme-light .ace_constant,
 .theme-light .ace_editor,
 .theme-light .ace-monokai,
+.light-theme .ace-monokai .ace_cursor,
+.theme-light .ace-monokai .ace_punctuation,
+.theme-light .ace-monokai .ace_punctuation.ace_tag,
+.theme-light .ace_paren,
 .theme-light .standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
 .theme-light .bd-detached-css-editor #bd-customcss-attach-controls button,
 .theme-light .contentRegion-3nDuYy #bd-customcss-attach-controls,
