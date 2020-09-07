@@ -2253,6 +2253,18 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .ace-monokai .ace_gutter-active-line {
 	background: linear-gradient(270deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), transparent);
 }
+.theme-light .ace-monokai .ace_punctuation,
+.theme-light .ace-monokai .ace_punctuation.ace_tag,
+.theme-light .ace_paren,
+.theme-light .ace_constant,
+.theme-light .ace_editor,
+.theme-light .ace-monokai,
+.theme-light .standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
+.theme-light .bd-detached-css-editor #bd-customcss-attach-controls button,
+.theme-light .contentRegion-3nDuYy #bd-customcss-attach-controls,
+.theme-light #bd-customcss-detach-container #bd-customcss-attach-controls {
+    color: var(--Dark, black);
+}
 /* Cloudflare and Public Servers */
 #cf-wrapper a:hover,
 #pubslayer .ui-tab-bar-header a:hover {
