@@ -317,6 +317,8 @@ body,
 #app-mount .searchHeader-1l-wpR,
 #app-mount .sidebar-1-SQro,
 #app-mount .slideBody-2nMrnU,
+#app-mount .table-moqjM0 .spacerHeader-3eoEE2,
+#app-mount .table-moqjM0 .stickyHeader-r2k9DK,
 #app-mount .tier1Banner-1B_WXY,
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-x9kBBp,
@@ -363,6 +365,7 @@ body,
 .button-F9qN4n,
 .card-1yV8cG,
 .card-1yV8cG:hover,
+.card-2Mz_4z,
 .card-3RzMcx,
 .card-3RzMcx:hover,
 .cardPrimaryEditable-3KtE4g,
@@ -477,6 +480,7 @@ body,
 .participantsButton-KYW-IW,
 .paused-3oG15i,
 .peopleList-3c4jOR,
+.pictureInPictureVideo-2iKsGg,.inspector-S2gM3e,
 .pill-1dHPfk,
 .placeholder-2erB-x,
 .placeholderAvatar-damqh6,
@@ -508,6 +512,7 @@ body,
 .secondary-dIudih,
 .select-1Hqz5i,
 .selected-WP3kCM .header-2o-2hj,
+.selectorButton-EEUWed,
 .sidebar-2K8pFh,
 .sidebarRegionScroller-3MXcoP,
 .standardSidebarView-3F1I7i,
@@ -617,6 +622,8 @@ body,
 #app-mount .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
 #app-mount .sectionAccountCredit-3cyLTx,
 #app-mount .subscriptionDetails-16jcwU,
+#app-mount .table-moqjM0 .spacerHeader-3eoEE2,
+#app-mount .table-moqjM0 .stickyHeader-r2k9DK,
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-x9kBBp,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
@@ -633,6 +640,7 @@ body,
 .botPermissions-1zv5Xg,
 .breadcrumbsWrapper-1m9gjf,
 .breadcrumbsWrapper-3avBWN,
+.card-2Mz_4z,
 .card-3Qj_Yx,
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
@@ -1791,6 +1799,7 @@ img.avatar-1BDn8e::before {
 .itemBase-1Qj4z6:active,
 .listDefault-2y5Z9D .clickable-23RaYz:active .content-3xS9Lh,
 .lookFilled-1Gx00P.colorBrand-3pXr91:active,
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:active,
 .peopleListItem-2nzedh.active-rhSpJJ,
 .selected-aXhQR6:active .layout-2DM8Md,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:active,
@@ -2232,6 +2241,18 @@ img.avatar-1BDn8e::before {
 }
 .jumpToPresentBar-G1R9s6 {
 	padding: 0;
+}
+/* Better Discord Search */
+.theme-light .bd-search {
+	color: var(--Dark, black);
+}
+/* Better Discord Settings */
+.theme-light:root #bd-settings-sidebar .ui-tab-bar-item.selected {
+	color: var(--Dark, black);
+}
+/* Compact Time Stamps */
+.timestampVisibleOnHover-2bQeI4 {
+	opacity: 1;
 }
 /* Server Counter Plugin */
 #app-mount .label-2wRs_g {
