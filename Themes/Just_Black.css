@@ -73,6 +73,7 @@
 .theme-dark .css-123uooi-menu,
 .theme-dark .css-181m2lf-menu,
 .theme-dark .css-1rckt42-menu,
+.theme-dark .css-3vaxre-menu,
 .theme-dark .css-hcn6i1-menu,
 .theme-dark .css-n1chp5-menu,
 .theme-dark .css-n57xjs-menu,
@@ -86,6 +87,7 @@
 .theme-dark .incomingCallInner-2VmFiR,
 .theme-dark .noiseCancellationPopout-iRK2A0,
 .theme-dark .oauth2Wrapper-mHbF5q,
+.theme-dark .popoutContainer-1MXdqN,
 .theme-dark .quickswitcher-3JagVE,
 .theme-dark .menu-Sp6bN1,
 .theme-dark .root-SR8cQa,
@@ -167,6 +169,7 @@
 .theme-light .css-123uooi-menu,
 .theme-light .css-181m2lf-menu,
 .theme-light .css-1rckt42-menu,
+.theme-light .css-3vaxre-menu,
 .theme-light .css-hcn6i1-menu,
 .theme-light .css-n1chp5-menu,
 .theme-light .css-n57xjs-menu,
@@ -180,6 +183,7 @@
 .theme-light .incomingCallInner-2VmFiR,
 .theme-light .noiseCancellationPopout-iRK2A0,
 .theme-light .oauth2Wrapper-mHbF5q,
+.theme-light .popoutContainer-1MXdqN,
 .theme-light .quickswitcher-3JagVE,
 .theme-light .menu-Sp6bN1,
 .theme-light .root-SR8cQa,
@@ -407,6 +411,7 @@ body,
 .css-2yldzf-control,
 .css-7qgozi-control,
 .css-9wh895-control,
+.css-gvi9bl-control,
 .css-hygzao-control,
 .css-o88y9m-control,
 .css-oc2jo8-control,
@@ -666,7 +671,9 @@ body,
 .css-1yegjoj-control,
 .css-2yldzf-control,
 .css-2yldzf-control:hover,
+.css-3vaxre-menu,
 .css-7qgozi-control,
+.css-gvi9bl-control,
 .css-hcn6i1-menu,
 .css-hygzao-control,
 .css-n1chp5-menu,
@@ -757,6 +764,7 @@ body,
 #app-mount .footer-2gL1pp,
 #app-mount .footer-3mqk7D,
 #app-mount .footer-3rDWdC,
+#app-mount .game-1ipmAa,
 #app-mount .header-ykumBX,
 #app-mount .header-1TOWci,
 #app-mount .installationPath-24giJj,
@@ -813,6 +821,7 @@ body,
 .css-1s13zip-menu,
 .css-1rckt42-menu,
 .css-1wqqa50-container,
+.css-3vaxre-menu,
 .css-hcn6i1-menu,
 .css-n1chp5-menu,
 .css-n57xjs-menu,
@@ -839,6 +848,7 @@ body,
 .outer-o9SjPm:hover .input-2A_zIr,
 .overlay-4k_Q4-,
 .popout-2iWAc-,
+.popoutContainer-1MXdqN,
 .quickswitcher-3JagVE,
 .searchBar-6Kv8R2,
 .searchHeader-1EzJGH,
@@ -903,6 +913,7 @@ body,
 .pill-1m5BUr,
 .pill-2uzAFe,
 .pill-3YxEhL,
+.popoutLoadingForeground-2mZT61,
 .progress-YsDrV-::after,
 .searchResult-2N9RV4::after,
 .searchResult-9tQ1uo::after,
@@ -1148,6 +1159,9 @@ html.app-focused {
 .thin-1ybCId::-webkit-scrollbar-track:disabled {
     background: transparent;
 }
+.member-perms::-webkit-scrollbar-thumb {
+	border: none;
+}
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-track {
 	border-width: 0;
@@ -1174,8 +1188,8 @@ html.app-focused {
 .winButtonMinMax-PBQ2gm:hover {
     background-color: #4747F0;
 }
-/* help button */
-[href="https://support.discord.com"] {
+/* Help Button */
+.toolbar-1t6TWx a {
 	display: none;
 }
 .toolbar-1t6TWx {
@@ -1508,6 +1522,7 @@ img.avatar-1BDn8e::before {
 .categoryPill-34fszg.selected-1dONk0,
 .colorDefault-2K3EoJ.focused-3afm-j,
 .css-12o7ek3-option,
+.css-1ba14n5-option,
 .css-1gnr91b-option,
 .css-1kft5vg-option,
 .item-3eFBNF.selected-2DeaDa,
@@ -1540,6 +1555,7 @@ img.avatar-1BDn8e::before {
 .theme-light .categoryPill-34fszg.selected-1dONk0,
 .theme-light .colorDefault-2K3EoJ.focused-3afm-j,
 .theme-light .css-12o7ek3-option,
+.theme-light .css-1ba14n5-option,
 .theme-light .css-1gnr91b-option,
 .theme-light .css-1kft5vg-option,
 .theme-light .item-3eFBNF.selected-2DeaDa,
@@ -1583,6 +1599,7 @@ img.avatar-1BDn8e::before {
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
 .css-1aymab5-option:hover,
 .css-qgio2y-option,
+.css-rzbxvl-option,
 .friendsTable-133bsv .friendsRow-2yicud:hover,
 .item-3eFBNF:focus,
 .item-3eFBNF:focus-within,
@@ -1632,6 +1649,7 @@ img.avatar-1BDn8e::before {
 .theme-light .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
 .theme-light .css-1aymab5-option:hover,
 .theme-light .css-qgio2y-option,
+.theme-light .css-rzbxvl-option,
 .theme-light .friendsTable-133bsv .friendsRow-2yicud:hover,
 .theme-light .item-3eFBNF:focus,
 .theme-light .item-3eFBNF:focus-within,
@@ -1671,6 +1689,7 @@ img.avatar-1BDn8e::before {
 .categoryPill-34fszg:hover.selected-1dONk0,
 .colorDefault-2K3EoJ.focused-3afm-j:hover,
 .css-12o7ek3-option:hover,
+.css-1ba14n5-option:hover,
 .css-1gnr91b-option:hover,
 .css-1kft5vg-option:hover,
 .item-3eFBNF.selected-2DeaDa:hover,
@@ -1703,6 +1722,7 @@ img.avatar-1BDn8e::before {
 .theme-light .categoryPill-34fszg:hover.selected-1dONk0,
 .theme-light .colorDefault-2K3EoJ.focused-3afm-j:hover,
 .theme-light .css-12o7ek3-option:hover,
+.theme-light .css-1ba14n5-option:hover,
 .theme-light .css-1gnr91b-option:hover,
 .theme-light .css-1kft5vg-option:hover,
 .theme-light .item-3eFBNF.selected-2DeaDa:hover,
@@ -2314,6 +2334,16 @@ img.avatar-1BDn8e::before {
 }
 .theme-light .bd-selected::after {
     background: var(--Orange, orangered);
+}
+/* Notification Bar */
+.closeButton-3cJIM4,
+#app-mount #pluginNotice,
+.notice-2FJMB4,
+#outdatedPlugins {
+    padding: 6px 0 6px 0;
+}
+#outdatedPlugins {
+    padding-top: 6px;
 }
 /* Server Counter Plugin */
 #app-mount .label-2wRs_g {
