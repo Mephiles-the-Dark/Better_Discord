@@ -1333,7 +1333,7 @@ html.app-focused {
 	animation: unread 3s infinite;
 }
 .theme-light .gearWithBadge-2IoJRv .badge-3lkhh2 {
-	background: rgb(var(--Just_Light_Accent2, 41, 137, 216));
+	background: rgb(var(--Just_Light_Accent2, 214, 118, 39));
 }
 /* New Messages Chat Pill */
 .unreadPill-2HyYtt {
