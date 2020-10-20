@@ -57,6 +57,7 @@
 .theme-dark .categoryWrapper-UZ5YNj,
 .theme-dark .channelHeader-3Gd2xq,
 .theme-dark .colorable-1bkp8v.primaryDark-3mSFDl,
+.theme-dark .colorNeutral-3uXvGN,
 .theme-dark .container-16j22k,
 .theme-dark .container-1gR2ZK,
 .theme-dark .container-2x5lvQ,
@@ -74,6 +75,7 @@
 .theme-dark .css-181m2lf-menu,
 .theme-dark .css-1rckt42-menu,
 .theme-dark .css-3vaxre-menu,
+.theme-dark .css-dwar6a-menu,
 .theme-dark .css-hcn6i1-menu,
 .theme-dark .css-n1chp5-menu,
 .theme-dark .css-n57xjs-menu,
@@ -153,6 +155,7 @@
 .theme-light .categoryWrapper-UZ5YNj,
 .theme-light .channelHeader-3Gd2xq,
 .theme-light .colorable-1bkp8v.primaryDark-3mSFDl,
+.theme-light .colorNeutral-3uXvGN,
 .theme-light .container-16j22k,
 .theme-light .container-1gR2ZK,
 .theme-light .container-2x5lvQ,
@@ -170,6 +173,7 @@
 .theme-light .css-181m2lf-menu,
 .theme-light .css-1rckt42-menu,
 .theme-light .css-3vaxre-menu,
+.theme-light .css-dwar6a-menu,
 .theme-light .css-hcn6i1-menu,
 .theme-light .css-n1chp5-menu,
 .theme-light .css-n57xjs-menu,
@@ -345,6 +349,7 @@ body,
 #app-mount .wrapper-3UweLa,
 #app-mount .wrapperAudio-1jDe0Q,
 #cf-wrapper #cf-error-details,
+.accountList-33MS45,
 .actionButton-uPB8Fs,
 .activity-11LB_k,
 .activityFeed-1C0EmJ,
@@ -391,6 +396,7 @@ body,
 .circleIconButton-jET_ig,
 .clickable-2ap7je .header-2o-2hj:hover,
 .colorable-1bkp8v.primary-3NQg8g,
+.connection-1fbD7X,
 .connectionHeader-2MDqhu,
 .container-1r6BKw.themed-ANHk51,
 .container-2XeR5Z,
@@ -673,6 +679,7 @@ body,
 .css-2yldzf-control:hover,
 .css-3vaxre-menu,
 .css-7qgozi-control,
+.css-dwar6a-menu,
 .css-gvi9bl-control,
 .css-hcn6i1-menu,
 .css-hygzao-control,
@@ -810,6 +817,7 @@ body,
 .container-2x5lvQ,
 .container-3cGP6G,
 .container-3JTnYm,
+.css-dwar6a-menu,
 .container-enaOkj,
 .container-ZRw2kD,
 .containerDragAfter-1F4fgZ::after,
@@ -1100,6 +1108,7 @@ html.app-focused {
 .auto-Ge5KZx::-webkit-scrollbar,
 .scroller-3sQKXg::-webkit-scrollbar,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar,
+.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar,
 .scroller-2FKFPG::-webkit-scrollbar,
 .webkit-HjD9Er::-webkit-scrollbar {
 	width: 9px;
@@ -1201,6 +1210,15 @@ html.app-focused {
     width: calc(100% - 100px);
 }
 /* Chat Notices */
+.button-2DhvE9 {
+    top: 12px;
+}
+.notice-3bPHh- {
+    margin-right: 84px;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: none;
+}
 #app-mount #pluginNotice,
 .notice-2FJMB4 {
 	height: 36px;
@@ -1887,7 +1905,7 @@ img.avatar-1BDn8e::before {
 	background: transparent;
 }
 /* Hide the GIF then the gift button */
-.buttons-3JBrkn > .buttonContainer-28fw2U > .buttonWrapper-1ZmCpA > .button-3AYNKb,
+.buttonContainer-28fw2U:not(#sendAudioButtons) .button-3AYNKb,
 .buttons-3JBrkn > .noFocus-2C7BQj {
 	display: none;
 }
