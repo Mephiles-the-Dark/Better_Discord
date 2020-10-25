@@ -1,14 +1,14 @@
 :root {
-	--Dark: black;
-	--Light: white;
-	--Just_Black_Accent1: 91, 187, 255;
-	--Just_Black_Accent2: 41, 137, 216;
-	--Just_Light_Accent1: 164, 68, 0;
-	--Just_Light_Accent2: 214, 118, 39;
-	--Blue: blue; /* Dark Theme */
-	--Orange: orangered; /* Light Theme */
-	--Fuchsia: fuchsia;
-	--Active: rgb(51, 153, 51);
+	--Dark: black; /* A colour {default: black} */
+	--Light: white; /* A colour {default: white} */
+	--Just_Black_Accent1: 91, 187, 255; /* An RGB triplet {default: 91, 187, 255} */
+	--Just_Black_Accent2: 41, 137, 216; /* An RGB triplet {default: 41, 137, 216} */
+	--Just_Light_Accent1: 164, 68, 0; /* An RGB triplet {default: 164, 68, 0} */
+	--Just_Light_Accent2: 214, 118, 39; /* An RGB triplet {default: 214, 118, 39} */
+	--Blue: blue; /* An extra accent colour for Dark Theme {default: blue} */
+	--Orange: orangered; /* An extra accent colour for Light Theme {default: orangered} */
+	--Fuchsia: fuchsia; /* A colour {default: fuchsia} */
+	--Active: rgb(51, 153, 51); /* A colour {default: rgb(51, 153, 51)} */
 }
 .theme-dark:root,
 .theme-dark:root div #ace_settingsmenu select option,
@@ -85,6 +85,8 @@
 .theme-dark .emojiPicker-3PwZFl,
 .theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
 .theme-dark .emojiSection-3Fb9ix,
+.theme-dark .floating-window.resizable,
+.theme-dark .floating-window-titlebar,
 .theme-dark .guildSection-1EoFKd,
 .theme-dark .incomingCallInner-2VmFiR,
 .theme-dark .noiseCancellationPopout-iRK2A0,
@@ -183,6 +185,8 @@
 .theme-light .emojiPicker-3PwZFl,
 .theme-light .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
 .theme-light .emojiSection-3Fb9ix,
+.theme-light .floating-window.resizable,
+.theme-light .floating-window-titlebar,
 .theme-light .guildSection-1EoFKd,
 .theme-light .incomingCallInner-2VmFiR,
 .theme-light .noiseCancellationPopout-iRK2A0,
@@ -210,9 +214,15 @@
 :root div #ace_settingsmenu select,
 :root div #ace_settingsmenu input[type=text],
 body,
+bd-body .bd-monokai .ace_editor,
+bd-body .bd-monokai .editor .ace_gutter,
+bd-body .editor-wrapper .bd-monokai .ace_marker-layer .ace_active-line,
+bd-body .floating-window-content,
+bd-body .floating-window #bd-editor-controls,
 #ace_settingsmenu_container .ace_optionsMenuEntry:hover,
 #app-mount #bd-customcss-detach-container,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
+#app-mount #bd-editor-controls,
 #app-mount #bda-qem button,
 #app-mount #dv-mount,
 #app-mount #MemberCount,
@@ -230,6 +240,7 @@ body,
 #app-mount .bd-modal-wrapper .bd-modal-body,
 #app-mount .bd-modal-wrapper .header,
 #app-mount .bd-search-wrapper,
+#app-mount .bd-select,
 #app-mount .bda-slist li,
 #app-mount .body-3iLsc4,
 #app-mount .body-SKIE6r,
@@ -567,6 +578,8 @@ body,
 }
 :root div #ace_settingsmenu select,
 :root div #ace_settingsmenu input[type=text],
+:root .bd-addon-list .bd-addon-header,
+:root .bd-addon-list .bd-footer,
 #ace_settingsmenu_container .ace_optionsMenuEntry button,
 #ace_settingsmenu_container .ace_optionsMenuEntry button:hover,
 #app-mount #bd-customcss-attach-controls,
@@ -585,6 +598,7 @@ body,
 #app-mount .bd-modal-wrapper .error,
 #app-mount .bd-modal-wrapper .tab-bar-container .tab-bar-item,
 #app-mount .bd-modal-wrapper .table-header,
+#app-mount .bd-select,
 #app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bd-select .bd-select-options,
 #app-mount .bd-server-description-container,
@@ -743,7 +757,9 @@ body,
 	border: none;
 }
 :root div #ace_settingsmenu,
+bd-body .floating-window,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
+#app-mount #bd-editor-controls,
 #app-mount #bda-qem button,
 #app-mount #permissions-modal-wrapper #permissions-modal,
 #app-mount #permissions-modal-wrapper .header,
@@ -873,6 +889,8 @@ body,
 	box-shadow: none;
 }
 #app-mount #bd-settings-sidebar .ui-tab-bar-separator,
+#app-mount .bd-setting-divider,
+#app-mount .bd-settings-group.collapsible .bd-settings-title::before,
 #app-mount .bd-guild-separator,
 #app-mount .channelSeparator-1X1FuH::before,
 #app-mount .checkboxContainer-2vV9zd::before,
@@ -1757,6 +1775,8 @@ img.avatar-1BDn8e::before {
 	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4));
 }
 /* Square Hovered */
+body #bd-editor-controls button:hover,
+bd-body .floating-window-buttons .maximize-button:hover,
 #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day:hover,
@@ -1790,6 +1810,8 @@ img.avatar-1BDn8e::before {
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
 	background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4));
 }
+.theme-light #bd-editor-controls button:hover,
+.theme-light .floating-window-buttons .maximize-button:hover,
 .theme-light #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 .theme-light #app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
 .theme-light #app-mount .calendarPicker-2yf6Ci .react-datepicker__day:hover,
@@ -1824,6 +1846,8 @@ img.avatar-1BDn8e::before {
 	background: radial-gradient(rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4));
 }
 /* Active */
+body #bd-editor-controls button:active,
+bd-body .floating-window-buttons .maximize-button:active,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:active,
 #app-mount .bd-select .bd-select-option:active,
 #app-mount .bd-select .bd-select-option.selected:active,
@@ -1906,7 +1930,7 @@ img.avatar-1BDn8e::before {
 }
 /* Hide the GIF then the gift button */
 .buttonContainer-28fw2U:not(#sendAudioButtons) .button-3AYNKb,
-.buttons-3JBrkn > .noFocus-2C7BQj {
+.buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8) {
 	display: none;
 }
 /* Emoji Picker Emote Tab Header */
@@ -2314,9 +2338,11 @@ img.avatar-1BDn8e::before {
 	border: none !important;
 	background: none;
 }
+bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
 #app-mount .ace-monokai .ace_gutter-active-line {
 	background: linear-gradient(270deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), transparent);
 }
+.theme-light bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
 .theme-light #app-mount .ace-monokai .ace_gutter-active-line {
 	background: linear-gradient(270deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), transparent);
 }
