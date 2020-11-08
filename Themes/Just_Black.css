@@ -11,6 +11,7 @@
 	--Active: rgb(51, 153, 51); /* A colour {default: rgb(51, 153, 51)} */
 }
 .theme-dark:root,
+.theme-dark:root div #ace_settingsmenu,
 .theme-dark:root div #ace_settingsmenu select option,
 .theme-dark #app-mount #bda-qem,
 .theme-dark #app-mount #bda-qem-twitch-container,
@@ -32,6 +33,7 @@
 .theme-dark #app-mount .keyboardShortcutsModal-3piNz7,
 .theme-dark #app-mount .modal-yWgWj-,
 .theme-dark #app-mount .messagesPopoutWrap-1MQ1bW,
+.theme-dark #app-mount .monaco-editor .monaco-editor-hover,
 .theme-dark #app-mount .oauth2Inner-3ZZuZ5,
 .theme-dark #app-mount .overflowRolesPopout-140n9i,
 .theme-dark #app-mount .overflowRolesPopoutArrow-2O66oH,
@@ -77,6 +79,7 @@
 .theme-dark .css-3vaxre-menu,
 .theme-dark .css-dwar6a-menu,
 .theme-dark .css-hcn6i1-menu,
+.theme-dark .css-ix84ef-menu,
 .theme-dark .css-n1chp5-menu,
 .theme-dark .css-n57xjs-menu,
 .theme-dark .diversitySelector-tmmMv0 .popout-2nUePc,
@@ -94,7 +97,9 @@
 .theme-dark .popoutContainer-1MXdqN,
 .theme-dark .quickswitcher-3JagVE,
 .theme-dark .menu-Sp6bN1,
+.theme-dark .root-3JVdIJ,
 .theme-dark .root-SR8cQa,
+.theme-dark .spinner-3lb-NU,
 .theme-dark .styleFixed-sX-yHV,
 .theme-dark .styleFlexible-wGDiIL,
 .theme-dark .submenu-2-ysNh,
@@ -111,6 +116,7 @@
 	background: var(--Dark, black);
 }
 .theme-light:root,
+.theme-light:root div #ace_settingsmenu,
 .theme-light:root div #ace_settingsmenu select option,
 .theme-light #app-mount #bda-qem,
 .theme-light #app-mount #bda-qem-twitch-container,
@@ -132,6 +138,7 @@
 .theme-light #app-mount .keyboardShortcutsModal-3piNz7,
 .theme-light #app-mount .modal-yWgWj-,
 .theme-light #app-mount .messagesPopoutWrap-1MQ1bW,
+.theme-light #app-mount .monaco-editor .monaco-editor-hover,
 .theme-light #app-mount .oauth2Inner-3ZZuZ5,
 .theme-light #app-mount .overflowRolesPopout-140n9i,
 .theme-light #app-mount .overflowRolesPopoutArrow-2O66oH,
@@ -177,6 +184,7 @@
 .theme-light .css-3vaxre-menu,
 .theme-light .css-dwar6a-menu,
 .theme-light .css-hcn6i1-menu,
+.theme-light .css-ix84ef-menu,
 .theme-light .css-n1chp5-menu,
 .theme-light .css-n57xjs-menu,
 .theme-light .diversitySelector-tmmMv0 .popout-2nUePc,
@@ -194,7 +202,9 @@
 .theme-light .popoutContainer-1MXdqN,
 .theme-light .quickswitcher-3JagVE,
 .theme-light .menu-Sp6bN1,
+.theme-light .root-3JVdIJ,
 .theme-light .root-SR8cQa,
+.theme-light .spinner-3lb-NU,
 .theme-light .styleFixed-sX-yHV,
 .theme-light .styleFlexible-wGDiIL,
 .theme-light .submenu-2-ysNh,
@@ -237,6 +247,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .attachment-33OFj0,
 #app-mount .autocompleteHeaderBackground-30T70q,
 #app-mount .bd-addon-list .bd-addon-card,
+#app-mount .bd-addon-list .bd-addon-header,
 #app-mount .bd-modal-wrapper .bd-modal-body,
 #app-mount .bd-modal-wrapper .header,
 #app-mount .bd-search-wrapper,
@@ -309,6 +320,11 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .messageGroupWrapper-o-Zw7G,
 #app-mount .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
 #app-mount .messagesPopout-24nkyi,
+#app-mount .monaco-editor,
+#app-mount .monaco-editor-background,
+#app-mount .monaco-editor .inputarea.ime-input,
+#app-mount .monaco-editor .margin,
+#app-mount .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .moreSubscribers-1cuWDE,
 #app-mount .news-2KwXHF,
 #app-mount .notice-2X5hT5,
@@ -329,6 +345,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .recentlyPlayedContainer-2F3MqS,
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 #app-mount .root-1BQpZw,
+#app-mount .scroller-1-nKid,
 #app-mount .searchAnswer-3Dz2-q,
 #app-mount .searchBox-3Y2Vi7,
 #app-mount .searchFilter-2ESiM3,
@@ -372,6 +389,7 @@ bd-body .floating-window #bd-editor-controls,
 .attachment-2p5mHK,
 .avatar-2daVqv,
 .avatar-VxgULZ::before,
+.background-1QDuV2,
 .background-ujHpbY,
 .banner-WELp4M,
 .bannerImage-1jOskm::before,
@@ -413,15 +431,21 @@ bd-body .floating-window #bd-editor-controls,
 .container-2XeR5Z,
 .container-cMG81i,
 .container-PNkimc,
+.container-UC8Ug1,
 .content-1o0f9g,
 .content-MLh4nU,
 .contentRegion-3nDuYy,
 .contentRegionScroller-26nc1e,
+.css-12hk9yc-control,
 .css-15ejc46-control,
 .css-18cezq4-control,
 .css-1a8reka-control,
+.css-1adxh11-control,
 .css-1b86x2o-control,
+.css-1emou8a-control,
+.css-ljd0hx-control,
 .css-1o55ng5-control,
+.css-1ou54ee-control,
 .css-1qm8c5n-control,
 .css-1wqqa50-container,
 .css-1yegjoj-control,
@@ -433,6 +457,8 @@ bd-body .floating-window #bd-editor-controls,
 .css-o88y9m-control,
 .css-oc2jo8-control,
 .css-oce0qz-control,
+.css-x3hllb-control,
+.css-z86t1q-control,
 .descriptionBox-1EKQKL,
 .detailsBlock-FoDTGA,
 .dragInner-_SHftW,
@@ -448,6 +474,7 @@ bd-body .floating-window #bd-editor-controls,
 .expandedFolderBackground-2sPsd-,
 .featureCard-1RR4Tl,
 .featureIcon-3p1TC_,
+.fieldList-21DyL8,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
 .folder-21wGz3,
 .folder-21wGz3.hover-2ji_A7,
@@ -463,6 +490,7 @@ bd-body .floating-window #bd-editor-controls,
 .icon-1Itzco,
 .iconWrapper-lS1uig,
 .infoBar-U6oBFk,
+.input--jS-j2,
 .input-2A_zIr:focus,
 .input-2VB9rf,
 .input-cIJ7To,
@@ -507,6 +535,8 @@ bd-body .floating-window #bd-editor-controls,
 .participantsButton-KYW-IW,
 .paused-3oG15i,
 .peopleList-3c4jOR,
+.phoneField-38N1bJ,
+.phoneField-38N1bJ .inputField-aNPXsv,
 .pictureInPictureVideo-2iKsGg,
 .pill-1dHPfk,
 .placeholder-2erB-x,
@@ -634,6 +664,8 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .messageGroupWrapper-o-Zw7G,
 #app-mount .messagesPopoutWrap-1MQ1bW,
 #app-mount .modalSubtitle-1Pj5nv,
+#app-mount .monaco-editor .monaco-editor-hover,
+#app-mount .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
 #app-mount .or-3THJsp,
 #app-mount .overridePlaceholder-14_rPI,
 #app-mount .pageButtonNext-V2kUq0,
@@ -680,14 +712,19 @@ bd-body .floating-window #bd-editor-controls,
 .connectedAccount-36nQx7,
 .connectionHeader-2MDqhu,
 .container-1giJp5,
+.container-UC8Ug1,
 .css-15ejc46-control,
 .css-181m2lf-menu,
 .css-18cezq4-control,
 .css-1a8reka-control,
+.css-1ekm3mr-menu,
+.css-ljd0hx-control,
+.css-1ou54ee-control,
 .css-1px1g2v-menu,
 .css-1qm8c5n-control,
 .css-1rckt42-menu,
 .css-1s13zip-menu,
+.css-1x99fvh-menu,
 .css-1yegjoj-control,
 .css-2yldzf-control,
 .css-2yldzf-control:hover,
@@ -702,6 +739,8 @@ bd-body .floating-window #bd-editor-controls,
 .css-o88y9m-control,
 .css-oc2jo8-control,
 .css-oce0qz-control,
+.css-x3hllb-control,
+.css-z86t1q-control,
 .customItem-a8hq58,
 .diversitySelector-tmmMv0 .popout-2nUePc,
 .diversitySelectorPopout-3FiGaM,
@@ -730,6 +769,7 @@ bd-body .floating-window #bd-editor-controls,
 .paginationButton-3u4jo8,
 .panel-24C3ux,
 .peopleListItem-2nzedh,
+.phoneField-38N1bJ,
 .protip-1b9XPC,
 .scopes-3GJ3xw,
 .searchResult-2N9RV4.expanded-ovgtuV,
@@ -758,6 +798,7 @@ bd-body .floating-window #bd-editor-controls,
 }
 :root div #ace_settingsmenu,
 bd-body .floating-window,
+bd-body .floating-window #bd-editor-controls,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
 #app-mount #bd-editor-controls,
 #app-mount #bda-qem button,
@@ -825,6 +866,7 @@ bd-body .floating-window,
 #app-mount .video-1FfuMD.noChat-3nt48u .videoBackgroundTransition-3wpOSl,
 #app-mount .wrapper-9ppXpy,
 .animatedContainer-1pJv5C,
+.autocomplete-3l_oCd,
 .autocomplete-Z9HwQh,
 .authBox-hW6HRx,
 .button-F9qN4n.focused-3ZzkKr,
@@ -841,12 +883,15 @@ bd-body .floating-window,
 .contentWrapper-SvZHNd,
 .css-123uooi-menu,
 .css-181m2lf-menu,
+.css-1ekm3mr-menu,
 .css-1px1g2v-menu,
 .css-1s13zip-menu,
 .css-1rckt42-menu,
 .css-1wqqa50-container,
+.css-1x99fvh-menu,
 .css-3vaxre-menu,
 .css-hcn6i1-menu,
+.css-ix84ef-menu,
 .css-n1chp5-menu,
 .css-n57xjs-menu,
 .emojiPicker-3m1S-j .header-1nkwgG,
@@ -879,6 +924,7 @@ bd-body .floating-window,
 .searchHeader-2XoQg7,
 .searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultMessage-1fxgXh.hit-1fVM9e,
+.spinner-3lb-NU,
 .styleFixed-sX-yHV,
 .styleFlexible-wGDiIL,
 .themedPopout-1TrfdI,
@@ -995,7 +1041,7 @@ body,
 .contentRegion-3nDuYy,
 .sidebar-2K8pFh,
 .sidebarRegion-VFTUkN,
-.userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 > div > div:last-child > div:last-child > div,
+.fieldList-21DyL8 > div > div > div,
 .wrapper-1Rf91z {
     opacity: 0;
     transition: 0.4s ease-in-out;
@@ -1006,7 +1052,7 @@ body:hover,
 .contentRegion-3nDuYy:hover,
 .sidebar-2K8pFh:hover,
 .sidebarRegion-VFTUkN:hover,
-.userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 > div > div:last-child > div:last-child > div:hover,
+.fieldList-21DyL8 > div > div > div:hover,
 .wrapper-1Rf91z:hover {
     opacity: 1;
 }
@@ -1029,7 +1075,7 @@ html.app-focused {
 #app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .auto-Ge5KZx::-webkit-scrollbar-thumb,
 .css-1ye7vu0::-webkit-scrollbar-thumb,
-.member-perms::-webkit-scrollbar-thumb,
+#app-mount .member-perms::-webkit-scrollbar-thumb,
 .none-2Eo-qx::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
@@ -1186,7 +1232,7 @@ html.app-focused {
 .thin-1ybCId::-webkit-scrollbar-track:disabled {
     background: transparent;
 }
-.member-perms::-webkit-scrollbar-thumb {
+#app-mount .member-perms::-webkit-scrollbar-thumb {
 	border: none;
 }
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
@@ -1195,6 +1241,10 @@ html.app-focused {
 }
 .scroller-2LSbBU::-webkit-scrollbar-track {
 	margin: 0;
+}
+.auto-Ge5KZx::-webkit-scrollbar-track,
+.scroller-zPkAnE::-webkit-scrollbar-track {
+	background-color: transparent;
 }
 /* Titlebar */
 .wordmarkWindows-1v0lYD,
@@ -1273,23 +1323,9 @@ html.app-focused {
 	left: 8px;
 }
 /* Guild pill shows only when unread */
-.bd-guild:not(.bd-unread) .item-2hkk8m,
-.wrapper-21YSNc .item-2hkk8m:not([style*="height: 8px;"]):not([style*="height: 40px;"]) {
-    display: none;
-}
-.bd-unread .pill-31IEus .item-2hkk8m,
 .pill-31IEus .item-2hkk8m {
 	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
-	width: 15px;
-	height: 15px !important;
-	position: absolute;
-	z-index: 1;
-	left: 15px;
-	bottom: 0;
-	border-radius: 50%;
-	animation: unread 3s ease-out infinite;
 }
-.theme-light .bd-unread .pill-31IEus .item-2hkk8m,
 .theme-light .pill-31IEus .item-2hkk8m {
 	background: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.7);
 }
@@ -1297,9 +1333,6 @@ html.app-focused {
 	display: block;
 }
 
-.wrapper-21YSNc .bd-guild:not(.bd-unread) .item-2hkk8m {
-	display: none;
-}
 .expandedGuilds-1JMD4M,
 .guildIcon-GuAC7C,
 .wrapper-sa6paO {
@@ -1309,40 +1342,8 @@ html.app-focused {
 	contain: none;
   pointer-events: none;
 }
-.theme-dark .bd-animatable {
-	filter: drop-shadow(0 0 5px var(--Dark, black));
-}
-.theme-light .bd-animatable {
-	filter: drop-shadow(0 0 5px var(--Light, white));
-}
-/* Selected Guild */
-.bd-selected {
-    filter: drop-shadow(0 0 5px var(--Blue, blue));
-}
-.theme-light .bd-selected {
-    filter: drop-shadow(0 0 5px var(--Orange, orangered));
-}
-.theme-dark .bd-selected .item-2hkk8m {
-		border: 2px ridge white;
-}
-.theme-dark .wrapper-21YSNc .item-2hkk8m[style*="height: 40px;"] {
-    border: 2px ridge white;
-		background: white;
-		animation: none;
-}
-.theme-light .bd-selected .item-2hkk8m {
-		border: 2px ridge black;
-}
-.theme-light .wrapper-21YSNc .item-2hkk8m[style*="height: 40px;"] {
-    border: 2px ridge black;
-		background: black;
-		animation: none;
-}
 .listItem-2P_4kh:active {
 	filter: drop-shadow(0 0 5px var(--Active, rgb(51, 153, 51)));
-}
-.bd-audio {
-	filter: drop-shadow(0 0 5px var(--Fuchsia, fuchsia));
 }
 .guilds-1SWlCJ [style*="height: 56px;"] {
     height: 48px !important;
@@ -1560,6 +1561,7 @@ img.avatar-1BDn8e::before {
 .css-12o7ek3-option,
 .css-1ba14n5-option,
 .css-1gnr91b-option,
+.css-1gxgi19-option,
 .css-1kft5vg-option,
 .item-3eFBNF.selected-2DeaDa,
 .itemActive-2V2HNc,
@@ -1593,6 +1595,7 @@ img.avatar-1BDn8e::before {
 .theme-light .css-12o7ek3-option,
 .theme-light .css-1ba14n5-option,
 .theme-light .css-1gnr91b-option,
+.theme-light .css-1gxgi19-option,
 .theme-light .css-1kft5vg-option,
 .theme-light .item-3eFBNF.selected-2DeaDa,
 .theme-light .itemActive-2V2HNc,
@@ -1633,7 +1636,9 @@ img.avatar-1BDn8e::before {
 .clickable-11uBi-:hover,
 .clickable-1JJAn8:hover .layout-2DM8Md,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.container-UC8Ug1:hover,
 .css-1aymab5-option:hover,
+.css-pkcurw-option,
 .css-qgio2y-option,
 .css-rzbxvl-option,
 .friendsTable-133bsv .friendsRow-2yicud:hover,
@@ -1683,7 +1688,9 @@ img.avatar-1BDn8e::before {
 .theme-light .clickable-11uBi-:hover,
 .theme-light .clickable-1JJAn8:hover .layout-2DM8Md,
 .theme-light .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.theme-light .container-UC8Ug1:hover,
 .theme-light .css-1aymab5-option:hover,
+.theme-light .css-pkcurw-option,
 .theme-light .css-qgio2y-option,
 .theme-light .css-rzbxvl-option,
 .theme-light .friendsTable-133bsv .friendsRow-2yicud:hover,
@@ -1727,6 +1734,7 @@ img.avatar-1BDn8e::before {
 .css-12o7ek3-option:hover,
 .css-1ba14n5-option:hover,
 .css-1gnr91b-option:hover,
+.css-1gxgi19-option:hover,
 .css-1kft5vg-option:hover,
 .item-3eFBNF.selected-2DeaDa:hover,
 .itemActive-2V2HNc:hover,
@@ -1760,6 +1768,7 @@ img.avatar-1BDn8e::before {
 .theme-light .css-12o7ek3-option:hover,
 .theme-light .css-1ba14n5-option:hover,
 .theme-light .css-1gnr91b-option:hover,
+.theme-light .css-1gxgi19-option:hover,
 .theme-light .css-1kft5vg-option:hover,
 .theme-light .item-3eFBNF.selected-2DeaDa:hover,
 .theme-light .itemActive-2V2HNc:hover,
@@ -1777,6 +1786,7 @@ img.avatar-1BDn8e::before {
 /* Square Hovered */
 body #bd-editor-controls button:hover,
 bd-body .floating-window-buttons .maximize-button:hover,
+#app-mount .bd-addon-views .bd-view-button:hover,
 #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day:hover,
@@ -1920,6 +1930,11 @@ bd-body .floating-window-buttons .maximize-button:active,
 .theme-light .selectableItem-1MP3MQ.selected-31soGA:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4)) !important;
 }
+/* Server Search */
+.theme-light .searchAnswer-3Dz2-q,
+.theme-light .searchFilter-2ESiM3 {
+    color: black;
+}
 /* Direct Message Group Creator selected people */
 .tag-2gHSR7:hover {
 	opacity: 1;
@@ -1975,6 +1990,7 @@ bd-body .floating-window-buttons .maximize-button:active,
 	border-top-color: var(--Orange, orangered);
 }
 /* Toasts */
+bd-body .bd-toast,
 #app-mount .bd-toast,
 #app-mount .toast {
 	background-color: var(--Dark, black);
@@ -2332,6 +2348,10 @@ bd-body .floating-window-buttons .maximize-button:active,
 .theme-light:root #bd-settings-sidebar .ui-tab-bar-item.selected {
 	color: var(--Dark, black);
 }
+.theme-dark #ace_settingsmenu,
+.theme-dark #kbshortcutmenu {
+    color: var(--Light, white);
+}
 /* Custom CSS Tab */
 #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button,
 #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button {
@@ -2359,6 +2379,17 @@ bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
 .theme-light #bd-customcss-detach-container #bd-customcss-attach-controls {
     color: var(--Dark, black);
 }
+#floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-titlebar {
+	margin-top: 10px;
+}
+#floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-buttons {
+    margin-right: 80px;
+    top: 0;
+    right: 0;
+}
+#floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-buttons {
+	height: 48px;
+}
 /* Cloudflare and Public Servers */
 #cf-wrapper a:hover,
 #pubslayer .ui-tab-bar-header a:hover {
@@ -2380,10 +2411,7 @@ bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
     background: var(--Orange, orangered);
 }
 /* Notification Bar */
-.closeButton-3cJIM4,
-#app-mount #pluginNotice,
-.notice-2FJMB4,
-#outdatedPlugins {
+.closeButton-3cJIM4 {
     padding: 6px 0 6px 0;
 }
 #outdatedPlugins {
@@ -2394,6 +2422,14 @@ bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
 	position: absolute;
 	width: 57px;
 	left: 0;
+}
+/* Direct Download Plugin */
+#files_directDownload {
+    bottom: 50px;
+}
+/* Permission Viewer Plugin */
+.theme-light .roleName-1JcOmP {
+    color: black;
 }
 /* watermark in preview */
 html:not([lang])::after {
