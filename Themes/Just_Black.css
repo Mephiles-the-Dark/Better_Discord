@@ -561,6 +561,7 @@ bd-body .floating-window #bd-editor-controls,
 .reaction-1ELvT8,
 .reaction-1hd86g,
 .replying-1x3H0T,
+.replyBadge-r1su3o,
 .root-25RxKh,
 .scroller-1IIF0A,
 .scroller-1JbKMe,
@@ -922,6 +923,7 @@ bd-body .floating-window #bd-editor-controls,
 .full-motion .wrapper-2aW0bm:hover,
 .hasMore-3e72_v,
 .header-2o-2hj,
+.header-2V-4Sw,
 .header-8ilj5e,
 .incomingCallInner-2VmFiR,
 .input-2A_zIr:focus,
@@ -1534,6 +1536,10 @@ html.app-focused {
 .form-2fGMdU {
     margin: 0;
 }
+/* Chat Keyboard Accessibility */
+.keyboard-mode.theme-light .ring-13rgEW {
+    --__adaptive-focus-color: var(--Orange, orangered) !important;
+}
 /* Replied Message */
 .replying-1x3H0T {
 	outline: solid var(--Blue, blue);
@@ -1621,6 +1627,8 @@ img.avatar-1BDn8e::before {
 .navButtonActive-3RPAJy,
 .option-3KoAJB[aria-selected=true],
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected,
+.quickSelectPopoutOption-opKBx9:focus,
+.selected-31Nl7x .header-2V-4Sw,
 .selected-aXhQR6 .layout-2DM8Md,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
@@ -1660,6 +1668,8 @@ img.avatar-1BDn8e::before {
 .theme-light .navButtonActive-3RPAJy,
 .theme-light .option-3KoAJB[aria-selected=true],
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected,
+.theme-light .quickSelectPopoutOption-opKBx9:focus,
+.theme-light .selected-31Nl7x .header-2V-4Sw,
 .theme-light .selected-aXhQR6 .layout-2DM8Md,
 .theme-light .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .theme-light .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
@@ -1692,6 +1702,7 @@ img.avatar-1BDn8e::before {
 .categoryPill-34fszg:hover,
 .clickable-11uBi-:hover,
 .clickable-1JJAn8:hover .layout-2DM8Md,
+.clickable-25tGDB .header-2V-4Sw:hover,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
 .container-UC8Ug1:hover,
 .css-1aymab5-option:hover,
@@ -1751,6 +1762,7 @@ img.avatar-1BDn8e::before {
 .theme-light .categoryPill-34fszg:hover,
 .theme-light .clickable-11uBi-:hover,
 .theme-light .clickable-1JJAn8:hover .layout-2DM8Md,
+.theme-light .clickable-25tGDB .header-2V-4Sw:hover,
 .theme-light .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
 .theme-light .container-UC8Ug1:hover,
 .theme-light .css-1aymab5-option:hover,
@@ -1796,6 +1808,7 @@ img.avatar-1BDn8e::before {
 #app-mount .option-96V44q.selected-rZcOL-:hover,
 #app-mount .optionActive-KkAdqq:hover,
 #app-mount .outer-1AjyKL.active-1xchHY:hover,
+#app-mount .quickSelectPopoutOption-opKBx9:focus:hover,
 #app-mount .reactionSelected-1pqISm:hover,
 #app-mount .row-rrHHJU.selected-1pIgLL:hover,
 #app-mount .selected-1Tbx07:hover,
@@ -1817,6 +1830,7 @@ img.avatar-1BDn8e::before {
 .navButtonActive-1MkytQ:hover,
 .navButtonActive-3RPAJy:hover,
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected:hover,
+.selected-31Nl7x .header-2V-4Sw:hover,
 .selected-aXhQR6 .layout-2DM8Md:hover,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
 .tag-2gHSR7:hover,
@@ -1834,6 +1848,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .option-96V44q.selected-rZcOL-:hover,
 .theme-light #app-mount .optionActive-KkAdqq:hover,
 .theme-light #app-mount .outer-1AjyKL.active-1xchHY:hover,
+.theme-light #app-mount .quickSelectPopoutOption-opKBx9:focus:hover,
 .theme-light #app-mount .reactionSelected-1pqISm:hover,
 .theme-light #app-mount .row-rrHHJU.selected-1pIgLL:hover,
 .theme-light #app-mount .selected-1Tbx07:hover,
@@ -1855,6 +1870,7 @@ img.avatar-1BDn8e::before {
 .theme-light .navButtonActive-1MkytQ:hover,
 .theme-light .navButtonActive-3RPAJy:hover,
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected:hover,
+.theme-light .selected-31Nl7x .header-2V-4Sw:hover,
 .theme-light .selected-aXhQR6 .layout-2DM8Md:hover,
 .theme-light .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
 .theme-light .tag-2gHSR7:hover,
@@ -2024,7 +2040,7 @@ bd-body .floating-window-buttons .maximize-button:active,
 	background: transparent;
 }
 /* Hide the GIF then the gift button */
-.buttonContainer-28fw2U:not(#sendAudioButtons) .button-3AYNKb,
+.buttonContainer-28fw2U:not(#sendAudioButtons):not(.send-button) .button-3AYNKb,
 .buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8) {
 	display: none;
 }
