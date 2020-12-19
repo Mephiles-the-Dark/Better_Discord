@@ -31,6 +31,7 @@
 .theme-dark #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .theme-dark #app-mount .footer-3rDWdC,
 .theme-dark #app-mount .header-g67q9_,
+.theme-dark #app-mount .iconMask-30Tvqs,
 .theme-dark #app-mount .keyboardShortcutsModal-3piNz7,
 .theme-dark #app-mount .modal-yWgWj-,
 .theme-dark #app-mount .messagesPopoutWrap-1MQ1bW,
@@ -43,6 +44,7 @@
 .theme-dark #app-mount .popout-2sKjHu,
 .theme-dark #app-mount .popout-38lTFE,
 .theme-dark #app-mount .popout-3G62UL,
+.theme-dark #app-mount .popout-6p6fkZ,
 .theme-dark #app-mount .popout-xwjvsX .themedPopout-1TrfdI,
 .theme-dark #app-mount .popoutList-T9CKZQ,
 .theme-dark #app-mount .quickSelectPopout-u2dtIf,
@@ -99,6 +101,7 @@
 .theme-dark .oauth2Wrapper-mHbF5q,
 .theme-dark .popout-VcNcHB,
 .theme-dark .popoutContainer-1MXdqN,
+.theme-dark .premiumPromo-fVlLu-,
 .theme-dark .quickswitcher-3JagVE,
 .theme-dark .menu-Sp6bN1,
 .theme-dark .root-3JVdIJ,
@@ -140,6 +143,7 @@
 .theme-light #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .theme-light #app-mount .footer-3rDWdC,
 .theme-light #app-mount .header-g67q9_,
+.theme-light #app-mount .iconMask-30Tvqs,
 .theme-light #app-mount .keyboardShortcutsModal-3piNz7,
 .theme-light #app-mount .modal-yWgWj-,
 .theme-light #app-mount .messagesPopoutWrap-1MQ1bW,
@@ -152,6 +156,7 @@
 .theme-light #app-mount .popout-2sKjHu,
 .theme-light #app-mount .popout-38lTFE,
 .theme-light #app-mount .popout-3G62UL,
+.theme-light #app-mount .popout-6p6fkZ,
 .theme-light #app-mount .popout-xwjvsX .themedPopout-1TrfdI,
 .theme-light #app-mount .popoutList-T9CKZQ,
 .theme-light #app-mount .quickSelectPopout-u2dtIf,
@@ -208,6 +213,7 @@
 .theme-light .oauth2Wrapper-mHbF5q,
 .theme-light .popout-VcNcHB,
 .theme-light .popoutContainer-1MXdqN,
+.theme-light .premiumPromo-fVlLu-,
 .theme-light .quickswitcher-3JagVE,
 .theme-light .menu-Sp6bN1,
 .theme-light .root-3JVdIJ,
@@ -390,6 +396,7 @@ bd-body .floating-window #bd-editor-controls,
 .activity-11LB_k,
 .activityFeed-1C0EmJ,
 .akaBadge-1M-1Gw,
+.analyticsCard-qckucw,
 .animatedContainer-1NSq4T,
 .animatedContainer-1pJv5C,
 .app-2rEoOp,
@@ -417,6 +424,7 @@ bd-body .floating-window #bd-editor-controls,
 .card-1yV8cG,
 .card-1yV8cG:hover,
 .card-2Mz_4z,
+.card-3_CqkU,
 .card-3RzMcx,
 .card-3RzMcx:hover,
 .cardPrimaryEditable-3KtE4g,
@@ -430,6 +438,8 @@ bd-body .floating-window #bd-editor-controls,
 .channelName-wvgELL,
 .channelTextArea-rNsIhG,
 .chat-3bRxxu,
+.checklistContainer-mFJZEJ,
+.checklistHeader-1KWcEY,
 .childWrapper-anI2G9,
 .circleIconButton-jET_ig,
 .clickable-2ap7je .header-2o-2hj:hover,
@@ -438,6 +448,7 @@ bd-body .floating-window #bd-editor-controls,
 .connectionHeader-2MDqhu,
 .container-1r6BKw.themed-ANHk51,
 .container-2fRDfG,
+.container-2w0lh0,
 .container-2XeR5Z,
 .container-3w7J-x,
 .container-cMG81i,
@@ -472,7 +483,9 @@ bd-body .floating-window #bd-editor-controls,
 .css-z86t1q-control,
 .descriptionBox-1EKQKL,
 .detailsBlock-FoDTGA,
+.developerPortalCtaWrapper-2XNafh,
 .dragInner-_SHftW,
+.editCircle-ityklj,
 .embedFull-2tM8--,
 .emojiContainer-1u-_sQ,
 .emojiPicker-3m1S-j .categories-1feg4n,
@@ -480,6 +493,9 @@ bd-body .floating-window #bd-editor-controls,
 .emptyCard-1RJw8n,
 .emptyContainer-1_gwCl,
 .emptyPreview-2kuSNe,
+.enableContainer-6E-puu,
+.exampleContainer-25sB-A,
+.exampleModal-2X2Vf8,
 .expanded-13sWhZ,
 .expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e,
 .expandedFolderBackground-2sPsd-,
@@ -494,6 +510,7 @@ bd-body .floating-window #bd-editor-controls,
 .guildIcon-3h-1IH,
 .guildSubscriptionSlots-JPXXvN,
 .hasMore-3e72_v:hover,
+.header-2Y0-A-,
 .header-39GIC8,
 .headerFill-adLl4x,
 .imagePlaceholderOverlay-ETNjpn,
@@ -507,6 +524,7 @@ bd-body .floating-window #bd-editor-controls,
 .input-cIJ7To,
 .inspector-S2gM3e,
 .inspector-sdLnLS,
+.item-1yAxl1,
 .item-26Dhrx,
 .jumpButton-1ol35X,
 .jumpButton-2dvRSC,
@@ -543,6 +561,7 @@ bd-body .floating-window #bd-editor-controls,
 .nowPlayingColumn-2sl4cE,
 .optionContainer-15srkc,
 .optionContainer-15srkc:hover,
+.optionContainer-1FtykV,
 .outer-2IVh5n,
 .panels-j1Uci_,
 .participantsButton-KYW-IW,
@@ -557,6 +576,7 @@ bd-body .floating-window #bd-editor-controls,
 .placeholderUsername-2B_OA9,
 .platform-win .splashBackground-1FRCko::before,
 .preview-2nSL_2,
+.previewContainer-1SS3uO,
 .privateChannels-1nO12o,
 .reaction-1ELvT8,
 .reaction-1hd86g,
@@ -585,6 +605,7 @@ bd-body .floating-window #bd-editor-controls,
 .select-1Hqz5i,
 .selected-WP3kCM .header-2o-2hj,
 .selectorButton-EEUWed:not(.selectorButtonSelected-t5V9On),
+.separator-2V2oIO,
 .sidebar-2K8pFh,
 .sidebarRegionScroller-3MXcoP,
 .standardSidebarView-3F1I7i,
@@ -594,12 +615,15 @@ bd-body .floating-window #bd-editor-controls,
 .textarea-2r0oV8:focus,
 .tile-2gi3tr,
 .tile-2naSqK,
+.tips-2V51be,
 .topSectionNormal-2-vo2m,
 .tutorial-3w5I9h,
 .tutorialIcon-3f1miQ,
 .unwrapped-37iUtM,
 .uploadArea-3QgLtW,
+.upsellContainer-L9xv7w,
 .upsellFooter-6EgwMe,
+.upsellFooter-ZYsio_,
 .userSettingsVoice-iwdUCU .media-engine-video,
 .video-1FfuMD,
 .video-1kutKI,
@@ -616,6 +640,7 @@ bd-body .floating-window #bd-editor-controls,
 .wrapper-2qzCYF.minimum-28Z35l,
 .wrapper-39oAo3,
 .wrapper-3D2qGf,
+.wrapper-3jrx9n,
 .wrapper-3vR61M,
 .wrapper-KXM2i0,
 .ytp-error {
@@ -728,6 +753,7 @@ bd-body .floating-window #bd-editor-controls,
 .connectedAccount-36nQx7,
 .connectionHeader-2MDqhu,
 .container-1giJp5,
+.container-3RCQyg,
 .container-3XJ8ns,
 .container-UC8Ug1,
 .css-15ejc46-control,
@@ -769,6 +795,7 @@ bd-body .floating-window #bd-editor-controls,
 .friendsTable-133bsv .friendsTableHeader-32yE7d,
 .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ,
 .giftCodeRow-24nTuI,
+.group-1WdBVp,
 .guildCategorySeparator-_An-MP,
 .guildsSection-3AvK09,
 .guildSubscriptionSlot-1XGRPI,
@@ -806,6 +833,7 @@ bd-body .floating-window #bd-editor-controls,
 .tipsWithoutResults-lGY-De,
 .tipsWithResults-HhTE9b,
 .top-28JiJ- .item-PXvHYJ,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo,
 .userInfoSection-2acyCx+.userInfoSection-2acyCx,
 .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r,
 .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV,
@@ -832,6 +860,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .bd-modal-wrapper .header,
 #app-mount .bd-select .bd-select-options,
 #app-mount .button-2CgfFz,
+#app-mount .card-3_CqkU,
 #app-mount .card-3DjzTQ,
 #app-mount .card-3DjzTQ:hover,
 #app-mount .card-3EIh8J.interactive-IxbS32:hover,
@@ -866,6 +895,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .popout-13LQ_3,
 #app-mount .popout-38lTFE,
 #app-mount .popout-3G62UL,
+#app-mount .popout-6p6fkZ,
 #app-mount .popout-xwjvsX .themedPopout-1TrfdI,
 #app-mount .quickSelectPopout-u2dtIf,
 #app-mount .reactorDefault-1IUqMZ,
@@ -958,6 +988,7 @@ bd-body .floating-window #bd-editor-controls,
 .wrapper-2aW0bm:hover {
 	box-shadow: none;
 }
+body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount #bd-settings-sidebar .ui-tab-bar-separator,
 #app-mount .bd-setting-divider,
 #app-mount .bd-settings-group.collapsible .bd-settings-title::before,
@@ -1016,12 +1047,14 @@ bd-body .floating-window #bd-editor-controls,
 .searchResult-9tQ1uo::after,
 .searchResult-9tQ1uo::before,
 .selectPlanDivider-1mx_6q,
+.separator-1COOpU,
 .separator-2xbLUz,
 .separator-2I32lJ,
 .separator-2IZ9ro,
 .separator-2zcjq8,
 .separator-3wQM3d,
 .separator-42rNt0,
+.separator-Hx_3SF,
 .separator-ju-9xl,
 .side-8zPYf6 .separator-gCa7yv,
 .tabBody-3YRQ8W::before,
@@ -1905,6 +1938,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .emote-container:hover,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover,
 .icon-TYbVk4:hover,
+.item-1yAxl1:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .participantsButton-KYW-IW:hover,
 .secondary-dIudih:hover,
@@ -1940,6 +1974,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .theme-light .emote-container:hover,
 .theme-light .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover,
 .theme-light .icon-TYbVk4:hover,
+.theme-light .item-1yAxl1:hover,
 .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .theme-light .participantsButton-KYW-IW:hover,
 .theme-light .secondary-dIudih:hover,
@@ -2064,13 +2099,15 @@ bd-body .floating-window-buttons .maximize-button:active,
 /* Tooltip */
 #app-mount .tooltipBlack-PPG47z,
 #app-mount .tooltipBrand-g03Nz8,
-#app-mount .tooltipGrey-1hnvTt {
+#app-mount .tooltipGrey-1hnvTt,
+.tooltip-1_vJJI {
 	background: var(--Dark, black);
 	border: 2px solid var(--Blue, blue);
 }
 .theme-light #app-mount .tooltipBlack-PPG47z,
 .theme-light #app-mount .tooltipBrand-g03Nz8,
-.theme-light #app-mount .tooltipGrey-1hnvTt {
+.theme-light #app-mount .tooltipGrey-1hnvTt,
+.theme-light .tooltip-1_vJJI {
 	background: var(--Light, white);
 	border: 2px solid var(--Orange, orangered);
 	color: var(--Dark, black);
@@ -2084,6 +2121,12 @@ bd-body .floating-window-buttons .maximize-button:active,
 .theme-light #app-mount .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK,
 .theme-light #app-mount .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
 	border-top-color: var(--Orange, orangered);
+}
+.tooltipPointer-1awMxk {
+	border-right-color: var(--Blue, blue);
+}
+.theme-light .tooltipPointer-1awMxk {
+	border-right-color: var(--Orange, orangered);
 }
 /* Toasts */
 bd-body .bd-toast,
@@ -2409,7 +2452,7 @@ bd-body .bd-toast,
 /* New Integrations Tab Guild Settings */
 .badge-_BgAUQ {
 	background-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6);
-	animation: unread 3s ease-in-out;
+	animation: unread 3s ease-in-out infinite;
 }
 .theme-light .badge-_BgAUQ {
 	background-color: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6);
@@ -2493,6 +2536,32 @@ bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
 }
 #floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-buttons {
 	height: 48px;
+}
+body .monaco-editor .minimap-shadow-visible,
+body .monaco-editor .scroll-decoration,
+body .monaco-scrollable-element {
+	box-shadow: none !important;
+}
+.theme-dark .monaco-action-bar {
+	background: black !important;
+}
+.theme-dark .action-item.focused > .action-menu-item {
+	background: linear-gradient(90deg, transparent, rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
+}
+.theme-light .action-item.focused > .action-menu-item {
+	background: linear-gradient(90deg, transparent, rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4)) !important;
+}
+.theme-dark .action-item:hover > .action-menu-item {
+	background: linear-gradient(90deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), transparent) !important;
+}
+.theme-light .action-item:hover > .action-menu-item {
+	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), transparent) !important;
+}
+.theme-dark .action-item.focused:hover > .action-menu-item {
+	background: linear-gradient(90deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
+}
+.theme-light .action-item.focused:hover > .action-menu-item {
+	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4)) !important;
 }
 /* Cloudflare and Public Servers */
 #cf-wrapper a:hover,
