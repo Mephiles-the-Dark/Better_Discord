@@ -1144,7 +1144,7 @@ html.app-focused {
 	background: linear-gradient(0deg, transparent, rgb(var(--Just_Black_Accent1, 91, 187, 255)), transparent);
 	background-repeat: repeat-x;
 }
-.theme-Light #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
+.theme-light #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
 .theme-light #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-thumb,
 .theme-light #app-mount .ace_scrollbar-v::-webkit-scrollbar-thumb,
 .theme-light #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar-thumb,
