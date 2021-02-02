@@ -606,6 +606,7 @@ bd-body .floating-window #bd-editor-controls,
 .replyBadge-r1su3o,
 .rolesWrapper-2yOx9S,
 .root-25RxKh,
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF,
 .scroller-1IIF0A,
 .scroller-1JbKMe,
 .scroller-2TZvBN,
@@ -769,6 +770,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .zoomLense-uOK8xV,
 #cf-wrapper #cf-error-details .cf-error-footer,
 .activity-34iveE+.activity-34iveE,
+.activity-3jdl2U+.activity-3jdl2U,
 .activityPanel-28dQGo,
 .attachWrapper-1_D-pj,
 .attachWrapper-2TRKBi,
@@ -1482,10 +1484,12 @@ html.app-focused {
 	color: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.7);
 }
 /* Unread Settings */
+.dot-2s_oHI,
 .gearWithBadge-2IoJRv .badge-3lkhh2 {
 	background: rgb(var(--Just_Black_Accent2, 41, 137, 216));
 	animation: unread 3s infinite;
 }
+.theme-light .dot-2s_oHI,
 .theme-light .gearWithBadge-2IoJRv .badge-3lkhh2 {
 	background: rgb(var(--Just_Light_Accent2, 214, 118, 39));
 }
@@ -2321,6 +2325,7 @@ bd-body .bd-toast,
 }
 /* Inline Codeblock */
 #app-mount #bd-customcss-attach-controls .help-text .inline,
+#app-mount .bd-changelog-modal code.inline,
 #app-mount .keybindShortcut-1BD6Z1 span,
 #app-mount .markdown-11q6EU .codeInline-1FHKS7,
 .after_inlineCode-1KfVgj,
@@ -2331,6 +2336,7 @@ bd-body .bd-toast,
 	background:  rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.6);
 }
 .theme-light #app-mount #bd-customcss-attach-controls .help-text .inline,
+.theme-light #app-mount .bd-changelog-modal code.inline,
 .theme-light #app-mount .keybindShortcut-1BD6Z1 span,
 .theme-light #app-mount .markdown-11q6EU .codeInline-1FHKS7,
 .theme-light .after_inlineCode-1KfVgj,
