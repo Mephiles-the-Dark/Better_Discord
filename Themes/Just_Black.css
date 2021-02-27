@@ -431,6 +431,7 @@ bd-body .floating-window #bd-editor-controls,
 .card-3_CqkU,
 .card-3RzMcx,
 .card-3RzMcx:hover,
+.cardFolder-28dwxo,
 .cardPrimaryEditable-3KtE4g,
 .cardPrimary-1Hv-to,
 .cardWrapper-2Min21,
@@ -604,6 +605,7 @@ bd-body .floating-window #bd-editor-controls,
 .reaction-1hd86g,
 .replying-1x3H0T,
 .replyBadge-r1su3o,
+.role-1P70N6,
 .rolesWrapper-2yOx9S,
 .root-25RxKh,
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF,
@@ -633,6 +635,8 @@ bd-body .floating-window #bd-editor-controls,
 .selected-WP3kCM .header-2o-2hj,
 .selectorButton-EEUWed:not(.selectorButtonSelected-t5V9On),
 .separator-2V2oIO,
+.settingCard-3w2mVL,
+.settingCard-3w2mVL.active-1ytUzX,
 .settingsFormItem-103g1I,
 .shape-2kfO2v,
 .sidebar-2K8pFh,
@@ -1393,7 +1397,8 @@ html.app-focused {
 }
 .notice-3bPHh- {
     margin-right: 84px;
-    height: 48px;
+    height: 36px;
+    padding-bottom: 12px;
     line-height: 48px;
     box-shadow: none;
 }
@@ -1793,6 +1798,7 @@ img.avatar-1BDn8e::before {
 #app-mount .selector-2IcQBU:hover,
 #app-mount .selectableItem-1MP3MQ:hover,
 #app-mount .selectGuild-1Ygl76:hover,
+.button-18p_f6:hover,
 .card-3AyPWq:hover,
 .categoryPill-34fszg:hover,
 .clickable-11uBi-:hover,
@@ -1822,6 +1828,7 @@ img.avatar-1BDn8e::before {
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9:hover,
 .resultFocused-3aIoYe,
 .role-3ulsK-:hover,
+.role-3UN8jj:hover,
 .selectable-3dP3y-:hover,
 .selected-BYpGTS,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
@@ -1854,6 +1861,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .selector-2IcQBU:hover,
 .theme-light #app-mount .selectableItem-1MP3MQ:hover,
 .theme-light #app-mount .selectGuild-1Ygl76:hover,
+.theme-light .button-18p_f6:hover,
 .theme-light .card-3AyPWq:hover,
 .theme-light .categoryPill-34fszg:hover,
 .theme-light .clickable-11uBi-:hover,
@@ -1883,6 +1891,7 @@ img.avatar-1BDn8e::before {
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9:hover,
 .theme-light .resultFocused-3aIoYe,
 .theme-light .role-3ulsK-:hover,
+.theme-light .role-3UN8jj:hover,
 .theme-light .selectable-3dP3y-:hover,
 .theme-light .selected-BYpGTS,
 .theme-light .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
@@ -2646,6 +2655,22 @@ body .monaco-scrollable-element {
 }
 .theme-light .action-item.focused:hover > .action-menu-item {
 	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4)) !important;
+}
+/* Join Server Modal */
+.theme-dark .theme-light .colorHeaderSecondary-3Sp3Ft,
+.theme-dark .theme-light .close-hZ94c6 {
+	color: rgb(185, 187, 190);
+}
+.theme-dark .theme-light .colorStandard-2KCXvj,
+.theme-dark .theme-light .close-hZ94c6:hover,
+.theme-dark .theme-light .input-cIJ7To {
+	color: rgb(220, 221, 222);
+}
+.theme-dark .theme-light .colorHeaderPrimary-26Jzh-,
+.theme-dark .theme-light .lookFilled-1Gx00P .contents-18-Yxp,
+.theme-dark .theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6,
+.theme-dark .theme-light .sampleLink-2NLvZg {
+	color: var(--Light, white);
 }
 /* Cloudflare and Public Servers */
 #cf-wrapper a:hover,
