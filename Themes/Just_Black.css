@@ -8,7 +8,8 @@
 	--Blue: blue; /* An extra accent colour for Dark Theme {default: blue} */
 	--Orange: orangered; /* An extra accent colour for Light Theme {default: orangered} */
 	--Fuchsia: fuchsia; /* A colour {default: fuchsia} */
-	--Active: rgb(51, 153, 51); /* A colour {default: rgb(51, 153, 51)} */
+	--Active: rgb(51, 153, 51); /* A colour for clicking {default: rgb(51, 153, 51)} */
+	--Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing {default: 0} */
 }
 .theme-dark:root,
 .theme-dark:root div #ace_settingsmenu,
@@ -25,6 +26,7 @@
 .theme-dark #app-mount .bd-emote-content,
 .theme-dark #app-mount .bd-modal-wrapper .bd-modal-inner,
 .theme-dark #app-mount .bd-select .bd-select-options,
+.theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-dark #app-mount .colorPickerCustom-2CWBn2,
 .theme-dark #app-mount .container-3ayLPN,
 .theme-dark #app-mount .contentWrapper-3WC1ID,
@@ -95,6 +97,7 @@
 .theme-dark .emojiSection-3Fb9ix,
 .theme-dark .floating-window.resizable,
 .theme-dark .floating-window-titlebar,
+.theme-dark .guildPopout-3CgKqR,
 .theme-dark .guildSection-1EoFKd,
 .theme-dark .header-2mZ9Ov,
 .theme-dark .incomingCallInner-2VmFiR,
@@ -139,6 +142,7 @@
 .theme-light #app-mount .bd-emote-content,
 .theme-light #app-mount .bd-modal-wrapper .bd-modal-inner,
 .theme-light #app-mount .bd-select .bd-select-options,
+.theme-light #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-light #app-mount .colorPickerCustom-2CWBn2,
 .theme-light #app-mount .container-3ayLPN,
 .theme-light #app-mount .contentWrapper-3WC1ID,
@@ -209,6 +213,7 @@
 .theme-light .emojiSection-3Fb9ix,
 .theme-light .floating-window.resizable,
 .theme-light .floating-window-titlebar,
+.theme-light .guildPopout-3CgKqR,
 .theme-light .guildSection-1EoFKd,
 .theme-light .header-2mZ9Ov,
 .theme-light .incomingCallInner-2VmFiR,
@@ -504,6 +509,7 @@ bd-body .floating-window #bd-editor-controls,
 .editCircle-y9c7xP,
 .embedFull-2tM8--,
 .emojiContainer-1u-_sQ,
+.emojiCounter-1BHDd2,
 .emojiPicker-3m1S-j .categories-1feg4n,
 .empty-hejAOj,
 .emptyCard-1RJw8n,
@@ -527,6 +533,7 @@ bd-body .floating-window #bd-editor-controls,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
 .folder-21wGz3,
 .folder-21wGz3.hover-2ji_A7,
+.footer-3OAEzG,
 .footer-3ZalXG,
 .formFieldWrapper-malor5,
 .formSection-1NFAGI,
@@ -545,6 +552,7 @@ bd-body .floating-window #bd-editor-controls,
 .icon-1CGepy,
 .icon-1Itzco,
 .icon-3_8HGa,
+.iconMask-AFPO7u,
 .iconWrapper-lS1uig,
 .infoBar-U6oBFk,
 .input--jS-j2,
@@ -616,6 +624,7 @@ bd-body .floating-window #bd-editor-controls,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i,
 .rolesWrapper-2yOx9S,
 .root-25RxKh,
+.root-2sELX6,
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF,
 .scroller-1IIF0A,
 .scroller-1JbKMe,
@@ -933,6 +942,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .footer-3rDWdC,
 #app-mount .footerSeparator-M9dQY1,
 #app-mount .game-1ipmAa,
+#app-mount .guildPopout-3CgKqR,
 #app-mount .header-ykumBX,
 #app-mount .header-1TOWci,
 #app-mount .installationPath-24giJj,
@@ -966,6 +976,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .tile-QA_yMc,
 #app-mount .tiles-2aXG_k,
 #app-mount .tile-2OwFgW,
+#app-mount .toast-g4bfgI,
 #app-mount .tooltip-2QfLtc,
 #app-mount .userPopout-3XzG_A,
 #app-mount .uploadModal-2ifh8j,
@@ -1056,12 +1067,14 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount .bd-guild-separator,
 #app-mount .channelSeparator-1X1FuH::before,
 #app-mount .checkboxContainer-2vV9zd::before,
+#app-mount .container-2x5lvQ hr,
 #app-mount .content-3CCvMx::before,
 #app-mount .content-ySCtCx::after,
 #app-mount .divider-1pnAR2,
 #app-mount .divider-23swzi,
 #app-mount .divider-2rujXH,
 #app-mount .multiInputLast-1aQ3YA::before,
+#app-mount .multiInputLast-HWxgTr::before,
 #app-mount .option-96V44q::after,
 #app-mount .resolvingBackground-351jK_,
 #app-mount .resultsGroup-r_nuzN::before,
@@ -1165,7 +1178,6 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 	fill: transparent;
 }
 /* Black Magic */
-html:not(.app-focused),
 body,
 .base-3dtUhz,
 .contentRegion-3nDuYy,
@@ -1173,10 +1185,9 @@ body,
 .sidebarRegion-VFTUkN,
 .fieldList-21DyL8 > div > div > div,
 .wrapper-1Rf91z {
-    opacity: 0;
-    transition: 0.4s ease-in-out;
+	opacity: var(--Blank, 0};
+	transition: 0.4s ease-in-out;
 }
-html.app-focused,
 body:hover,
 .base-3dtUhz:hover,
 .contentRegion-3nDuYy:hover,
@@ -1184,17 +1195,7 @@ body:hover,
 .sidebarRegion-VFTUkN:hover,
 .fieldList-21DyL8 > div > div > div:hover,
 .wrapper-1Rf91z:hover {
-    opacity: 1;
-}
-html {
-	transition: visibility 0s ease-in-out 0.4s,opacity 0.4s ease-in-out;
-}
-html:not(.app-focused) {
-	visibility: hidden;
-}
-html.app-focused {
-	visibility: visible;
-	transition-delay: 0s;
+	opacity: 1;
 }
 /* Scrollbars */
 #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
@@ -1210,6 +1211,7 @@ html.app-focused {
 .none-2Eo-qx::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
+.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-thumb,
 .thin-1ybCId::-webkit-scrollbar-thumb,
 .webkit-HjD9Er::-webkit-scrollbar-thumb {
 	background: linear-gradient(0deg, transparent, rgb(var(--Just_Black_Accent1, 91, 187, 255)), transparent);
@@ -1248,6 +1250,7 @@ html.app-focused {
 .scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-track,
 .thin-1ybCId::-webkit-scrollbar-track {
   background: linear-gradient(0deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 0%, transparent 5%, transparent 95%, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 100%);
 }
@@ -1347,6 +1350,7 @@ html.app-focused {
 .none-2Eo-qx::-webkit-scrollbar-thumb:active,
 .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:active,
+.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-thumb:active,
 .thin-1ybCId::-webkit-scrollbar-thumb:active,
 .webkit-HjD9Er::-webkit-scrollbar-thumb:active {
 	background-color: var(--Active, rgb(51, 153, 51));
@@ -1365,6 +1369,7 @@ html.app-focused {
 .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:disabled,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
+.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-track:disabled,
 .thin-1ybCId::-webkit-scrollbar-track:disabled {
     background: transparent;
 }
@@ -1383,7 +1388,8 @@ html.app-focused {
 	background-color: transparent;
 }
 /* Titlebar */
-.wordmarkWindows-1v0lYD,
+.wordmark-2L03Wr,
+.wordmark-2iDDfm,
 .titleBar-AC4pGV::after,
 .titleBar-AC4pGV::before {
 	display: none;
@@ -1821,6 +1827,8 @@ img.avatar-1BDn8e::before {
 #app-mount .selector-2IcQBU:hover,
 #app-mount .selectableItem-1MP3MQ:hover,
 #app-mount .selectGuild-1Ygl76:hover,
+.theme-dark .theme-light .container-UC8Ug1:hover,
+.theme-dark .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .addMemberRow-3-w-9X.selectedRow-1QP7qb,
 .button-18p_f6:hover,
 .card-3AyPWq:hover,
@@ -2105,6 +2113,7 @@ bd-body .floating-window-buttons .maximize-button:active,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:active,
 #app-mount .bd-select .bd-select-option:active,
 #app-mount .bd-select .bd-select-option.selected:active,
+#app-mount .peopleListItem-2nzedh:active,
 #app-mount #pubslayer button:active,
 #app-mount #pubslayer .ui-tab-bar-item:active,
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6:active,
@@ -2130,7 +2139,6 @@ bd-body .floating-window-buttons .maximize-button:active,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:active,
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active,
 .memberRow-1wwtfV:active,
-.peopleListItem-2nzedh.active-rhSpJJ,
 .role-3ulsK-:active,
 .selected-aXhQR6:active .layout-2DM8Md,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:active,
@@ -2139,6 +2147,9 @@ bd-body .floating-window-buttons .maximize-button:active,
 .wrapper-1ucjTd:active .content-3at_AU,
 .wrapper-2jXpOf:active .content-1x5b-n {
 	background-color: var(--Active, rgb(51, 153, 51));
+}
+.peopleListItem-2nzedh.active-rhSpJJ {
+	background-color: var(--Fuchsia, fuchsia);
 }
 /* outline of selected emoji in emoji picker among other things */
 :focus {
@@ -2181,6 +2192,12 @@ bd-body .floating-window-buttons .maximize-button:active,
 }
 .theme-light .selectableItem-1MP3MQ.selected-31soGA:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4)) !important;
+}
+/* Video Call */
+.theme-light .root-217Brm .header-2Zv56X,
+.theme-light .colorable-1bkp8v.primaryDark-3mSFDl,
+.theme-light .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T {
+	color: var(--Dark, black);
 }
 /* Server Search */
 .theme-light .searchAnswer-3Dz2-q,
@@ -2290,8 +2307,8 @@ bd-body .bd-toast,
 }
 .theme-light .mentioned-xhSam7,
 .theme-light .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
-.theme-light .mouse-mode.full-motion .mentioned-xhSam7:hover,
-.theme-light .mouse-mode .mentioned-xhSam7:hover {
+.theme-light.mouse-mode.full-motion .mentioned-xhSam7:hover,
+.theme-light.mouse-mode .mentioned-xhSam7:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.4) 0%, transparent 70%);
 }
 .iconBadge-qZ4Ksk,
@@ -2739,6 +2756,13 @@ body .monaco-scrollable-element {
 #outdatedPlugins {
     padding-top: 6px;
 }
+/* Devil Bro Toast Progress */
+.theme-dark .colorDefault-XdNdIp .bar-95Sdw1 {
+	background: rgb(var(--Just_Black_Accent1, 91, 187, 255));
+}
+.theme-light .colorDefault-XdNdIp .bar-95Sdw1 {
+	background: rgb(var(--Just_Light_Accent1, 164, 68, 0));
+}
 /* Server Counter Plugin */
 #app-mount .label-2wRs_g {
 	position: absolute;
@@ -2746,7 +2770,7 @@ body .monaco-scrollable-element {
 	left: 0;
 }
 /* Direct Download Plugin */
-#files_directDownload {
+#app-mount #files_directDownload {
     bottom: 50px;
 }
 /* Permission Viewer Plugin */
