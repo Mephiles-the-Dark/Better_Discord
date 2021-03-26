@@ -2638,7 +2638,7 @@ bd-body .bd-toast,
 .total-i6us2n::after {
 	border-right-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.2);
 }
-.theme-light .total-3tKGEB::after
+.theme-light .total-3tKGEB::after,
 .theme-light .total-i6us2n::after {
 	border-right-color: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.2);
 }
