@@ -460,6 +460,7 @@ bd-body .floating-window #bd-editor-controls,
 .checklistContainer-mFJZEJ,
 .checklistHeader-1KWcEY,
 .childWrapper-anI2G9,
+.circleIconButton-1QV--U,
 .circleIconButton-jET_ig,
 .clickable-2ap7je .header-2o-2hj:hover,
 .colorable-1bkp8v.primary-3NQg8g,
@@ -507,6 +508,7 @@ bd-body .floating-window #bd-editor-controls,
 .detailsBlock-FoDTGA,
 .developerPortalCtaWrapper-2XNafh,
 .dragInner-_SHftW,
+.dragInner-Oq_toX,
 .editButton-1MavoF,
 .editCircle-ityklj,
 .editCircle-y9c7xP,
@@ -528,12 +530,15 @@ bd-body .floating-window #bd-editor-controls,
 .exampleRule-32tIs5,
 .expanded-13sWhZ,
 .expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e,
+.expandedFolderBackground-1cujaW,
 .expandedFolderBackground-2sPsd-,
 .feature-3kpTdS,
 .featureCard-1RR4Tl,
 .featureIcon-3p1TC_,
 .fieldList-21DyL8,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
+.folder-1hbNCn,
+.folder-1hbNCn.hover-qTxTR_,
 .folder-21wGz3,
 .folder-21wGz3.hover-2ji_A7,
 .footer-3OAEzG,
@@ -629,6 +634,7 @@ bd-body .floating-window #bd-editor-controls,
 .root-25RxKh,
 .root-2sELX6,
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF,
+.scroller-1Bvpku,
 .scroller-1IIF0A,
 .scroller-1JbKMe,
 .scroller-2TZvBN,
@@ -700,6 +706,7 @@ bd-body .floating-window #bd-editor-controls,
 .wrapper-39oAo3,
 .wrapper-3D2qGf,
 .wrapper-3jrx9n,
+.wrapper-3NnKdC,
 .wrapper-3vR61M,
 .wrapper-KXM2i0,
 .wrapper-uf3cnO,
@@ -1193,9 +1200,10 @@ body,
 .sidebar-2K8pFh,
 .sidebarRegion-VFTUkN,
 .fieldList-21DyL8 > div > div > div,
-.wrapper-1Rf91z {
-	opacity: var(--Blank, 0);
-	transition: 0.4s ease-in-out;
+.wrapper-1Rf91z,
+.wrapper-3NnKdC {
+    opacity: var(--Blank, 0);
+    transition: 0.4s ease-in-out;
 }
 body:hover,
 .base-3dtUhz:hover,
@@ -1203,8 +1211,9 @@ body:hover,
 .sidebar-2K8pFh:hover,
 .sidebarRegion-VFTUkN:hover,
 .fieldList-21DyL8 > div > div > div:hover,
-.wrapper-1Rf91z:hover {
-	opacity: 1;
+.wrapper-1Rf91z:hover,
+.wrapper-3NnKdC:hover {
+    opacity: 1;
 }
 /* Scrollbars */
 #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
@@ -1218,6 +1227,7 @@ body:hover,
 .css-1ye7vu0::-webkit-scrollbar-thumb,
 #app-mount .member-perms::-webkit-scrollbar-thumb,
 .none-2Eo-qx::-webkit-scrollbar-thumb,
+.scroller-1Bvpku::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
 .theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-thumb,
@@ -1237,6 +1247,7 @@ body:hover,
 .theme-light .css-1ye7vu0::-webkit-scrollbar-thumb,
 .theme-light .member-perms::-webkit-scrollbar-thumb,
 .theme-light .none-2Eo-qx::-webkit-scrollbar-thumb,
+.theme-light .scroller-1Bvpku::-webkit-scrollbar-thumb,
 .theme-light .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
 .theme-light .thin-1ybCId::-webkit-scrollbar-thumb,
@@ -1256,6 +1267,7 @@ body:hover,
 .css-1xl5y6s::-webkit-scrollbar-track,
 .css-1ye7vu0::-webkit-scrollbar-track,
 .none-2Eo-qx::-webkit-scrollbar-track,
+.scroller-1Bvpku::-webkit-scrollbar-track,
 .scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
@@ -1276,6 +1288,7 @@ body:hover,
 .theme-light .css-1xl5y6s::-webkit-scrollbar-track,
 .theme-light .css-1ye7vu0::-webkit-scrollbar-track,
 .theme-light .none-2Eo-qx::-webkit-scrollbar-track,
+.theme-light .scroller-1Bvpku::-webkit-scrollbar-track,
 .theme-light .scroller-2FKFPG::-webkit-scrollbar-track,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .theme-light .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
@@ -1316,6 +1329,7 @@ body:hover,
 #app-mount .ace_scrollbar::-webkit-scrollbar,
 #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar,
 .auto-Ge5KZx::-webkit-scrollbar,
+.scroller-1Bvpku::-webkit-scrollbar,
 .scroller-3sQKXg::-webkit-scrollbar,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar,
@@ -1357,6 +1371,7 @@ body:hover,
 .css-1ye7vu0::-webkit-scrollbar-thumb:active,
 .member-perms::-webkit-scrollbar-thumb:active,
 .none-2Eo-qx::-webkit-scrollbar-thumb:active,
+.scroller-1Bvpku::-webkit-scrollbar-thumb:active,
 .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:active,
 .theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-thumb:active,
@@ -1375,6 +1390,7 @@ body:hover,
 .css-1xl5y6s::-webkit-scrollbar-track:disabled,
 .css-1ye7vu0::-webkit-scrollbar-track:disabled,
 .none-2Eo-qx::-webkit-scrollbar-track:disabled,
+.scroller-1Bvpku::-webkit-scrollbar-track:disabled,
 .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:disabled,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
@@ -1462,27 +1478,32 @@ body:hover,
 .expandedGuilds-1JMD4M,
 .guilds-1SWlCJ,
 .listItem-2P_4kh,
+.listItem-GuPuDH,
 .scroller-2TZvBN,
 .scrollerWrap-1IAIlv,
+.unreadMentionsIndicatorBottom-2mDYbI,
 .unreadMentionsIndicatorBottom-BXS58x,
+.unreadMentionsIndicatorTop-2-tcdU,
 .unreadMentionsIndicatorTop-gA6RCh,
-.wrapper-21YSNc {
+.wrapper-21YSNc,
+.wrapper-3Njo_c {
 	max-width: 65px;
 }
 .base-3dtUhz {
 	left: 65px;
 }
+.expandedFolderBackground-1cujaW,
 .expandedFolderBackground-2sPsd- {
 	left: 8px;
 }
 /* Guild pill shows only when unread */
-.pill-31IEus .item-2hkk8m {
+.item-2hkk8m {
 	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
 }
-.theme-light .pill-31IEus .item-2hkk8m {
+.theme-light .item-2hkk8m {
 	background: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.7);
 }
-.wrapper-21YSNc .listItem-2P_4kh .item-2hkk8m {
+.wrapper-21YSNc .listItem-GuPuDH .item-2hkk8m {
 	display: block;
 }
 .expandedGuilds-1JMD4M,
@@ -1494,7 +1515,7 @@ body:hover,
 	contain: none;
   pointer-events: none;
 }
-.listItem-2P_4kh:active {
+.listItem-GuPuDH:active {
 	filter: drop-shadow(0 0 5px var(--Active, rgb(51, 153, 51)));
 }
 .guilds-1SWlCJ [style*="height: 56px;"] {
@@ -1753,6 +1774,7 @@ img.avatar-1BDn8e::before {
 .css-1gnr91b-option,
 .css-1gxgi19-option,
 .css-1kft5vg-option,
+.focused-dKLoQt,
 .item-26Dhrx[aria-checked=true],
 .item-3eFBNF.selected-2DeaDa,
 .itemActive-2V2HNc,
@@ -1795,6 +1817,7 @@ img.avatar-1BDn8e::before {
 .theme-light .css-1gnr91b-option,
 .theme-light .css-1gxgi19-option,
 .theme-light .css-1kft5vg-option,
+.theme-light .focused-dKLoQt,
 .theme-light .item-26Dhrx[aria-checked=true],
 .theme-light .item-3eFBNF.selected-2DeaDa,
 .theme-light .itemActive-2V2HNc,
@@ -1976,6 +1999,7 @@ img.avatar-1BDn8e::before {
 .css-1gxgi19-option:hover,
 .css-1kft5vg-option:hover,
 .item-26Dhrx[aria-checked=true]:hover,
+.item-2J2GlB:hover.focused-dKLoQt,
 .item-3eFBNF.selected-2DeaDa:hover,
 .itemActive-2V2HNc:hover,
 .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ:hover .content-3xS9Lh,
@@ -2017,6 +2041,7 @@ img.avatar-1BDn8e::before {
 .theme-light .css-1gxgi19-option:hover,
 .theme-light .css-1kft5vg-option:hover,
 .theme-light .item-26Dhrx[aria-checked=true]:hover,
+.theme-light .item-2J2GlB:hover.focused-dKLoQt,
 .theme-light .item-3eFBNF.selected-2DeaDa:hover,
 .theme-light .itemActive-2V2HNc:hover,
 .theme-light .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ:hover .content-3xS9Lh,
@@ -2497,20 +2522,25 @@ bd-body .bd-toast,
 	color: rgba(255, 255, 255, 0.8);
 }
 /* Server Folders */
+.folderIconWrapper-1_bOZe,
 .folderIconWrapper-226oVY {
 	background-color: transparent !important;
 }
+.expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL),
 .expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) {
 	box-shadow: 0 0 0 1px rgb(var(--Just_Black_Accent1, 91, 187, 255));
 }
+.theme-light .expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL),
 .theme-light .expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) {
 	box-shadow: 0 0 0 1px rgb(var(--Just_Light_Accent1, 164, 68, 0));
 }
 /* Voice Guild Icon */
-.iconBadge-2wi9r4 {
+.iconBadge-2wi9r4,
+.iconBadge-3qSJIw {
 	background-color: rgb(var(--Just_Black_Accent2, 41, 137, 216));
 }
-.theme-light .iconBadge-2wi9r4 {
+.theme-light .iconBadge-2wi9r4,
+.theme-light .iconBadge-3qSJIw:not(.participating-1NvRVd) {
 	background-color: rgb(var(--Just_Light_Accent2, 214, 118, 39));
 }
 /* Partner Server Badge, Server Header */
@@ -2588,22 +2618,28 @@ bd-body .bd-toast,
     z-index: 103;
 }
 /* Voice Channel Member Count */
+.users-3kndPl,
 .users-i_3-kL {
 	background-color: rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4);
 }
+.theme-light .users-3kndPl,
 .theme-light .users-i_3-kL {
 	background-color: rgba(var(--Just_Light_Accent2, 214, 118, 39), 0.4);
 }
-.total-3tKGEB {
+.total-3tKGEB,
+.total-i6us2n {
 	background-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4);
 }
-.theme-light .total-3tKGEB {
+.theme-light .total-3tKGEB,
+.theme-light .total-i6us2n {
 	background-color: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.4);
 }
-.total-3tKGEB::after {
+.total-3tKGEB::after,
+.total-i6us2n::after {
 	border-right-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.2);
 }
-.theme-light .total-3tKGEB::after {
+.theme-light .total-3tKGEB::after
+.theme-light .total-i6us2n::after {
 	border-right-color: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.2);
 }
 /* New Integrations Tab Guild Settings */
@@ -2790,21 +2826,24 @@ body .monaco-scrollable-element {
 }
 /* watermark in preview */
 html:not([lang])::after {
-    content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
-    pointer-events: none;
-    position: absolute;
-    opacity: 0.5;
-    top: 50%;
-		left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-		z-index:101;
+	content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
+	pointer-events: none;
+	position: absolute;
+	opacity: 0.5;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	z-index:101;
 }
 /* Watermark */
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_Black v3.0.0";
+	content: "\00000AJust_Black v4.0.0";
 	text-transform: none;
 	cursor: text;
+}
+.theme-light .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
+	content: "\00000AJust_White v4.0.0";
 }
 /* Download Discord Application */
 .backdrop-1wrmKB[style="opacity: 0.95; background-color: rgb(255, 255, 255); z-index: 1000; transform: translateZ(0px);"] {
