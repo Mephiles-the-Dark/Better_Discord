@@ -1,11 +1,11 @@
 /**
  * @name Just_Black
- * @version 4.0.0
+ * @version 4.0.1
  * @author Ме́филес#9198
  * @authorId 376086802961793024
  * @description Revival of JustBlack Theme by Dddsasul: "A nice and black theme"
  * @source https://github.com/Mephiles-the-Dark/Better_Discord/tree/master/Themes
- * @invite 2HScm8j
+ * @invite sbA3xCJ
 */
 @import url("https://Mephiles-the-Dark.github.io/Better_Discord/Themes/Just_Black.css");
 :root {
@@ -21,3 +21,4 @@
 	--Active: rgb(51, 153, 51); /* A colour for clicking {default: rgb(51, 153, 51)} */
 	--Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing {default: 0} */
 }
+/* One may post code snippets below this line */
