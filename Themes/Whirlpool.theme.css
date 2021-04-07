@@ -1,33 +1,33 @@
 /**
  * @name Whirlpool
- * @version 1.0.0
+ * @version 1.0.1
  * @author Ме́филес#9198
  * @authorId 376086802961793024
  * @description mix-blend-mode of images in Dark Theme and Light Theme for use with Just_Black Theme.
  * @source https://github.com/Mephiles-the-Dark/Better_Discord/tree/master/Themes
- * @invite 2HScm8j
+ * @invite sbA3xCJ
 */
 :root::after {
 	background-image: url(https://images6.alphacoders.com/420/420351.jpg);
-    background-image: url(https://i.imgur.com/uTVZzkC.jpg);
-    mix-blend-mode: screen; /* Use multiply for the opposite effect */
+	background-image: url(https://i.imgur.com/uTVZzkC.jpg);
+	mix-blend-mode: screen; /* Use multiply for the opposite effect {default: screen} */
 	background-position: center;
-	background-size: auto; /* Use cover for small images and contain for large images */
+	background-size: auto; /* Use cover for small images and contain for large images {default: auto} */
 	background-repeat: no-repeat;
-    position: absolute;
-    content: "";
-    filter: invert(0); /* Use to invert dark images for Light Theme */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    opacity: 1;
-    pointer-events: none;
-    z-index: 100001;
+	position: absolute;
+	content: "";
+	filter: invert(0); /* Use to invert dark images for Light Theme */
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 1;
+	pointer-events: none;
+	z-index: 100001;
 }
 .theme-light:root::after {
 	background-image: url(https://azumi.moe/wp-content/uploads/2019/04/abyssal-kantai-collection-kancolle-anime-369.jpg);
 	background-image: url(https://static.zerochan.net/Pixiv.Id.6887420.full.2956507.jpg);
 	background-image: url(https://images.alphacoders.com/545/545755.jpg);
-	mix-blend-mode: multiply; /* Use screen for the opposite effect */
+	mix-blend-mode: multiply; /* Use screen for the opposite effect {default: multiply} */
 }
