@@ -364,6 +364,8 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .notDetected-33MY4s,
 #app-mount .option-1B5ZV8,
 #app-mount .or-3THJsp,
+#app-mount .overrideHighlight-YPcBxt,
+#app-mount .overrideHighlight-YPcBxt:hover,
 #app-mount .pageWrapper-1PgVDX,
 #app-mount .paginator-166-09,
 #app-mount .payment-xT17Mq,
@@ -1828,6 +1830,8 @@ img.avatar-1BDn8e::before {
 .navButtonActive-1MkytQ,
 .navButtonActive-3RPAJy,
 .option-3KoAJB[aria-selected=true],
+.option-3KoAJB.focused-1T6PE5,
+.option-3KoAJB:focus,
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected,
 .quickSelectPopoutOption-opKBx9:focus,
 .selected-31Nl7x .header-2V-4Sw,
@@ -1872,6 +1876,8 @@ img.avatar-1BDn8e::before {
 .theme-light .navButtonActive-1MkytQ,
 .theme-light .navButtonActive-3RPAJy,
 .theme-light .option-3KoAJB[aria-selected=true],
+.theme-light .option-3KoAJB.focused-1T6PE5,
+.theme-light .option-3KoAJB:focus,
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected,
 .theme-light .quickSelectPopoutOption-opKBx9:focus,
 .theme-light .selected-31Nl7x .header-2V-4Sw,
@@ -1897,6 +1903,7 @@ img.avatar-1BDn8e::before {
 #app-mount .option-96V44q:hover,
 #app-mount .optionNormal-12VR9V:hover,
 #app-mount .outer-1AjyKL.interactive-3B9GmY:hover,
+#app-mount .override-2YgiXd:hover,
 #app-mount .player-3zB-0D:hover,
 #app-mount .quickSelectPopoutOption-opKBx9:hover,
 #app-mount .reactionDefault-GBA58K:hover,
@@ -1966,6 +1973,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .option-96V44q:hover,
 .theme-light #app-mount .optionNormal-12VR9V:hover,
 .theme-light #app-mount .outer-1AjyKL.interactive-3B9GmY:hover,
+.theme-light #app-mount .override-2YgiXd:hover,
 .theme-light #app-mount .player-3zB-0D:hover,
 .theme-light #app-mount .quickSelectPopoutOption-opKBx9:hover,
 .theme-light #app-mount .reactionDefault-GBA58K:hover,
@@ -2053,6 +2061,8 @@ img.avatar-1BDn8e::before {
 .modeSelected-346R90:hover .content-1x5b-n,
 .option-3KoAJB[aria-selected=true]:focus,
 .option-3KoAJB[aria-selected=true]:hover,
+.option-3KoAJB.focused-1T6PE5:hover,
+.option-3KoAJB:focus:hover,
 .navButtonActive-1MkytQ:hover,
 .navButtonActive-3RPAJy:hover,
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected:hover,
@@ -2100,6 +2110,8 @@ img.avatar-1BDn8e::before {
 .theme-light .navButtonActive-3RPAJy:hover,
 .theme-light .option-3KoAJB[aria-selected=true]:focus,
 .theme-light .option-3KoAJB[aria-selected=true]:hover,
+.theme-light .option-3KoAJB.focused-1T6PE5:hover,
+.theme-light .option-3KoAJB:focus:hover,
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected:hover,
 .theme-light .selected-31Nl7x .header-2V-4Sw:hover,
 .theme-light .selected-aXhQR6 .layout-2DM8Md:hover,
@@ -2617,6 +2629,9 @@ bd-body .bd-toast,
 }
 #app-mount .partnered-3nJayh .flowerStar-1GeTsn path {
 	fill: #4087ed;
+}
+.flowerStar-1GeTsn {
+    stroke: none;
 }
 /* Server Custom Emoji Naming */
 #app-mount .emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
