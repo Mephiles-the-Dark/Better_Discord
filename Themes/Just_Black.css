@@ -91,6 +91,7 @@
 .theme-dark .css-n1chp5-menu,
 .theme-dark .css-n57xjs-menu,
 .theme-dark .diversitySelector-tmmMv0 .popout-2nUePc,
+.theme-dark .diversitySelectorOptions-4YM-vX,
 .theme-dark .diversitySelectorPopout-3FiGaM,
 .theme-dark .emojiPicker-3m1S-j,
 .theme-dark .emojiPicker-3PwZFl,
@@ -101,8 +102,9 @@
 .theme-dark .guildPopout-3CgKqR,
 .theme-dark .guildSection-1EoFKd,
 .theme-dark .header-2mZ9Ov,
-.theme-dark .languageSelector-2LVJrh,
 .theme-dark .incomingCallInner-2VmFiR,
+.theme-dark .languageSelector-2LVJrh,
+.theme-dark .monaco-editor .monaco-editor-hover,
 .theme-dark .noiseCancellationPopout-iRK2A0,
 .theme-dark .oauth2Wrapper-mHbF5q,
 .theme-dark .popout-VcNcHB,
@@ -209,6 +211,7 @@
 .theme-light .css-n1chp5-menu,
 .theme-light .css-n57xjs-menu,
 .theme-light .diversitySelector-tmmMv0 .popout-2nUePc,
+.theme-light .diversitySelectorOptions-4YM-vX,
 .theme-light .diversitySelectorPopout-3FiGaM,
 .theme-light .emojiPicker-3m1S-j,
 .theme-light .emojiPicker-3PwZFl,
@@ -221,6 +224,7 @@
 .theme-light .header-2mZ9Ov,
 .theme-light .incomingCallInner-2VmFiR,
 .theme-light .languageSelector-2LVJrh,
+.theme-light .monaco-editor .monaco-editor-hover,
 .theme-light .noiseCancellationPopout-iRK2A0,
 .theme-light .oauth2Wrapper-mHbF5q,
 .theme-light .popout-VcNcHB,
@@ -461,10 +465,13 @@ bd-body .floating-window #bd-editor-controls,
 .cardPrimary-1Hv-to,
 .cardWrapper-2Min21,
 .category-2haXBH,
+.category-2SZJwK,
 .centerButton-3CaNcJ,
 .channelIcon-1TvDoP,
+.channelIcon-CCo35e,
 .channelName-1JRO3C,
 .channelName-2wrHHc,
+.channelName-3y9uE0,
 .channelName-wvgELL,
 .channelsWrapper-2HhUER,
 .channelTextArea-rNsIhG,
@@ -566,6 +573,7 @@ bd-body .floating-window #bd-editor-controls,
 .getStartedWrapper-2AGgRZ,
 .guildHeader-3nh5RK,
 .guildIcon-3h-1IH,
+.guildsError-g6NwOI,
 .guildSidebar-2OCzWB,
 .guildSidebar-339BqP,
 .guildSubscriptionSlots-JPXXvN,
@@ -742,6 +750,9 @@ bd-body .floating-window #bd-editor-controls,
 :root div #ace_settingsmenu input[type=text],
 :root .bd-addon-list .bd-addon-header,
 :root .bd-addon-list .bd-footer,
+:root .preview-7Gh5tS,
+bd-body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
+bd-body .monaco-editor .monaco-editor-hover,
 #ace_settingsmenu_container .ace_optionsMenuEntry button,
 #ace_settingsmenu_container .ace_optionsMenuEntry button:hover,
 #app-mount #bd-customcss-attach-controls,
@@ -756,6 +767,8 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .bda-slist .bda-footer,
 #app-mount .bda-slist .bda-header,
 #app-mount .bd-addon-list .bd-addon-card,
+#app-mount .bd-codeblock-language,
+#app-mount .bd-codeblock-table td:first-child,
 #app-mount .bd-modal-wrapper .bd-modal-inner,
 #app-mount .bd-modal-wrapper .error,
 #app-mount .bd-modal-wrapper .tab-bar-container .tab-bar-item,
@@ -817,6 +830,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
 #app-mount .sectionAccountCredit-3cyLTx,
 #app-mount .subscriptionDetails-16jcwU,
+#app-mount .tabBarContainer-1s1u-z.bottom-b8sdfs,
 #app-mount .table-moqjM0 .spacerHeader-3eoEE2,
 #app-mount .table-moqjM0 .stickyHeader-r2k9DK,
 #app-mount .tierBody-16Chc9,
@@ -880,6 +894,7 @@ bd-body .floating-window #bd-editor-controls,
 .css-z86t1q-control,
 .customItem-a8hq58,
 .diversitySelector-tmmMv0 .popout-2nUePc,
+.diversitySelectorOptions-4YM-vX,
 .diversitySelectorPopout-3FiGaM,
 .divider-JfaTT5,
 .featureBorder-7j4v58,
@@ -947,6 +962,7 @@ bd-body .floating-window #bd-editor-controls,
 	border: none;
 }
 :root div #ace_settingsmenu,
+:root .preview-7Gh5tS,
 bd-body .floating-window,
 bd-body .floating-window #bd-editor-controls,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
@@ -1097,6 +1113,7 @@ bd-body .floating-window #bd-editor-controls,
 .themedPopout-1TrfdI,
 .titleElevated-c_kdi7,
 .tooltip-3oByQd,
+.unavailableIcon-e1M1SS,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
 .userPopout-3XzG_A,
 .wrapper-2aW0bm,
@@ -2611,6 +2628,10 @@ bd-body .bd-toast,
 .theme-light .expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) {
 	box-shadow: 0 0 0 1px rgb(var(--Just_White_Accent1, 164, 68, 0));
 }
+/* Upload Media Popout */
+.footer-3mqk7D {
+	overflow: hidden;
+}
 /* Voice Guild Icon */
 .iconBadge-2wi9r4,
 .iconBadge-3qSJIw {
@@ -2909,6 +2930,10 @@ body .monaco-scrollable-element {
 .theme-light .backdrop-1wrmKB {
 	background-color: var(--Light, white) !important;
 }
+.theme-light .detailsWrapper-TE1mu5,
+.theme-light .downloadLink-1ywL9o {
+	filter: invert(1);
+}
 /* Server Search Plugin */
 #server-search .circleButtonMask-1_597P:not(:hover) {
 	background: transparent !important;
@@ -2925,6 +2950,11 @@ body .monaco-scrollable-element {
 #app-mount #server-search {
 	padding: 0;
 	margin: -8px 0 0;
+}
+/* DateViewer Plugin */
+.hasCounter #dv-mount #dv-main {
+	height: calc(100% - 30px);
+	margin-top: 30px;
 }
 /* watermark in preview */
 html:not([lang])::before {
