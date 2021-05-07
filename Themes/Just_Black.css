@@ -10,6 +10,7 @@
 	--Fuchsia: fuchsia; /* A colour {default: fuchsia} */
 	--Active: rgb(51, 153, 51); /* A colour for clicking {default: rgb(51, 153, 51)} */
 	--Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing {default: 0} */
+	--server-container: calc(var(--server-size) + 27px) !important; /* Horizontal Server List Theme Support */
 }
 .theme-dark:root,
 .theme-dark:root div #ace_settingsmenu,
@@ -52,6 +53,7 @@
 .theme-dark #app-mount .popoutList-T9CKZQ,
 .theme-dark #app-mount .quickSelectPopout-u2dtIf,
 .theme-dark #app-mount .quickSelectPopout-X1hvgV,
+.theme-dark #app-mount .qwert-toast,
 .theme-dark #app-mount .regionSelectModal-12e-57,
 .theme-dark #app-mount .root-1gCeng,
 .theme-dark #app-mount .searchResultsContainer-1ma_dc,
@@ -172,6 +174,7 @@
 .theme-light #app-mount .popoutList-T9CKZQ,
 .theme-light #app-mount .quickSelectPopout-u2dtIf,
 .theme-light #app-mount .quickSelectPopout-X1hvgV,
+.theme-light #app-mount .qwert-toast,
 .theme-light #app-mount .regionSelectModal-12e-57,
 .theme-light #app-mount .root-1gCeng,
 .theme-light #app-mount .searchResultsContainer-1ma_dc,
@@ -277,13 +280,20 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .action-1lSjCi,
 #app-mount .attachment-33OFj0,
 #app-mount .autocompleteHeaderBackground-30T70q,
+#app-mount .bd-addon-error,
+#app-mount .bd-addon-error-icon,
 #app-mount .bd-addon-list .bd-addon-card,
 #app-mount .bd-addon-list .bd-addon-header,
 #app-mount .bd-emote-header,
 #app-mount .bd-modal-wrapper .bd-modal-body,
 #app-mount .bd-modal-wrapper .header,
+#app-mount .bd-pagination button:hover[disabled],
+#app-mount .bd-pagination button:active[disabled],
+#app-mount .bd-placeholder-card,
 #app-mount .bd-search-wrapper,
 #app-mount .bd-select,
+#app-mount .bd-server-card,
+#app-mount .bd-server-icon,
 #app-mount .bda-slist li,
 #app-mount .body-3iLsc4,
 #app-mount .body-SKIE6r,
@@ -304,13 +314,16 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .codeRedemptionRedirect-1wVR4b,
 #app-mount .container-1D34oG,
 #app-mount .container-1nZlH6,
+#app-mount .container-1S6Mlq,
 #app-mount .container-2oTpPc,
 #app-mount .container-2x5lvQ .header-2C89wJ,
 #app-mount .container-2x5lvQ section,
 #app-mount .container-3gCOGc,
 #app-mount .container-3ISnnM,
+#app-mount .container-BetterVolume,
 #app-mount .container-VSDcQc .sectionTag-pXyto9,
 #app-mount .contentRegion-3nDuYy #bd-customcss-attach-controls,
+#app-mount .copr-separator,
 #app-mount .copyInput-2rOSt7,
 #app-mount .ctaBar-2UsjF2,
 #app-mount .emojiItemImageLoading-1yEIxx,
@@ -474,7 +487,9 @@ bd-body .floating-window #bd-editor-controls,
 .channelName-3y9uE0,
 .channelName-wvgELL,
 .channelsWrapper-2HhUER,
+.channelTextArea-2ZBawt,
 .channelTextArea-rNsIhG,
+.chat-1WUuAG .select-Upjed1>svg,
 .chat-3bRxxu,
 .checklistContainer-mFJZEJ,
 .checklistHeader-1KWcEY,
@@ -482,6 +497,8 @@ bd-body .floating-window #bd-editor-controls,
 .circleIconButton-1QV--U,
 .circleIconButton-jET_ig,
 .clickable-2ap7je .header-2o-2hj:hover,
+.closeButton-3zQgWY,
+.closeButton-3zQgWY:hover,
 .colorable-1bkp8v.primary-3NQg8g,
 .connection-1fbD7X,
 .connectionHeader-2MDqhu,
@@ -573,6 +590,7 @@ bd-body .floating-window #bd-editor-controls,
 .getStartedWrapper-2AGgRZ,
 .guildHeader-3nh5RK,
 .guildIcon-3h-1IH,
+.guildSeparator-33mFX6,
 .guildsError-g6NwOI,
 .guildSidebar-2OCzWB,
 .guildSidebar-339BqP,
@@ -589,6 +607,7 @@ bd-body .floating-window #bd-editor-controls,
 .iconContainer-2aaq6z,
 .iconMask-AFPO7u,
 .iconWrapper-lS1uig,
+.iconWrapper-L3hQuc,
 .infoBar-U6oBFk,
 .input--jS-j2,
 .input-2A_zIr:focus,
@@ -706,6 +725,7 @@ bd-body .floating-window #bd-editor-controls,
 .tertiary-aMXF0g,
 .textarea-2r0oV8:focus,
 .textInput-2xgsSa,
+.threadSidebar-1o3BTy,
 .tile-2gi3tr,
 .tile-2naSqK,
 .tips-2V51be,
@@ -766,6 +786,7 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .auditLog-3jNbM6,
 #app-mount .bda-slist .bda-footer,
 #app-mount .bda-slist .bda-header,
+#app-mount .bd-addon-error,
 #app-mount .bd-addon-list .bd-addon-card,
 #app-mount .bd-codeblock-language,
 #app-mount .bd-codeblock-table td:first-child,
@@ -773,10 +794,12 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .bd-modal-wrapper .error,
 #app-mount .bd-modal-wrapper .tab-bar-container .tab-bar-item,
 #app-mount .bd-modal-wrapper .table-header,
+#app-mount .bd-pagination button,
 #app-mount .bd-select,
 #app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bd-select .bd-select-options,
 #app-mount .bd-server-description-container,
+#app-mount .bd-server-icon,
 #app-mount .bda-slist li,
 #app-mount .BDFDB-select .css-15ejc46-control,
 #app-mount .BDFDB-select .css-ua3v5p-menu,
@@ -829,6 +852,7 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 #app-mount .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
 #app-mount .sectionAccountCredit-3cyLTx,
+#app-mount .subscribersPopout-2CP6Ln,
 #app-mount .subscriptionDetails-16jcwU,
 #app-mount .tabBarContainer-1s1u-z.bottom-b8sdfs,
 #app-mount .table-moqjM0 .spacerHeader-3eoEE2,
@@ -928,8 +952,11 @@ bd-body .monaco-editor .monaco-editor-hover,
 .peopleListItem-2nzedh,
 .phoneField-38N1bJ,
 .popout-VcNcHB,
+.popoutRoleDot-1XPcoA,
 .previewContainer-1KQDJS,
 .protip-1b9XPC,
+.roleColoredItem span,
+.roleDot-2bTP_S,
 .roleDot-ZwSovK,
 .rulesTextAreaInput-2aGfKB,
 .scopes-3GJ3xw,
@@ -978,6 +1005,8 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .bd-modal-wrapper .bd-modal-inner,
 #app-mount .bd-modal-wrapper .header,
 #app-mount .bd-select .bd-select-options,
+#app-mount .bd-server-card:hover,
+#app-mount .bd-server-card:focus,
 #app-mount .button-2CgfFz,
 #app-mount .card-3_CqkU,
 #app-mount .card-3DjzTQ,
@@ -1019,6 +1048,7 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .popout-6p6fkZ,
 #app-mount .popout-xwjvsX .themedPopout-1TrfdI,
 #app-mount .quickSelectPopout-u2dtIf,
+#app-mount .qwert-toast,
 #app-mount .reactorDefault-1IUqMZ,
 #app-mount .root-1gCeng,
 #app-mount .row-2okwlC,
@@ -1106,6 +1136,7 @@ bd-body .floating-window #bd-editor-controls,
 .searchHeader-2XoQg7,
 .searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultMessage-1fxgXh.hit-1fVM9e,
+.shadow-1g4H9H,
 .spinner-3lb-NU,
 .stickyHeaderElevated-I6QUOA,
 .styleFixed-sX-yHV,
@@ -1145,9 +1176,12 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount .title-ROsJi-::before,
 .added-2hLRj3::after,
 .attachButtonDivider-3Glu60,
+.avatarWrapper-2yR4wp::after,
 .builtInSeparator-1ku6s5,
 .channelSeparator-1DOiGt::before,
 .channelSeparator-dTqJ4K::before,
+.chat-1WUuAG::before,
+.checkboxMute-14hTGS::before,
 .children-19S4PO::after,
 .container-19hC9u::before,
 .container-3T1zWi::before,
@@ -1501,6 +1535,9 @@ body:hover,
 .toolbar-1t6TWx {
 	margin-right: 70px;
 }
+.oldTitleBarEnabled-D8ppJQ .toolbar-1t6TWx {
+	margin: 0;
+}
 /* See Server as any Role Banner */
 .notice-1tZwqv,
 .noticeContents-F1kZZo {
@@ -1672,6 +1709,9 @@ body:hover,
 [lang="lt"] .unreadPill-2HyYtt::before {
 	content: "naujos žinutės";
 }
+[lang="hi"] .unreadPill-2HyYtt::before {
+	content: "नए संदेश";
+}
 [lang="hu"] .unreadPill-2HyYtt::before {
 	content: "új üzenetek";
 }
@@ -1781,6 +1821,10 @@ body:hover,
 	opacity: 1;
 	animation: unread 3s ease-out infinite;
 }
+/* Channel Scroller */
+.wrapper-PY0fhH.muted-2JBAyG:hover .icon-2yIBmh {
+	color: var(--interactive-muted);
+}
 /* Unread Mention Button */
 .badge-2qGa_k::after {
 	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
@@ -1814,6 +1858,7 @@ img.avatar-1BDn8e::before {
 #app-mount #permissions-modal-wrapper .role-item.selected,
 #app-mount #pubslayer button,
 #app-mount .bd-select .bd-select-option.selected,
+#app-mount .bd-tab-item.selected,
 #app-mount .friendSelected-1sa4bG,
 #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused,
@@ -1860,6 +1905,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item.selected,
 .theme-light #app-mount #pubslayer button,
 .theme-light #app-mount .bd-select .bd-select-option.selected,
+.theme-light #app-mount .bd-tab-item.selected,
 .theme-light #app-mount .friendSelected-1sa4bG,
 .theme-light #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 .theme-light #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused,
@@ -1907,6 +1953,7 @@ img.avatar-1BDn8e::before {
 #app-mount #permissions-modal-wrapper .role-item:hover,
 #app-mount #pubslayer .ui-tab-bar-item:hover,
 #app-mount .bd-select .bd-select-option:hover,
+#app-mount .bd-tab-item:hover,
 #app-mount .enabled-1t_Gxm:hover,
 #app-mount .enabled-5QKLzu:hover,
 #app-mount .friend-3KALPe:hover,
@@ -1977,6 +2024,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item:hover,
 .theme-light #app-mount #pubslayer .ui-tab-bar-item:hover,
 .theme-light #app-mount .bd-select .bd-select-option:hover,
+.theme-light #app-mount .bd-tab-item:hover,
 .theme-light #app-mount .enabled-1t_Gxm:hover,
 .theme-light #app-mount .enabled-5QKLzu:hover,
 .theme-light #app-mount .friend-3KALPe:hover,
@@ -2046,6 +2094,7 @@ img.avatar-1BDn8e::before {
 #app-mount #permissions-modal-wrapper .role-item.selected:hover,
 #app-mount #pubslayer button:hover,
 #app-mount .bd-select .bd-select-option.selected:hover,
+#app-mount .bd-tab-item.selected:hover,
 #app-mount .friendSelected-1sa4bG:hover,
 #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa:hover,
 #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused:hover,
@@ -2093,6 +2142,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item.selected:hover,
 .theme-light #app-mount #pubslayer button:hover,
 .theme-light #app-mount .bd-select .bd-select-option.selected:hover,
+.theme-light #app-mount .bd-tab-item.selected:hover,
 .theme-light #app-mount .friendSelected-1sa4bG:hover,
 .theme-light #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa:hover,
 .theme-light #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused:hover,
@@ -2141,12 +2191,14 @@ bd-body .floating-window-buttons .maximize-button:hover,
 #app-mount .bd-addon-views .bd-view-button:hover,
 #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 #app-mount .bd-emote-item:hover,
+#app-mount .bd-pagination button:hover,
 #app-mount .bf-toolbar .format:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day:hover,
 #app-mount .closeButton-1tv5uR:hover,
 #app-mount .dim-1l4L4y span,
 #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
+.theme-dark .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
 .actionButton-uPB8Fs.highlight-Lf97TE,
 .button-14-BFJ.enabled-2cQ-u7:hover,
 .button-1I8KM5:hover,
@@ -2167,6 +2219,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover,
 .hover-28QbSq:hover,
 .icon-TYbVk4:hover,
+.theme-dark .iconSwatch-_78Ghj:hover,
 .item-1yAxl1:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .pageButton-2ruNwd:hover,
@@ -2188,12 +2241,14 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .theme-light #app-mount .bd-addon-views .bd-view-button:hover,
 .theme-light #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 .theme-light #app-mount .bd-emote-item:hover,
+.theme-light #app-mount .bd-pagination button:hover,
 .theme-light #app-mount .bf-toolbar .format:hover,
 .theme-light #app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
 .theme-light #app-mount .calendarPicker-2yf6Ci .react-datepicker__day:hover,
 .theme-light #app-mount .closeButton-1tv5uR:hover,
 .theme-light #app-mount .dim-1l4L4y span,
 .theme-light #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
+.theme-light .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
 .theme-light .actionButton-uPB8Fs.highlight-Lf97TE,
 .theme-light .button-14-BFJ.enabled-2cQ-u7:hover,
 .theme-light .button-1I8KM5:hover,
@@ -2213,6 +2268,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .theme-light .emote-container:hover,
 .theme-light .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover,
 .theme-light .icon-TYbVk4:hover,
+.theme-light .iconSwatch-_78Ghj:hover,
 .theme-light .item-1yAxl1:hover,
 .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .theme-light .pageButton-2ruNwd:hover,
@@ -2232,8 +2288,11 @@ bd-body .floating-window-buttons .maximize-button:hover,
 body #bd-editor-controls button:active,
 bd-body .floating-window-buttons .maximize-button:active,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:active,
+#app-mount .bd-pagination button:active,
 #app-mount .bd-select .bd-select-option:active,
 #app-mount .bd-select .bd-select-option.selected:active,
+#app-mount .bd-tab-item:active,
+#app-mount .iconSwatch-_78Ghj.selected-P5oePO,
 #app-mount .peopleListItem-2nzedh:active,
 #app-mount #pubslayer button:active,
 #app-mount #pubslayer .ui-tab-bar-item:active,
@@ -2315,10 +2374,27 @@ bd-body .floating-window-buttons .maximize-button:active,
 .theme-light .selectableItem-1MP3MQ.selected-31soGA:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
 }
+:root.theme-light .hue-13HAGb > div > div > div > div,
+:root.theme-light .alpha-VcPGeR > div > div > div > div {
+	background: var(--Light, white) !important;
+}
+.theme-light .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	color: var(--Dark, black);
+}
+.theme-light .headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	color: unset;
+}
 /* Video Call */
 .theme-light .root-217Brm .header-2Zv56X,
 .theme-light .colorable-1bkp8v.primaryDark-3mSFDl,
 .theme-light .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T {
+	color: var(--Dark, black);
+}
+.theme-light .video-xBa92B {
+	background: var(--Light, white);
+}
+.theme-light .description-22pzKs,
+.theme-light .header-2Zv56X {
 	color: var(--Dark, black);
 }
 /* Server Search */
@@ -2405,6 +2481,7 @@ bd-body .bd-toast,
 	background-color: var(--Dark, black);
 	box-shadow: none;
 }
+.theme-light bd-body .bd-toast,
 .theme-light #app-mount .bd-toast,
 .theme-light #app-mount .toast {
 	background-color: var(--Light, white);
@@ -2450,7 +2527,9 @@ bd-body .bd-toast,
 .theme-light .wrapper-232cHJ {
 	background-color: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7) !important;
 }
-.tabBar-ZmDY9v .badge-1Skb69.numberBadge-2s8kKX {
+.pinnedChannelsHeaderContainer-89Gjv4 .numberBadge-2s8kKX,
+.tabBar-ZmDY9v .badge-1Skb69.numberBadge-2s8kKX,
+.numberBadge-2s8kKX[style*="var(--bdfdb-blurple);"] {
 	animation: none;
 }
 /* Channel Unread Pill */
@@ -2496,6 +2575,7 @@ bd-body .bd-toast,
 	background: rgb(var(--Just_White_Accent2, 214, 118, 39));
 }
 /* Multiline Codeblock */
+.theme-dark .bd-addon-error-stack code,
 .markup-2BOw-j code,
 .modalTextContainer-ITvzbi,
 .textContainer-C0szpm {
@@ -2503,14 +2583,20 @@ bd-body .bd-toast,
 	border: 1px solid rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4);
 	border-radius: 5px;
 }
+.theme-light .bd-addon-error-stack code,
 .theme-light .markup-2BOw-j code,
 .theme-light .modalTextContainer-ITvzbi,
 .theme-light .textContainer-C0szpm {
 	background-color:  rgba(var(--Just_White_Accent1, 164, 68, 0), 0.2);
 	border: 1px solid rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4);
 }
-.hljs-comment, .hljs-quote {
+.hljs-comment,
+.hljs-quote {
 	color: #AAA;
+}
+.theme-light .hljs-comment,
+.theme-light .hljs-quote {
+	color: #888;
 }
 .markup-2BOw-j pre {
 	max-width: 100%;
@@ -2583,6 +2669,10 @@ bd-body .bd-toast,
 .theme-light .toolbar-2bjZV7::before {
 	border-top-color: var(--Light, white);
 }
+/* Threads */
+.theme-light .iconWrapper-L3hQuc .icon-3kbkI0 {
+	color: var(--Dark, black);
+}
 /* Custom Status */
 .subText-1KtqkB strong {
 	filter: sepia(1);
@@ -2649,7 +2739,7 @@ bd-body .bd-toast,
 	fill: #4087ed;
 }
 .flowerStar-1GeTsn {
-    stroke: none;
+	stroke: none;
 }
 /* Server Custom Emoji Naming */
 #app-mount .emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
@@ -2861,6 +2951,9 @@ body .monaco-scrollable-element {
 .tierWrapper-W9ajqp {
 	box-shadow: none !important;
 }
+.theme-light .moreSubscribers-1cuWDE {
+	color: var(--Dark, black);
+}
 /* Join Server Modal */
 .theme-dark .theme-light .colorHeaderSecondary-3Sp3Ft,
 .theme-dark .theme-light .close-hZ94c6 {
@@ -2956,6 +3049,38 @@ body .monaco-scrollable-element {
 	height: calc(100% - 30px);
 	margin-top: 30px;
 }
+/* Better Not-Safe-for-Wumpus Tag Plugin */
+.theme-dark .textBadge-1iylP6 {
+	background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
+}
+.theme-light .textBadge-1iylP6 {
+	background: radial-gradient(rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
+}
+/* Character Counter Plugin */
+#app-mount .chatCounter-XOMPsh {
+	bottom: 0;
+	top: -1.3em;
+}
+/* Copier Plugin */
+.theme-light .copr-replacement {
+	color: var(--Dark, black);
+}
+/* In-Application Notifications Plugin */
+.theme-light .qwert-toast {
+	color: var(--Dark, black);
+}
+/* Online Friend Count Plugin */
+.theme-light .friendsOnline-2JkivW,
+.theme-light .friendsOnline-2JkivW:hover {
+	color: var(--Dark, black);
+}
+/* Horizontal Server List Theme and  Toggle Servers and Channels Plugin */
+body #app-mount ._closed + .base-3dtUhz {
+    top: 0 !important;
+}
+._closed {
+    width: 0 !important;
+}
 /* watermark in preview */
 html:not([lang])::before {
 	content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
@@ -2969,6 +3094,9 @@ html:not([lang])::before {
 	z-index:101;
 }
 /* Watermark */
+.info-1VyQPT {
+	white-space: pre;
+}
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
 	content: "\00000AJust_Black v4.1.0";
 	text-transform: none;
