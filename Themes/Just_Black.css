@@ -16,8 +16,8 @@
 .theme-dark:root div #ace_settingsmenu,
 .theme-dark:root div #ace_settingsmenu select option,
 .theme-dark #app-mount #bda-qem,
-.theme-dark #app-mount #bda-qem-twitch-container,
 .theme-dark #app-mount #bda-qem-favourite-container,
+.theme-dark #app-mount #bda-qem-twitch-container,
 .theme-dark #app-mount #permissions-modal-wrapper .header,
 .theme-dark #app-mount #permissions-modal-wrapper .modal-body,
 .theme-dark #app-mount .addGamePopout-2RY8Ju,
@@ -29,6 +29,7 @@
 .theme-dark #app-mount .bd-select .bd-select-options,
 .theme-dark #app-mount .bf-toolbar::before,
 .theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
+.theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-dark #app-mount .colorPickerCustom-2CWBn2,
 .theme-dark #app-mount .container-3ayLPN,
 .theme-dark #app-mount .contentWrapper-3WC1ID,
@@ -37,9 +38,8 @@
 .theme-dark #app-mount .header-g67q9_,
 .theme-dark #app-mount .iconMask-30Tvqs,
 .theme-dark #app-mount .keyboardShortcutsModal-3piNz7,
-.theme-dark #app-mount .modal-yWgWj-,
-.theme-dark .monaco-editor .monaco-editor-hover,
 .theme-dark #app-mount .messagesPopoutWrap-1MQ1bW,
+.theme-dark #app-mount .modal-yWgWj-,
 .theme-dark #app-mount .oauth2Inner-3ZZuZ5,
 .theme-dark #app-mount .overflowRolesPopout-140n9i,
 .theme-dark #app-mount .overflowRolesPopoutArrow-2O66oH,
@@ -53,7 +53,7 @@
 .theme-dark #app-mount .popoutList-T9CKZQ,
 .theme-dark #app-mount .quickSelectPopout-u2dtIf,
 .theme-dark #app-mount .quickSelectPopout-X1hvgV,
-#app-mount .qwert-toast,
+.theme-dark #app-mount .qwert-toast,
 .theme-dark #app-mount .regionSelectModal-12e-57,
 .theme-dark #app-mount .root-1gCeng,
 .theme-dark #app-mount .searchResultsContainer-1ma_dc,
@@ -62,7 +62,6 @@
 .theme-dark #app-mount .spoilerWarning-2aAZq1,
 .theme-dark #app-mount .streamPreview-2-WUWT,
 .theme-dark #app-mount .subscribersPopout-2CP6Ln,
-.theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-dark #app-mount .tooltipGrey-1hnvTt,
 .theme-dark #app-mount .uploadModal-2ifh8j,
 .theme-dark .categoryWrapper-UZ5YNj,
@@ -98,8 +97,8 @@
 .theme-dark .diversitySelectorOptions-4YM-vX,
 .theme-dark .diversitySelectorPopout-3FiGaM,
 .theme-dark .emojiPicker-3m1S-j,
-.theme-dark .emojiPicker-3PwZFl,
 .theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+.theme-dark .emojiPicker-3PwZFl,
 .theme-dark .emojiSection-3Fb9ix,
 .theme-dark .floating-window-titlebar,
 .theme-dark .floating-window.resizable,
@@ -108,13 +107,15 @@
 .theme-dark .header-2mZ9Ov,
 .theme-dark .incomingCallInner-2VmFiR,
 .theme-dark .languageSelector-2LVJrh,
+.theme-dark .menu-Sp6bN1,
+.theme-dark .monaco-editor .find-widget,
+.theme-dark .monaco-editor .monaco-editor-hover,
 .theme-dark .noiseCancellationPopout-iRK2A0,
 .theme-dark .oauth2Wrapper-mHbF5q,
 .theme-dark .popout-VcNcHB,
 .theme-dark .popoutContainer-1MXdqN,
 .theme-dark .premiumPromo-fVlLu-,
 .theme-dark .quickswitcher-3JagVE,
-.theme-dark .menu-Sp6bN1,
 .theme-dark .root-3JVdIJ,
 .theme-dark .root-SR8cQa,
 .theme-dark .spinner-3lb-NU,
@@ -138,8 +139,8 @@
 .theme-light:root div #ace_settingsmenu,
 .theme-light:root div #ace_settingsmenu select option,
 .theme-light #app-mount #bda-qem,
-.theme-light #app-mount #bda-qem-twitch-container,
 .theme-light #app-mount #bda-qem-favourite-container,
+.theme-light #app-mount #bda-qem-twitch-container,
 .theme-light #app-mount #permissions-modal-wrapper .header,
 .theme-light #app-mount #permissions-modal-wrapper .modal-body,
 .theme-light #app-mount .addGamePopout-2RY8Ju,
@@ -159,9 +160,8 @@
 .theme-light #app-mount .header-g67q9_,
 .theme-light #app-mount .iconMask-30Tvqs,
 .theme-light #app-mount .keyboardShortcutsModal-3piNz7,
-.theme-light #app-mount .modal-yWgWj-,
 .theme-light #app-mount .messagesPopoutWrap-1MQ1bW,
-.theme-light .monaco-editor .monaco-editor-hover,
+.theme-light #app-mount .modal-yWgWj-,
 .theme-light #app-mount .oauth2Inner-3ZZuZ5,
 .theme-light #app-mount .overflowRolesPopout-140n9i,
 .theme-light #app-mount .overflowRolesPopoutArrow-2O66oH,
@@ -219,8 +219,8 @@
 .theme-light .diversitySelectorOptions-4YM-vX,
 .theme-light .diversitySelectorPopout-3FiGaM,
 .theme-light .emojiPicker-3m1S-j,
-.theme-light .emojiPicker-3PwZFl,
 .theme-light .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+.theme-light .emojiPicker-3PwZFl,
 .theme-light .emojiSection-3Fb9ix,
 .theme-light .floating-window-titlebar,
 .theme-light .floating-window.resizable,
@@ -229,13 +229,15 @@
 .theme-light .header-2mZ9Ov,
 .theme-light .incomingCallInner-2VmFiR,
 .theme-light .languageSelector-2LVJrh,
+.theme-light .menu-Sp6bN1,
+.theme-light .monaco-editor .find-widget,
+.theme-light .monaco-editor .monaco-editor-hover,
 .theme-light .noiseCancellationPopout-iRK2A0,
 .theme-light .oauth2Wrapper-mHbF5q,
 .theme-light .popout-VcNcHB,
 .theme-light .popoutContainer-1MXdqN,
 .theme-light .premiumPromo-fVlLu-,
 .theme-light .quickswitcher-3JagVE,
-.theme-light .menu-Sp6bN1,
 .theme-light .root-3JVdIJ,
 .theme-light .root-SR8cQa,
 .theme-light .spinner-3lb-NU,
@@ -255,26 +257,32 @@
 .theme-light .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
 	background: var(--Light, white);
 }
-:root div #ace_settingsmenu,
-:root div #ace_settingsmenu select,
 :root div #ace_settingsmenu input[type=text],
-body,
+:root div #ace_settingsmenu select,
 bd-body .bd-monokai .ace_editor,
 bd-body .bd-monokai .editor .ace_gutter,
-bd-body .floating-window-content,
-bd-body .floating-window #bd-editor-controls,
 bd-body .editor-wrapper .bd-monokai .ace_marker-layer .ace_active-line,
+bd-body .floating-window #bd-editor-controls,
+bd-body .floating-window-content,
+body,
+body .bd-pagination button:active[disabled],
+body .bd-pagination button:hover[disabled],
+body .monaco-editor,
+body .monaco-editor .find-widget .monaco-sash,
+body .monaco-editor .inputarea.ime-input,
+body .monaco-editor .margin,
+body .monaco-editor .monaco-editor-hover .hover-row .actions,
+body .monaco-editor-background,
 #ace_settingsmenu_container .ace_optionsMenuEntry:hover,
-#app-mount #bd-editor-controls,
 #app-mount #bd-customcss-detach-container,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
+#app-mount #bd-editor-controls,
+#app-mount #bd-pub-button,
 #app-mount #bda-qem button,
 #app-mount #dv-mount,
 #app-mount #MemberCount,
 #app-mount #permissions-modal-wrapper .perm-side,
 #app-mount #permissions-modal-wrapper .role-side,
-#app-mount #bd-pub-button,
-#app-mount div #ace_settingsmenu,
 #app-mount .ace-monokai,
 #app-mount .ace-monokai .ace_gutter,
 #app-mount .ace-monokai .ace_marker-layer .ace_active-line,
@@ -288,22 +296,20 @@ bd-body .editor-wrapper .bd-monokai .ace_marker-layer .ace_active-line,
 #app-mount .bd-emote-header,
 #app-mount .bd-modal-wrapper .bd-modal-body,
 #app-mount .bd-modal-wrapper .header,
-body .bd-pagination button:hover[disabled],
-body .bd-pagination button:active[disabled],
 #app-mount .bd-placeholder-card,
 #app-mount .bd-search-wrapper,
+#app-mount .bd-select,
 #app-mount .bd-server-card,
 #app-mount .bd-server-icon,
-#app-mount .bd-select,
 #app-mount .bda-slist li,
 #app-mount .body-3iLsc4,
 #app-mount .body-SKIE6r,
 #app-mount .bodyInner-245q0L,
 #app-mount .bodySection-jqkkIP,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker,
-#app-mount .calendarPicker-2yf6Ci .react-datepicker__header,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month,
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__header,
 #app-mount .card-3DjzTQ,
 #app-mount .card-3DjzTQ:hover,
 #app-mount .card-3EIh8J.interactive-IxbS32:hover,
@@ -323,6 +329,7 @@ body .bd-pagination button:active[disabled],
 #app-mount .container-3gCOGc,
 #app-mount .container-3ISnnM,
 #app-mount .container-BetterVolume,
+#app-mount .container-S9SaVf,
 #app-mount .container-VSDcQc .sectionTag-pXyto9,
 #app-mount .content-35aVm0,
 #app-mount .contentRegion-3nDuYy #bd-customcss-attach-controls,
@@ -342,8 +349,8 @@ body .bd-pagination button:active[disabled],
 #app-mount .footer-1JuRYY,
 #app-mount .footer-1kmXd4,
 #app-mount .footer-2gL1pp,
-#app-mount .footer-3mqk7D,
 #app-mount .footer-3J5oP4,
+#app-mount .footer-3mqk7D,
 #app-mount .gemIndicatorContainer-2jdECl,
 #app-mount .groupLabel-2t5iuZ:hover,
 #app-mount .header-1RC2Wb,
@@ -354,16 +361,16 @@ body .bd-pagination button:active[disabled],
 #app-mount .headerDefault-1wrJcN,
 #app-mount .headerExpanded-CUEwZ5,
 #app-mount .headerNormal-T_seeN,
-#app-mount .imageLoading-bpSr0M,
 #app-mount .iconMask-3b8GzQ,
 #app-mount .iconWrapper-3LVgIo,
+#app-mount .imageLoading-bpSr0M,
 #app-mount .inset-3sAvek,
 #app-mount .inset-GQDQYw,
 #app-mount .invite-18yqGF,
 #app-mount .item-3V15ea,
 #app-mount .loading-17PYl_,
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not(:hover),
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not(:hover),
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,
 #app-mount .lookFilled-1Gx00P.colorTransparent-1ewNp9,
@@ -374,15 +381,10 @@ body .bd-pagination button:active[disabled],
 #app-mount .messageGroupWrapper-o-Zw7G,
 #app-mount .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
 #app-mount .messagesPopout-24nkyi,
-body .monaco-editor,
-body .monaco-editor-background,
-body .monaco-editor .inputarea.ime-input,
-body .monaco-editor .margin,
-body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .moreSubscribers-1cuWDE,
 #app-mount .news-2KwXHF,
-#app-mount .notice-2X5hT5,
 #app-mount .notDetected-33MY4s,
+#app-mount .notice-2X5hT5,
 #app-mount .option-1B5ZV8,
 #app-mount .or-3THJsp,
 #app-mount .overrideHighlight-YPcBxt,
@@ -395,8 +397,8 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .perksModal-fSYqOq,
 #app-mount .pill-2pQByF,
 #app-mount .placeholder-1kJjXI,
-#app-mount .players-1zg2l8,
 #app-mount .playerOverflow-2Hf77M,
+#app-mount .players-1zg2l8,
 #app-mount .popoutContainer-3WC9HR:hover,
 #app-mount .previewContainer-12UlHl,
 #app-mount .price-NUANu6,
@@ -412,11 +414,11 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .searchAnswer-3Dz2-q,
 #app-mount .searchBox-3Y2Vi7,
 #app-mount .searchFilter-2ESiM3,
+#app-mount .searchHeader-1l-wpR,
 #app-mount .searchResult-3pzFAB .hit-NLlWXA,
 #app-mount .searchResult-3pzFAB::after,
 #app-mount .searchResult-3pzFAB::before,
 #app-mount .searchResultsWrap-2DKFzt,
-#app-mount .searchHeader-1l-wpR,
 #app-mount .sidebar-1-SQro,
 #app-mount .slideBody-2nMrnU,
 #app-mount .table-moqjM0 .spacerHeader-3eoEE2,
@@ -428,9 +430,9 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .tierHeaderLocked-1s2JJz,
 #app-mount .tierHeaderUnlocked-2RhWqn,
 #app-mount .tierPill-1yRO48,
+#app-mount .tile-2OwFgW,
 #app-mount .tile-QA_yMc,
 #app-mount .tiles-2aXG_k,
-#app-mount .tile-2OwFgW,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 #app-mount .wrapper-29NfPK,
 #app-mount .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r,
@@ -439,7 +441,9 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .wrapper-35wsBm,
 #app-mount .wrapper-3UweLa,
 #app-mount .wrapperAudio-1jDe0Q,
+#app-mount div #ace_settingsmenu,
 #cf-wrapper #cf-error-details,
+.aboutMeSection-3bipSD,
 .accountList-33MS45,
 .actionButton-uPB8Fs,
 .activity-11LB_k,
@@ -454,7 +458,9 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .arrow-3jRqK8,
 .attachment-2p5mHK,
 .audienceVoiceUserIconContainer-29oflP,
+.avatar-22FtUu,
 .avatar-2daVqv,
+.avatar-2PN2-j,
 .avatar-VxgULZ::before,
 .background-1QDuV2,
 .background-1vAsyP,
@@ -465,14 +471,14 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .bg-h5JY_x,
 .blob-2w7iIK,
 .body-3ND3kc,
-.button-1I8KM5,
 .button-11zvza,
+.button-1I8KM5,
+.button-1YfofB.buttonColor-7qQbGO,
 .button-1YfofB.buttonColor-7qQbGO.fauxDisabled-2ik0Vw,
 .button-1YfofB.buttonColor-7qQbGO:disabled,
 .button-1YfofB.buttonColor-7qQbGO:disabled:hover,
-.button-1YfofB.buttonColor-7qQbGO,
-.button-1ZiXG9:hover,
 .button-1ZiXG9.selected-LCBEAU,
+.button-1ZiXG9:hover,
 .button-3HqqDX,
 .button-F9qN4n,
 .buttonContainer-38-Et1,
@@ -484,8 +490,8 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .card-3RzMcx,
 .card-3RzMcx:hover,
 .cardFolder-28dwxo,
-.cardPrimaryEditable-3KtE4g,
 .cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g,
 .cardWrapper-2Min21,
 .category-2haXBH,
 .category-2SZJwK,
@@ -514,15 +520,16 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .connectionHeader-2MDqhu,
 .container-1EOCj2,
 .container-1r6BKw.themed-ANHk51,
-.container-lRFx4q,
 .container-2fRDfG,
 .container-2t1JyW,
 .container-2w0lh0,
 .container-2XeR5Z,
 .container-3w7J-x,
-.container-cMG81i,
-.container-oZq3fb,
+.container-7Unqij,
 .container-_phMUq,
+.container-cMG81i,
+.container-lRFx4q,
+.container-oZq3fb,
 .container-PNkimc,
 .container-pTf0Ly,
 .container-UC8Ug1,
@@ -591,7 +598,6 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .featureCard-1RR4Tl,
 .featureIcon-3p1TC_,
 .fieldList-21DyL8,
-.friendsTable-133bsv .friendsTableBody-1ZhKif,
 .folder-1hbNCn,
 .folder-1hbNCn.hover-qTxTR_,
 .folder-21wGz3,
@@ -601,10 +607,11 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .footer-3ZalXG,
 .formFieldWrapper-malor5,
 .formSection-1NFAGI,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
 .getStartedWrapper-2AGgRZ,
 .guildHeader-3nh5RK,
-.guildsError-g6NwOI,
 .guildSeparator-33mFX6,
+.guildsError-g6NwOI,
 .guildSidebar-2OCzWB,
 .guildSidebar-339BqP,
 .guildSubscriptionSlots-JPXXvN,
@@ -612,15 +619,19 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .header-2Y0-A-,
 .header-39GIC8,
 .headerFill-adLl4x,
-.imagePlaceholderOverlay-ETNjpn,
-.imageWrapperBackground-E_M6Nu,
+.headerNormal-1l1Znk,
+.headerTop-2y3V6H,
 .icon-1CGepy,
 .icon-1Itzco,
 .icon-3_8HGa,
+.iconBackground-1clSpP,
 .iconContainer-2aaq6z,
 .iconMask-AFPO7u,
-.iconWrapper-lS1uig,
+.iconMicrophone-1A2Yqh,
 .iconWrapper-L3hQuc,
+.iconWrapper-lS1uig,
+.imagePlaceholderOverlay-ETNjpn,
+.imageWrapperBackground-E_M6Nu,
 .infoBar-U6oBFk,
 .input--jS-j2,
 .input-2A_zIr:focus,
@@ -645,25 +656,25 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .members-1998pB>div,
 .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,
 .message-2qnXI6.selected-2P5D_Z,
+.messageContainer-gbhlwo,
 .messages-3amgkR,
 .messages-3G3erD,
-.messageContainer-gbhlwo,
 .miniPlayer-3Ms77e .videoControls-3glNbo,
 .modal-6GHvdM .tabBarContainer-1s1u-z,
 .modal-f02hVt,
 .moreUsers-7v8yWY,
-.mouse-mode.full-motion .localBot-GrCgVt:hover,
-.mouse-mode.full-motion .message-2qnXI6:hover:not(.ephemeral-1PsL1r):not(.mentioned-xhSam7),
 .mouse-mode .localBot-GrCgVt:hover,
 .mouse-mode .message-2qnXI6:hover:not(.ephemeral-1PsL1r):not(.mentioned-xhSam7),
+.mouse-mode.full-motion .localBot-GrCgVt:hover,
+.mouse-mode.full-motion .message-2qnXI6:hover:not(.ephemeral-1PsL1r):not(.mentioned-xhSam7),
 .mulitplePlaceholderUsername-pogq9I,
 .noIcon-1a_FrS,
 .note-3kmerW textarea:focus,
 .noticeNeutral-84C1yU,
 .nowPlayingColumn-2sl4cE,
 .optionContainer-15srkc,
-.optionContainer-1FtykV,
 .optionContainer-15srkc:hover,
+.optionContainer-1FtykV,
 .outer-2IVh5n,
 .panels-j1Uci_,
 .participants-soO0aD,
@@ -680,18 +691,21 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .platform-win .splashBackground-1FRCko::before,
 .preview-2nSL_2,
 .previewContainer-1SS3uO,
+.privacyContainer-3qXMal,
 .privateChannels-1nO12o,
+.profileBackgroundPreview-3BVL0Q,
 .reaction-1ELvT8,
 .reaction-1hd86g,
-.replying-1x3H0T,
 .replyBadge-r1su3o,
+.replying-1x3H0T,
 .role-1P70N6,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i,
 .rolesWrapper-2yOx9S,
 .root-25RxKh,
 .root-2sELX6,
-.rowContainer-2tYerQ,
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF,
+.rowContainer-2tYerQ,
+.scrollableContainer-2NUZem,
 .scroller-1Bvpku,
 .scroller-1IIF0A,
 .scroller-1JbKMe,
@@ -703,17 +717,16 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .scroller-5bBood,
 .scroller-9moviB,
 .scroller-zPkAnE,
-.scrollableContainer-2NUZem,
 .searchBar-3dMhjb,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx,
 .searchHeader-2XoQg7,
-.searchResultMessage-30QnSN.hit-1CXhXT,
-.searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResult-2N9RV4.expanded-ovgtuV,
+.searchResult-2N9RV4::before,
 .searchResult-3pzFAB.expanded-v2Szsz,
 .searchResult-9tQ1uo,
 .searchResult-9tQ1uo.expanded-w_LCGl,
-.searchResult-2N9RV4::before,
-.searchResult-2N9RV4.expanded-ovgtuV,
+.searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultsWrap-3-pOjs,
 .secondary-dIudih,
 .section-2gLsgF,
@@ -732,8 +745,10 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .sidebarRegionScroller-3MXcoP,
 .smallCarousel-2e0IQc,
 .source-10b1ZU,
+.speakerCount-3KijLY,
 .stageIconBackground-135TMe,
 .stageIconBackground-5uF4K9,
+.stageSection-3mAD8V,
 .standardSidebarView-3F1I7i,
 .stickerCategoryShopWrapper-3EnJdQ,
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B,
@@ -783,11 +798,14 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 .ytp-error {
 	background: transparent;
 }
-:root div #ace_settingsmenu select,
-:root div #ace_settingsmenu input[type=text],
 :root .bd-addon-list .bd-addon-header,
 :root .bd-addon-list .bd-footer,
 :root .preview-7Gh5tS,
+:root div #ace_settingsmenu input[type=text],
+:root div #ace_settingsmenu select,
+body .monaco-editor .monaco-editor-hover,
+body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
+body .monaco-editor .suggest-widget>.tree,
 #ace_settingsmenu_container .ace_optionsMenuEntry button,
 #ace_settingsmenu_container .ace_optionsMenuEntry button:hover,
 #app-mount #bd-customcss-attach-controls,
@@ -799,8 +817,6 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .action-1lSjCi,
 #app-mount .attachment-33OFj0,
 #app-mount .auditLog-3jNbM6,
-#app-mount .bda-slist .bda-footer,
-#app-mount .bda-slist .bda-header,
 #app-mount .bd-addon-error,
 #app-mount .bd-addon-list .bd-addon-card,
 #app-mount .bd-codeblock-language,
@@ -811,10 +827,12 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .bd-modal-wrapper .table-header,
 #app-mount .bd-pagination button,
 #app-mount .bd-select,
-#app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bd-select .bd-select-options,
+#app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bd-server-description-container,
 #app-mount .bd-server-icon,
+#app-mount .bda-slist .bda-footer,
+#app-mount .bda-slist .bda-header,
 #app-mount .bda-slist li,
 #app-mount .BDFDB-select .css-15ejc46-control,
 #app-mount .BDFDB-select .css-ua3v5p-menu,
@@ -832,6 +850,7 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .codeRedemptionRedirect-1wVR4b,
 #app-mount .colorPickerCustom-2CWBn2,
 #app-mount .container-1nZlH6,
+#app-mount .container-S9SaVf,
 #app-mount .copyInputDefault-21sXtF,
 #app-mount .datePicker--XZbmJ .datePickerHint-3Q1Udw,
 #app-mount .divider-3wNib3,
@@ -840,19 +859,14 @@ body .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .footer-1fjuF6,
 #app-mount .header-g67q9_,
 #app-mount .headerCellSorted-FMjMWK,
-#app-mount .item-3T2z1R,
 #app-mount .invite-18yqGF,
+#app-mount .item-3T2z1R,
 #app-mount .keybindShortcut-1BD6Z1 span,
 #app-mount .lookFilled-1h1y05.select-1Pkeg4,
 #app-mount .lookFilled-1h1y05.select-1Pkeg4:focus,
 #app-mount .messageGroupWrapper-o-Zw7G,
 #app-mount .messagesPopoutWrap-1MQ1bW,
 #app-mount .modalSubtitle-1Pj5nv,
-bd-body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
-bd-body .monaco-editor .monaco-editor-hover,
-body .monaco-editor .monaco-editor-hover,
-body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
-body .monaco-editor .suggest-widget>.tree,
 #app-mount .or-3THJsp,
 #app-mount .overridePlaceholder-14_rPI,
 #app-mount .pageButtonNext-V2kUq0,
@@ -905,6 +919,7 @@ body .monaco-editor .suggest-widget>.tree,
 .container-1giJp5,
 .container-3RCQyg,
 .container-3XJ8ns,
+.container-3yC5sj,
 .container-6sXIoE,
 .container-UC8Ug1,
 .css-15ejc46-control,
@@ -924,9 +939,9 @@ body .monaco-editor .suggest-widget>.tree,
 .css-3vaxre-menu,
 .css-7qgozi-control,
 .css-dwar6a-menu,
+.css-gvi9bl-control,
 .css-hcn6i1-menu,
 .css-hygzao-control,
-.css-gvi9bl-control,
 .css-ljd0hx-control,
 .css-n1chp5-menu,
 .css-n57xjs-menu,
@@ -956,6 +971,7 @@ body .monaco-editor .suggest-widget>.tree,
 .hasDivider-20M1le,
 .header-1Gj-ua,
 .header-39GIC8,
+.headerTop-2y3V6H,
 .incomingCallInner-2VmFiR,
 .input-cIJ7To,
 .itemGroup-1tL0uz,
@@ -984,8 +1000,8 @@ body .monaco-editor .suggest-widget>.tree,
 .searchResult-2N9RV4.expanded-ovgtuV,
 .searchResult-3pzFAB.expanded-v2Szsz,
 .searchResult-9tQ1uo.expanded-w_LCGl,
-.searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResultMessage-30QnSN.hit-1CXhXT,
 .sectionAccountCredit-1uNhnJ,
 .selectorGroup-dJ6TXV,
 .sidebar-dLM-kh,
@@ -1012,13 +1028,14 @@ body .monaco-editor .suggest-widget>.tree,
 	border: none;
 }
 :root div #ace_settingsmenu,
-body .preview-7Gh5tS,
 bd-body .floating-window,
 bd-body .floating-window #bd-editor-controls,
+body .monaco-editor .find-widget,
 body .monaco-editor .minimap-shadow-visible,
 body .monaco-editor .scroll-decoration,
-#app-mount #bd-editor-controls,
+body .preview-7Gh5tS,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
+#app-mount #bd-editor-controls,
 #app-mount #bda-qem button,
 #app-mount #permissions-modal-wrapper #permissions-modal,
 #app-mount #permissions-modal-wrapper .header,
@@ -1030,15 +1047,14 @@ body .monaco-editor .scroll-decoration,
 #app-mount .bd-modal-wrapper .bd-modal-inner,
 #app-mount .bd-modal-wrapper .header,
 #app-mount .bd-select .bd-select-options,
-#app-mount .bd-server-card:hover,
 #app-mount .bd-server-card:focus,
+#app-mount .bd-server-card:hover,
 #app-mount .button-2CgfFz,
 #app-mount .card-3_CqkU,
 #app-mount .card-3DjzTQ,
 #app-mount .card-3DjzTQ:hover,
 #app-mount .card-3EIh8J.interactive-IxbS32:hover,
-#app-mount .separator-2-RRj_,
-#app-mount .separator-3gy7tq,
+#app-mount .container-S9SaVf,
 #app-mount .contentRegion-3nDuYy #bd-customcss-attach-controls,
 #app-mount .elevationBorderHigh-2WYJ09,
 #app-mount .elevationBorderLow-2qgTRQ,
@@ -1053,8 +1069,8 @@ body .monaco-editor .scroll-decoration,
 #app-mount .footerSeparator-M9dQY1,
 #app-mount .game-1ipmAa,
 #app-mount .guildPopout-3CgKqR,
-#app-mount .header-ykumBX,
 #app-mount .header-1TOWci,
+#app-mount .header-ykumBX,
 #app-mount .installationPath-24giJj,
 #app-mount .installationPath-3cStrB,
 #app-mount .inviteSettingsInviteRow-3p2O-N,
@@ -1081,22 +1097,25 @@ body .monaco-editor .scroll-decoration,
 #app-mount .searchHeader-1l-wpR,
 #app-mount .searchResult-3pzFAB .hit-NLlWXA,
 #app-mount .searchResultsContainer-1ma_dc,
+#app-mount .separator-2-RRj_,
+#app-mount .separator-3gy7tq,
 #app-mount .spoilerContainer-331r0R.hidden-HHr2R9,
 #app-mount .streamPreview-2-WUWT,
 #app-mount .subscribersPopout-2CP6Ln,
-#app-mount .toast-g4bfgI,
+#app-mount .tile-2OwFgW,
 #app-mount .tile-QA_yMc,
 #app-mount .tiles-2aXG_k,
-#app-mount .tile-2OwFgW,
-#app-mount .userPopout-3XzG_A,
+#app-mount .toast-g4bfgI,
+#app-mount .tooltip-2QfLtc,
 #app-mount .uploadModal-2ifh8j,
+#app-mount .userPopout-3XzG_A,
 #app-mount .video-1FfuMD.noChat-3nt48u .videoBackgroundTransition-3wpOSl,
 #app-mount .wrapper-9ppXpy,
 .animatedContainer-1NSq4T,
 .animatedContainer-1pJv5C,
+.authBox-hW6HRx,
 .autocomplete-3l_oCd,
 .autocomplete-Z9HwQh,
-.authBox-hW6HRx,
 .button-F9qN4n.focused-3ZzkKr,
 .channelNotice-3DDmsB,
 .channelNotice-3hkOiI,
@@ -1114,18 +1133,20 @@ body .monaco-editor .scroll-decoration,
 .css-181m2lf-menu,
 .css-1ekm3mr-menu,
 .css-1px1g2v-menu,
-.css-1s13zip-menu,
 .css-1rckt42-menu,
+.css-1s13zip-menu,
 .css-1wqqa50-container,
 .css-1x99fvh-menu,
 .css-3vaxre-menu,
 .css-dwar6a-menu,
 .css-hcn6i1-menu,
+.css-ix84ef-menu,
 .css-n1chp5-menu,
 .css-n57xjs-menu,
 .css-xgwd95-menu,
 .emojiPicker-3m1S-j .header-1nkwgG,
 .emojiPicker-3PwZFl,
+.exampleModal-2oh58d,
 .footer-1lnhms,
 .full-motion .wrapper-2aW0bm:hover,
 .hasMore-3e72_v,
@@ -1133,6 +1154,7 @@ body .monaco-editor .scroll-decoration,
 .header-2o-2hj,
 .header-2V-4Sw,
 .header-8ilj5e,
+.headerBarContainer-31FKNA,
 .headerContainer-3Dbfbk,
 .incomingCallInner-2VmFiR,
 .input-2A_zIr:focus,
@@ -1140,9 +1162,9 @@ body .monaco-editor .scroll-decoration,
 .languageSelector-2LVJrh,
 .menu-3sdvDG,
 .menu-Sp6bN1,
+.modal-6GHvdM .tabBarContainer-1s1u-z,
 .newMessagesBar-265mhP,
 .newMessagesBar-mujexs,
-.modal-6GHvdM .tabBarContainer-1s1u-z,
 .noiseCancellationPopout-iRK2A0,
 .notice-2FJMB4,
 .notificationsSound-27jFSh,
@@ -1157,8 +1179,8 @@ body .monaco-editor .scroll-decoration,
 .searchBar-6Kv8R2,
 .searchHeader-1EzJGH,
 .searchHeader-2XoQg7,
-.searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResultMessage-30QnSN.hit-1CXhXT,
 .shadow-1g4H9H,
 .spinner-3lb-NU,
 .stickyHeaderElevated-I6QUOA,
@@ -1175,6 +1197,7 @@ body .monaco-editor .scroll-decoration,
 .wrapper-2aW0bm:hover {
 	box-shadow: none;
 }
+body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount #bd-settings-sidebar .ui-tab-bar-separator,
 #app-mount .bd-guild-separator,
 #app-mount .bd-setting-divider,
@@ -1188,7 +1211,6 @@ body .monaco-editor .scroll-decoration,
 #app-mount .divider-23swzi,
 #app-mount .divider-2rujXH,
 #app-mount .divider-3WKGWk,
-#app-mount .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount .multiInputLast-1aQ3YA::before,
 #app-mount .multiInputLast-HWxgTr::before,
 #app-mount .option-96V44q::after,
@@ -1208,8 +1230,8 @@ body .monaco-editor .scroll-decoration,
 .checkboxMute-14hTGS::before,
 .children-19S4PO::after,
 .container-19hC9u::before,
-.container-3T1zWi::before,
 .container-3ISnnM::after,
+.container-3T1zWi::before,
 .container-xm7Ad0::before,
 .content-yTz4x3::before,
 .divider-1luoRp,
@@ -1228,8 +1250,8 @@ body .monaco-editor .scroll-decoration,
 .dividerEnabled-2TTlcf,
 .ephemeral-1PsL1r::before,
 .fixed-3zCC84::after,
-.friendsTable-133bsv::before,
 .form-2fGMdU::before,
+.friendsTable-133bsv::before,
 .gradientOverlayLeft-3w159C,
 .gradientOverlayRight-3vMuS8,
 .guildSeparator-3s64Iy,
@@ -1237,10 +1259,10 @@ body .monaco-editor .scroll-decoration,
 .isMentionedCozy-3isp7y::after,
 .localBot-GrCgVt::before,
 .mentioned-xhSam7::before,
-.planSelectDivider-3KU5-l,
 .pill-1m5BUr,
 .pill-2uzAFe,
 .pill-3YxEhL,
+.planSelectDivider-3KU5-l,
 .popoutLoadingForeground-2mZT61,
 .progress-YsDrV-::after,
 .replying-1x3H0T::before,
@@ -1251,9 +1273,9 @@ body .monaco-editor .scroll-decoration,
 .searchResult-9tQ1uo::before,
 .selectPlanDivider-1mx_6q,
 .separator-1COOpU,
-.separator-2xbLUz,
 .separator-2I32lJ,
 .separator-2IZ9ro,
+.separator-2xbLUz,
 .separator-2zcjq8,
 .separator-3wQM3d,
 .separator-42rNt0,
@@ -1307,7 +1329,6 @@ body #app-mount .bd-pagination button:active[disabled] {
 	fill: transparent;
 }
 /* Black Magic */
-/*
 body,
 .base-3dtUhz,
 .contentRegion-3nDuYy,
@@ -1316,8 +1337,8 @@ body,
 .fieldList-21DyL8 > div > div > div,
 .wrapper-1Rf91z,
 .wrapper-3NnKdC {
-    opacity: var(--Blank, 1);
-    transition: 0.4s ease-in-out;
+	opacity: var(--Blank, 1);
+	transition: 0.4s ease-in-out;
 }
 body:hover,
 .base-3dtUhz:hover,
@@ -1327,8 +1348,8 @@ body:hover,
 .fieldList-21DyL8 > div > div > div:hover,
 .wrapper-1Rf91z:hover,
 .wrapper-3NnKdC:hover {
-    opacity: 1;
-}*/
+	opacity: 1;
+}
 /* Scrollbars */
 .theme-dark body #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
 .theme-dark body #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-thumb,
@@ -1560,9 +1581,9 @@ body .thin-1ybCId::-webkit-scrollbar-track:disabled {
 }
 /* Windows Minimise Maximise buttons */
 .winButtonMinMax-PBQ2gm:hover {
-    background-color: #4747F0;
+	background-color: #4747F0;
 }
-/* help button */
+/* Help button */
 .toolbar-1t6TWx a {
 	display: none;
 }
@@ -1606,6 +1627,25 @@ body .thin-1ybCId::-webkit-scrollbar-track:disabled {
 .dismiss-SCAH9H {
 	height: 36px;
 	padding-bottom: 12px;
+}
+/* Guild Scroller */
+.expandedGuilds-1JMD4M,
+.guilds-1SWlCJ,
+.listItem-2P_4kh,
+.listItem-GuPuDH,
+.scroller-2TZvBN,
+.scrollerWrap-1IAIlv,
+.unreadMentionsIndicatorBottom-2mDYbI,
+.unreadMentionsIndicatorBottom-BXS58x,
+.unreadMentionsIndicatorTop-2-tcdU,
+.unreadMentionsIndicatorTop-gA6RCh,
+.wrapper-21YSNc,
+.wrapper-3Njo_c {
+	max-width: 65px;
+}
+.expandedFolderBackground-1cujaW,
+.expandedFolderBackground-2sPsd- {
+	left: 8px;
 }
 /* Guild pill */
 .item-2hkk8m {
@@ -1713,92 +1753,92 @@ body .thin-1ybCId::-webkit-scrollbar-track:disabled {
 	background-color: rgb(var(--Just_White_Accent2, 214, 118, 39));
 	color: var(--Dark, black);
 }
-[lang="da"] .unreadPill-2HyYtt::before {
+:lang(da) .unreadPill-2HyYtt::before {
 	content: "nye beskeder";
 }
-[lang="de"] .unreadPill-2HyYtt::before {
+:lang(de) .unreadPill-2HyYtt::before {
 	content: "neue nachrichten";
 }
-[lang="en-GB"] .unreadPill-2HyYtt::before,
-[lang="en-US"] .unreadPill-2HyYtt::before {
+:lang(en-GB) .unreadPill-2HyYtt::before,
+:lang(en-US) .unreadPill-2HyYtt::before {
 	content: "new messages";
 }
-[lang="es-ES"] .unreadPill-2HyYtt::before {
+:lang(es-ES) .unreadPill-2HyYtt::before {
 	content: "nuevos mensajes";
 }
-[lang="fr"] .unreadPill-2HyYtt::before {
+:lang(fr) .unreadPill-2HyYtt::before {
 	content: "nouveaux messages";
 }
-[lang="hi"] .unreadPill-2HyYtt::before {
-	content: "नए संदेश";
-}
-[lang="hr"] .unreadPill-2HyYtt::before {
+:lang(hr) .unreadPill-2HyYtt::before {
 	content: "nove poruke";
 }
-[lang="it"] .unreadPill-2HyYtt::before {
+:lang(it) .unreadPill-2HyYtt::before {
 	content: "nuovo messaggio";
 }
-[lang="lt"] .unreadPill-2HyYtt::before {
+:lang(lt) .unreadPill-2HyYtt::before {
 	content: "naujos žinutės";
 }
-[lang="hu"] .unreadPill-2HyYtt::before {
+:lang(hu) .unreadPill-2HyYtt::before {
 	content: "új üzenetek";
 }
-[lang="nl"] .unreadPill-2HyYtt::before {
+:lang(nl) .unreadPill-2HyYtt::before {
 	content: "nieuwe berichten";
 }
-[lang="no"] .unreadPill-2HyYtt::before {
+:lang(no) .unreadPill-2HyYtt::before {
 	content: "nye meldinger";
 }
-[lang="pl"] .unreadPill-2HyYtt::before {
+:lang(pl) .unreadPill-2HyYtt::before {
 	content: "nowe wiadomości";
 }
-[lang="pt-BR"] .unreadPill-2HyYtt::before {
+:lang(pt-BR) .unreadPill-2HyYtt::before {
 	content: "novas mensagens";
 }
-[lang="ro"] .unreadPill-2HyYtt::before {
+:lang(ro) .unreadPill-2HyYtt::before {
 	content: "mesaje noi";
 }
-[lang="fi"] .unreadPill-2HyYtt::before {
+:lang(fi) .unreadPill-2HyYtt::before {
 	content: "uudet viestit";
 }
-[lang="sv-SE"] .unreadPill-2HyYtt::before {
+:lang(sv-SE) .unreadPill-2HyYtt::before {
 	content: "nya meddelanden";
 }
-[lang="vi"] .unreadPill-2HyYtt::before {
+:lang(vi) .unreadPill-2HyYtt::before {
 	content: "các tin nhắn mới";
 }
-[lang="tr"] .unreadPill-2HyYtt::before {
+:lang(tr) .unreadPill-2HyYtt::before {
 	content: "yeni mesajlar";
 }
-[lang="cs"] .unreadPill-2HyYtt::before {
+:lang(cs) .unreadPill-2HyYtt::before {
 	content: "nové zprávy";
 }
-[lang="el"] .unreadPill-2HyYtt::before {
+:lang(el) .unreadPill-2HyYtt::before {
 	content: "νέα μηνύματα";
 }
-[lang="bg"] .unreadPill-2HyYtt::before {
+:lang(bg) .unreadPill-2HyYtt::before {
 	content: "нови съобщения";
 }
-[lang="ru"] .unreadPill-2HyYtt::before {
+:lang(ru) .unreadPill-2HyYtt::before {
 	content: "но́вые сообще́ния";
 }
-[lang="uk"] .unreadPill-2HyYtt::before {
+:lang(uk) .unreadPill-2HyYtt::before {
 	content: "нові повідомлення";
 }
-[lang="th"] .unreadPill-2HyYtt::before {
+:lang(hi) .unreadPill-2HyYtt::before {
+	content: "नए संदेश";
+}
+:lang(th) .unreadPill-2HyYtt::before {
 	content: "ข้อความใหม่";
 }
-[lang="zh-CN"] .unreadPill-2HyYtt::before {
+:lang(zh-CN) .unreadPill-2HyYtt::before {
 	content: "新讯息";
 }
-[lang="ja"] .unreadPill-2HyYtt::before {
+:lang(ja) .unreadPill-2HyYtt::before {
 	content: "新しいメッセージ";
 }
-[lang="zh-TW"] .unreadPill-2HyYtt::before {
+:lang(zh-TW) .unreadPill-2HyYtt::before {
 	content: "新訊息";
 }
-[lang="ko"] .unreadPill-2HyYtt::before {
+:lang(ko) .unreadPill-2HyYtt::before {
 	content: "새로운 메시지";
 }
 
@@ -1873,9 +1913,6 @@ img.avatar-1BDn8e::before {
 /* Guild Roles Tab */
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
     background-color: transparent !important;
-}
-.list-I3aHXn {
-    max-height: calc(100vh - 100px);
 }
 /* Voice Server Region */
 .theme-dark .regionSelectModal-12e-57 {
@@ -2039,6 +2076,7 @@ img.avatar-1BDn8e::before {
 .theme-dark body .option-3KoAJB:hover,
 .theme-dark body .option-3KoAJB:focus:not([aria-selected=true]),
 .theme-dark body .peopleListItem-2nzedh:hover,
+.privacyItemContainer-1v4YvZ:hover:not(.privacyItemDisabled-3l-cdI)
 .theme-dark body .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9:hover,
 .theme-dark body .resultFocused-3aIoYe,
 .theme-dark body .role-3ulsK-:hover,
@@ -2110,6 +2148,7 @@ img.avatar-1BDn8e::before {
 .theme-light .option-3KoAJB:hover,
 .theme-light .option-3KoAJB:focus:not([aria-selected=true]),
 .theme-light .peopleListItem-2nzedh:hover,
+.theme-light .privacyItemContainer-1v4YvZ:hover:not(.privacyItemDisabled-3l-cdI),
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9:hover,
 .theme-light .resultFocused-3aIoYe,
 .theme-light .role-3ulsK-:hover,
@@ -2226,6 +2265,7 @@ img.avatar-1BDn8e::before {
 }
 /* Square Hovered */
 body #bd-editor-controls button:hover,
+body .monaco-editor .find-widget .button:not(.disabled):hover,
 bd-body .floating-window-buttons .maximize-button:hover,
 .theme-dark body #app-mount .bd-addon-views .bd-view-button:hover,
 .theme-dark body .bd-emote-item:hover,
@@ -2280,6 +2320,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .wrapper-2siovq:hover {
 	background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4));
 }
+.theme-light body .monaco-editor .find-widget .button:not(.disabled):hover,
 .theme-light .floating-window-buttons .maximize-button:hover,
 .theme-light #bd-editor-controls button:hover,
 .theme-light .bd-addon-views .bd-view-button:hover,
@@ -2636,10 +2677,10 @@ bd-body .bd-toast,
 }
 /* Quote Block */
 .blockquoteDivider-2hH8H6 {
-		background: rgb(var(--Just_Black_Accent2, 41, 137, 216));
+	background: rgb(var(--Just_Black_Accent2, 41, 137, 216));
 }
 .theme-light .blockquoteDivider-2hH8H6 {
-		background: rgb(var(--Just_White_Accent2, 214, 118, 39));
+	background: rgb(var(--Just_White_Accent2, 214, 118, 39));
 }
 /* Multiline Codeblock */
 .theme-dark .bd-addon-error-stack code,
@@ -2759,6 +2800,16 @@ bd-body .bd-toast,
 	overflow: unset;
 	white-space: unset;
 	word-break: break-word;
+}
+.avatar-22FtUu,
+.avatar-2PN2-j {
+  border-color: transparent;
+}
+.avatar-22FtUu img {
+	background: var(--Dark, black);
+}
+.theme-light .avatar-22FtUu img {
+	background: var(--Light, white);
 }
 /* Upload Media Popout */
 .footer-3mqk7D {
@@ -2946,6 +2997,7 @@ bd-body .bd-toast,
 	background-color: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6);
 }
 /* Move typing indicator above text input */
+.applicationCommandEducation-2jAJ0B,
 .typing-2GQL18 {
     top: 0;
 }
@@ -3033,6 +3085,15 @@ bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line {
 }
 .theme-light .action-item.focused:hover > .action-menu-item {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
+}
+body .monaco-editor .find-widget>.find-part .monaco-inputbox,
+body .monaco-editor .find-widget>.find-part .monaco-inputbox>.wrapper>.input,
+body .monaco-editor .find-widget>.replace-part .monaco-inputbox,
+body .monaco-editor .find-widget>.replace-part .monaco-inputbox>.wrapper>.input {
+	background: transparent !important;
+}
+body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
+	outline: none;
 }
 /* Cloudflare and Public Servers */
 #cf-wrapper a:hover,
@@ -3166,12 +3227,12 @@ html:not([lang])::before {
     white-space: pre;
 }
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_Black v4.1.0";
+	content: "\00000AJust_Black v4.2.0";
 	text-transform: none;
 	cursor: text;
 }
 .theme-light .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_White v4.1.0";
+	content: "\00000AJust_White v4.2.0";
 }
 /* Download Discord Application */
 .backdrop-1wrmKB[style="opacity: 0.95; background-color: rgb(255, 255, 255); z-index: 1000; transform: translateZ(0px);"] {
@@ -3194,7 +3255,6 @@ html:not([lang])::before {
     box-shadow: none;
     max-width: 100%;
 }
-/* =================================================================================================== */
 @keyframes unread {
     0%{opacity: 0.3;}
     50%{opacity: 1;}
