@@ -1,23 +1,23 @@
 :root {
-	--Dark: black; /* A colour {default: black} */
-	--Light: white; /* A colour {default: white} */
-	--Just_Black_Accent1: 91, 187, 255; /* An RGB triplet {default: 91, 187, 255} */
-	--Just_Black_Accent2: 41, 137, 216; /* An RGB triplet {default: 41, 137, 216} */
-	--Just_White_Accent1: 164, 68, 0; /* An RGB triplet {default: 164, 68, 0} */
-	--Just_White_Accent2: 214, 118, 39; /* An RGB triplet {default: 214, 118, 39} */
-	--Blue: blue; /* An extra accent colour for Dark Theme {default: blue} */
-	--Orange: orangered; /* An extra accent colour for Light Theme {default: orangered} */
-	--Fuchsia: fuchsia; /* A colour {default: fuchsia} */
-	--Active: rgb(51, 153, 51); /* A colour for clicking {default: rgb(51, 153, 51)} */
-	--Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing {default: 0} */
+	--Dark: black; /* A colour (default: black) */
+	--Light: white; /* A colour (default: white) */
+	--Just_Black_Accent1: 91, 187, 255; /* An RGB triplet (default: 91, 187, 255) */
+	--Just_Black_Accent2: 41, 137, 216; /* An RGB triplet (default: 41, 137, 216) */
+	--Just_White_Accent1: 164, 68, 0; /* An RGB triplet (default: 164, 68, 0) */
+	--Just_White_Accent2: 214, 118, 39; /* An RGB triplet (default: 214, 118, 39) */
+	--Blue: blue; /* An extra accent colour for Dark Theme (default: blue) */
+	--Orange: orangered; /* An extra accent colour for Light Theme (default: orangered) */
+	--Fuchsia: fuchsia; /* A colour (default: fuchsia) */
+	--Active: rgb(51, 153, 51); /* A colour for clicking (default: rgb(51, 153, 51)) */
+	--Blank: 1; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0) */
 	--server-container: calc(var(--server-size) + 27px) !important; /* Horizontal Server List Theme Support */
 }
 .theme-dark:root,
 .theme-dark:root div #ace_settingsmenu,
 .theme-dark:root div #ace_settingsmenu select option,
 .theme-dark #app-mount #bda-qem,
-.theme-dark #app-mount #bda-qem-twitch-container,
 .theme-dark #app-mount #bda-qem-favourite-container,
+.theme-dark #app-mount #bda-qem-twitch-container,
 .theme-dark #app-mount #permissions-modal-wrapper .header,
 .theme-dark #app-mount #permissions-modal-wrapper .modal-body,
 .theme-dark #app-mount .addGamePopout-2RY8Ju,
@@ -29,6 +29,7 @@
 .theme-dark #app-mount .bd-select .bd-select-options,
 .theme-dark #app-mount .bf-toolbar::before,
 .theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
+.theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-dark #app-mount .colorPickerCustom-2CWBn2,
 .theme-dark #app-mount .container-3ayLPN,
 .theme-dark #app-mount .contentWrapper-3WC1ID,
@@ -37,9 +38,8 @@
 .theme-dark #app-mount .header-g67q9_,
 .theme-dark #app-mount .iconMask-30Tvqs,
 .theme-dark #app-mount .keyboardShortcutsModal-3piNz7,
-.theme-dark #app-mount .modal-yWgWj-,
 .theme-dark #app-mount .messagesPopoutWrap-1MQ1bW,
-.theme-dark #app-mount .monaco-editor .monaco-editor-hover,
+.theme-dark #app-mount .modal-yWgWj-,
 .theme-dark #app-mount .oauth2Inner-3ZZuZ5,
 .theme-dark #app-mount .overflowRolesPopout-140n9i,
 .theme-dark #app-mount .overflowRolesPopoutArrow-2O66oH,
@@ -92,20 +92,23 @@
 .theme-dark .css-ix84ef-menu,
 .theme-dark .css-n1chp5-menu,
 .theme-dark .css-n57xjs-menu,
+.theme-dark .css-xgwd95-menu,
 .theme-dark .diversitySelector-tmmMv0 .popout-2nUePc,
 .theme-dark .diversitySelectorOptions-4YM-vX,
 .theme-dark .diversitySelectorPopout-3FiGaM,
 .theme-dark .emojiPicker-3m1S-j,
-.theme-dark .emojiPicker-3PwZFl,
 .theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+.theme-dark .emojiPicker-3PwZFl,
 .theme-dark .emojiSection-3Fb9ix,
-.theme-dark .floating-window.resizable,
 .theme-dark .floating-window-titlebar,
+.theme-dark .floating-window.resizable,
 .theme-dark .guildPopout-3CgKqR,
 .theme-dark .guildSection-1EoFKd,
 .theme-dark .header-2mZ9Ov,
 .theme-dark .incomingCallInner-2VmFiR,
 .theme-dark .languageSelector-2LVJrh,
+.theme-dark .menu-Sp6bN1,
+.theme-dark .monaco-editor .find-widget,
 .theme-dark .monaco-editor .monaco-editor-hover,
 .theme-dark .noiseCancellationPopout-iRK2A0,
 .theme-dark .oauth2Wrapper-mHbF5q,
@@ -113,7 +116,6 @@
 .theme-dark .popoutContainer-1MXdqN,
 .theme-dark .premiumPromo-fVlLu-,
 .theme-dark .quickswitcher-3JagVE,
-.theme-dark .menu-Sp6bN1,
 .theme-dark .root-3JVdIJ,
 .theme-dark .root-SR8cQa,
 .theme-dark .spinner-3lb-NU,
@@ -137,8 +139,8 @@
 .theme-light:root div #ace_settingsmenu,
 .theme-light:root div #ace_settingsmenu select option,
 .theme-light #app-mount #bda-qem,
-.theme-light #app-mount #bda-qem-twitch-container,
 .theme-light #app-mount #bda-qem-favourite-container,
+.theme-light #app-mount #bda-qem-twitch-container,
 .theme-light #app-mount #permissions-modal-wrapper .header,
 .theme-light #app-mount #permissions-modal-wrapper .modal-body,
 .theme-light #app-mount .addGamePopout-2RY8Ju,
@@ -158,9 +160,8 @@
 .theme-light #app-mount .header-g67q9_,
 .theme-light #app-mount .iconMask-30Tvqs,
 .theme-light #app-mount .keyboardShortcutsModal-3piNz7,
-.theme-light #app-mount .modal-yWgWj-,
 .theme-light #app-mount .messagesPopoutWrap-1MQ1bW,
-.theme-light #app-mount .monaco-editor .monaco-editor-hover,
+.theme-light #app-mount .modal-yWgWj-,
 .theme-light #app-mount .oauth2Inner-3ZZuZ5,
 .theme-light #app-mount .overflowRolesPopout-140n9i,
 .theme-light #app-mount .overflowRolesPopoutArrow-2O66oH,
@@ -213,20 +214,23 @@
 .theme-light .css-ix84ef-menu,
 .theme-light .css-n1chp5-menu,
 .theme-light .css-n57xjs-menu,
+.theme-light .css-xgwd95-menu,
 .theme-light .diversitySelector-tmmMv0 .popout-2nUePc,
 .theme-light .diversitySelectorOptions-4YM-vX,
 .theme-light .diversitySelectorPopout-3FiGaM,
 .theme-light .emojiPicker-3m1S-j,
-.theme-light .emojiPicker-3PwZFl,
 .theme-light .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+.theme-light .emojiPicker-3PwZFl,
 .theme-light .emojiSection-3Fb9ix,
-.theme-light .floating-window.resizable,
 .theme-light .floating-window-titlebar,
+.theme-light .floating-window.resizable,
 .theme-light .guildPopout-3CgKqR,
 .theme-light .guildSection-1EoFKd,
 .theme-light .header-2mZ9Ov,
 .theme-light .incomingCallInner-2VmFiR,
 .theme-light .languageSelector-2LVJrh,
+.theme-light .menu-Sp6bN1,
+.theme-light .monaco-editor .find-widget,
 .theme-light .monaco-editor .monaco-editor-hover,
 .theme-light .noiseCancellationPopout-iRK2A0,
 .theme-light .oauth2Wrapper-mHbF5q,
@@ -234,7 +238,6 @@
 .theme-light .popoutContainer-1MXdqN,
 .theme-light .premiumPromo-fVlLu-,
 .theme-light .quickswitcher-3JagVE,
-.theme-light .menu-Sp6bN1,
 .theme-light .root-3JVdIJ,
 .theme-light .root-SR8cQa,
 .theme-light .spinner-3lb-NU,
@@ -254,26 +257,32 @@
 .theme-light .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
 	background: var(--Light, white);
 }
-:root div #ace_settingsmenu,
-:root div #ace_settingsmenu select,
 :root div #ace_settingsmenu input[type=text],
-body,
+:root div #ace_settingsmenu select,
 bd-body .bd-monokai .ace_editor,
 bd-body .bd-monokai .editor .ace_gutter,
 bd-body .editor-wrapper .bd-monokai .ace_marker-layer .ace_active-line,
-bd-body .floating-window-content,
 bd-body .floating-window #bd-editor-controls,
+bd-body .floating-window-content,
+body,
+body .bd-pagination button:active[disabled],
+body .bd-pagination button:hover[disabled],
+body .monaco-editor,
+body .monaco-editor .find-widget .monaco-sash,
+body .monaco-editor .inputarea.ime-input,
+body .monaco-editor .margin,
+body .monaco-editor .monaco-editor-hover .hover-row .actions,
+body .monaco-editor-background,
 #ace_settingsmenu_container .ace_optionsMenuEntry:hover,
 #app-mount #bd-customcss-detach-container,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
 #app-mount #bd-editor-controls,
+#app-mount #bd-pub-button,
 #app-mount #bda-qem button,
 #app-mount #dv-mount,
 #app-mount #MemberCount,
 #app-mount #permissions-modal-wrapper .perm-side,
 #app-mount #permissions-modal-wrapper .role-side,
-#app-mount #bd-pub-button,
-#app-mount div #ace_settingsmenu,
 #app-mount .ace-monokai,
 #app-mount .ace-monokai .ace_gutter,
 #app-mount .ace-monokai .ace_marker-layer .ace_active-line,
@@ -287,8 +296,6 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .bd-emote-header,
 #app-mount .bd-modal-wrapper .bd-modal-body,
 #app-mount .bd-modal-wrapper .header,
-#app-mount .bd-pagination button:hover[disabled],
-#app-mount .bd-pagination button:active[disabled],
 #app-mount .bd-placeholder-card,
 #app-mount .bd-search-wrapper,
 #app-mount .bd-select,
@@ -298,10 +305,11 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .body-3iLsc4,
 #app-mount .body-SKIE6r,
 #app-mount .bodyInner-245q0L,
+#app-mount .bodySection-jqkkIP,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker,
-#app-mount .calendarPicker-2yf6Ci .react-datepicker__header,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month,
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__header,
 #app-mount .card-3DjzTQ,
 #app-mount .card-3DjzTQ:hover,
 #app-mount .card-3EIh8J.interactive-IxbS32:hover,
@@ -321,7 +329,9 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .container-3gCOGc,
 #app-mount .container-3ISnnM,
 #app-mount .container-BetterVolume,
+#app-mount .container-S9SaVf,
 #app-mount .container-VSDcQc .sectionTag-pXyto9,
+#app-mount .content-35aVm0,
 #app-mount .contentRegion-3nDuYy #bd-customcss-attach-controls,
 #app-mount .copr-separator,
 #app-mount .copyInput-2rOSt7,
@@ -339,8 +349,8 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .footer-1JuRYY,
 #app-mount .footer-1kmXd4,
 #app-mount .footer-2gL1pp,
-#app-mount .footer-3mqk7D,
 #app-mount .footer-3J5oP4,
+#app-mount .footer-3mqk7D,
 #app-mount .gemIndicatorContainer-2jdECl,
 #app-mount .groupLabel-2t5iuZ:hover,
 #app-mount .header-1RC2Wb,
@@ -351,15 +361,16 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .headerDefault-1wrJcN,
 #app-mount .headerExpanded-CUEwZ5,
 #app-mount .headerNormal-T_seeN,
-#app-mount .imageLoading-bpSr0M,
 #app-mount .iconMask-3b8GzQ,
 #app-mount .iconWrapper-3LVgIo,
+#app-mount .imageLoading-bpSr0M,
 #app-mount .inset-3sAvek,
 #app-mount .inset-GQDQYw,
 #app-mount .invite-18yqGF,
+#app-mount .item-3V15ea,
 #app-mount .loading-17PYl_,
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not(:hover),
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not(:hover):not(:active),
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,
 #app-mount .lookFilled-1Gx00P.colorTransparent-1ewNp9,
@@ -370,15 +381,10 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .messageGroupWrapper-o-Zw7G,
 #app-mount .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
 #app-mount .messagesPopout-24nkyi,
-#app-mount .monaco-editor,
-#app-mount .monaco-editor-background,
-#app-mount .monaco-editor .inputarea.ime-input,
-#app-mount .monaco-editor .margin,
-#app-mount .monaco-editor .monaco-editor-hover .hover-row .actions,
 #app-mount .moreSubscribers-1cuWDE,
 #app-mount .news-2KwXHF,
-#app-mount .notice-2X5hT5,
 #app-mount .notDetected-33MY4s,
+#app-mount .notice-2X5hT5,
 #app-mount .option-1B5ZV8,
 #app-mount .or-3THJsp,
 #app-mount .overrideHighlight-YPcBxt,
@@ -391,24 +397,28 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .perksModal-fSYqOq,
 #app-mount .pill-2pQByF,
 #app-mount .placeholder-1kJjXI,
+#app-mount .playerOverflow-2Hf77M,
 #app-mount .players-1zg2l8,
 #app-mount .popoutContainer-3WC9HR:hover,
 #app-mount .previewContainer-12UlHl,
+#app-mount .price-NUANu6,
 #app-mount .quickMessage-1yeL4E,
 #app-mount .reactors-Blmlhw,
 #app-mount .recentlyPlayedContainer-2F3MqS,
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 #app-mount .richTag-1rBBz8,
+#app-mount .root-1bFE0x,
 #app-mount .root-1BQpZw,
+#app-mount .row-1bU71H,
 #app-mount .scroller-1-nKid,
 #app-mount .searchAnswer-3Dz2-q,
 #app-mount .searchBox-3Y2Vi7,
 #app-mount .searchFilter-2ESiM3,
+#app-mount .searchHeader-1l-wpR,
 #app-mount .searchResult-3pzFAB .hit-NLlWXA,
 #app-mount .searchResult-3pzFAB::after,
 #app-mount .searchResult-3pzFAB::before,
 #app-mount .searchResultsWrap-2DKFzt,
-#app-mount .searchHeader-1l-wpR,
 #app-mount .sidebar-1-SQro,
 #app-mount .slideBody-2nMrnU,
 #app-mount .table-moqjM0 .spacerHeader-3eoEE2,
@@ -420,9 +430,9 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .tierHeaderLocked-1s2JJz,
 #app-mount .tierHeaderUnlocked-2RhWqn,
 #app-mount .tierPill-1yRO48,
+#app-mount .tile-2OwFgW,
 #app-mount .tile-QA_yMc,
 #app-mount .tiles-2aXG_k,
-#app-mount .tile-2OwFgW,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 #app-mount .wrapper-29NfPK,
 #app-mount .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r,
@@ -431,7 +441,9 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .wrapper-35wsBm,
 #app-mount .wrapper-3UweLa,
 #app-mount .wrapperAudio-1jDe0Q,
+#app-mount div #ace_settingsmenu,
 #cf-wrapper #cf-error-details,
+.aboutMeSection-3bipSD,
 .accountList-33MS45,
 .actionButton-uPB8Fs,
 .activity-11LB_k,
@@ -443,11 +455,15 @@ bd-body .floating-window #bd-editor-controls,
 .app-2rEoOp,
 .applicationStore-1pNvnv,
 .appMount-3lHmkl,
+.arrow-3jRqK8,
 .attachment-2p5mHK,
 .audienceVoiceUserIconContainer-29oflP,
+.avatar-22FtUu,
 .avatar-2daVqv,
+.avatar-2PN2-j,
 .avatar-VxgULZ::before,
 .background-1QDuV2,
+.background-1vAsyP,
 .background-ujHpbY,
 .banner-WELp4M,
 .bannerImage-1jOskm::before,
@@ -457,12 +473,12 @@ bd-body .floating-window #bd-editor-controls,
 .body-3ND3kc,
 .button-11zvza,
 .button-1I8KM5,
+.button-1YfofB.buttonColor-7qQbGO,
 .button-1YfofB.buttonColor-7qQbGO.fauxDisabled-2ik0Vw,
 .button-1YfofB.buttonColor-7qQbGO:disabled,
 .button-1YfofB.buttonColor-7qQbGO:disabled:hover,
-.button-1YfofB.buttonColor-7qQbGO,
-.button-1ZiXG9:hover,
 .button-1ZiXG9.selected-LCBEAU,
+.button-1ZiXG9:hover,
 .button-3HqqDX,
 .button-F9qN4n,
 .buttonContainer-38-Et1,
@@ -474,8 +490,8 @@ bd-body .floating-window #bd-editor-controls,
 .card-3RzMcx,
 .card-3RzMcx:hover,
 .cardFolder-28dwxo,
-.cardPrimaryEditable-3KtE4g,
 .cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g,
 .cardWrapper-2Min21,
 .category-2haXBH,
 .category-2SZJwK,
@@ -502,7 +518,6 @@ bd-body .floating-window #bd-editor-controls,
 .colorable-1bkp8v.primary-3NQg8g,
 .connection-1fbD7X,
 .connectionHeader-2MDqhu,
-.container-_phMUq,
 .container-1EOCj2,
 .container-1r6BKw.themed-ANHk51,
 .container-2fRDfG,
@@ -510,7 +525,10 @@ bd-body .floating-window #bd-editor-controls,
 .container-2w0lh0,
 .container-2XeR5Z,
 .container-3w7J-x,
+.container-7Unqij,
+.container-_phMUq,
 .container-cMG81i,
+.container-lRFx4q,
 .container-oZq3fb,
 .container-PNkimc,
 .container-pTf0Ly,
@@ -521,16 +539,18 @@ bd-body .floating-window #bd-editor-controls,
 .contentRegion-3nDuYy,
 .contentRegionScroller-26nc1e,
 .css-12hk9yc-control,
+.css-14mfx1t-control,
 .css-15ejc46-control,
 .css-18cezq4-control,
 .css-1a8reka-control,
 .css-1adxh11-control,
 .css-1b86x2o-control,
 .css-1emou8a-control,
-.css-ljd0hx-control,
 .css-1o55ng5-control,
 .css-1ou54ee-control,
 .css-1qm8c5n-control,
+.css-1ttuezy-control,
+.css-1v8hnhk-control,
 .css-1wqqa50-container,
 .css-1yegjoj-control,
 .css-2yldzf-control,
@@ -538,6 +558,7 @@ bd-body .floating-window #bd-editor-controls,
 .css-9wh895-control,
 .css-gvi9bl-control,
 .css-hygzao-control,
+.css-ljd0hx-control,
 .css-o88y9m-control,
 .css-oc2jo8-control,
 .css-oce0qz-control,
@@ -577,7 +598,6 @@ bd-body .floating-window #bd-editor-controls,
 .featureCard-1RR4Tl,
 .featureIcon-3p1TC_,
 .fieldList-21DyL8,
-.friendsTable-133bsv .friendsTableBody-1ZhKif,
 .folder-1hbNCn,
 .folder-1hbNCn.hover-qTxTR_,
 .folder-21wGz3,
@@ -587,9 +607,9 @@ bd-body .floating-window #bd-editor-controls,
 .footer-3ZalXG,
 .formFieldWrapper-malor5,
 .formSection-1NFAGI,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
 .getStartedWrapper-2AGgRZ,
 .guildHeader-3nh5RK,
-.guildIcon-3h-1IH,
 .guildSeparator-33mFX6,
 .guildsError-g6NwOI,
 .guildSidebar-2OCzWB,
@@ -599,15 +619,19 @@ bd-body .floating-window #bd-editor-controls,
 .header-2Y0-A-,
 .header-39GIC8,
 .headerFill-adLl4x,
-.imagePlaceholderOverlay-ETNjpn,
-.imageWrapperBackground-E_M6Nu,
+.headerNormal-1l1Znk,
+.headerTop-2y3V6H,
 .icon-1CGepy,
 .icon-1Itzco,
 .icon-3_8HGa,
+.iconBackground-1clSpP,
 .iconContainer-2aaq6z,
 .iconMask-AFPO7u,
-.iconWrapper-lS1uig,
+.iconMicrophone-1A2Yqh,
 .iconWrapper-L3hQuc,
+.iconWrapper-lS1uig,
+.imagePlaceholderOverlay-ETNjpn,
+.imageWrapperBackground-E_M6Nu,
 .infoBar-U6oBFk,
 .input--jS-j2,
 .input-2A_zIr:focus,
@@ -632,17 +656,17 @@ bd-body .floating-window #bd-editor-controls,
 .members-1998pB>div,
 .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,
 .message-2qnXI6.selected-2P5D_Z,
+.messageContainer-gbhlwo,
 .messages-3amgkR,
 .messages-3G3erD,
-.messageContainer-gbhlwo,
 .miniPlayer-3Ms77e .videoControls-3glNbo,
 .modal-6GHvdM .tabBarContainer-1s1u-z,
 .modal-f02hVt,
 .moreUsers-7v8yWY,
-.mouse-mode.full-motion .localBot-GrCgVt:hover,
-.mouse-mode.full-motion .message-2qnXI6:hover:not(.ephemeral-1PsL1r):not(.mentioned-xhSam7),
 .mouse-mode .localBot-GrCgVt:hover,
 .mouse-mode .message-2qnXI6:hover:not(.ephemeral-1PsL1r):not(.mentioned-xhSam7),
+.mouse-mode.full-motion .localBot-GrCgVt:hover,
+.mouse-mode.full-motion .message-2qnXI6:hover:not(.ephemeral-1PsL1r):not(.mentioned-xhSam7),
 .mulitplePlaceholderUsername-pogq9I,
 .noIcon-1a_FrS,
 .note-3kmerW textarea:focus,
@@ -667,11 +691,13 @@ bd-body .floating-window #bd-editor-controls,
 .platform-win .splashBackground-1FRCko::before,
 .preview-2nSL_2,
 .previewContainer-1SS3uO,
+.privacyContainer-3qXMal,
 .privateChannels-1nO12o,
+.profileBackgroundPreview-3BVL0Q,
 .reaction-1ELvT8,
 .reaction-1hd86g,
-.replying-1x3H0T,
 .replyBadge-r1su3o,
+.replying-1x3H0T,
 .role-1P70N6,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i,
 .rolesWrapper-2yOx9S,
@@ -679,9 +705,11 @@ bd-body .floating-window #bd-editor-controls,
 .root-2sELX6,
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF,
 .rowContainer-2tYerQ,
+.scrollableContainer-2NUZem,
 .scroller-1Bvpku,
 .scroller-1IIF0A,
 .scroller-1JbKMe,
+.scroller-1JpcIc,
 .scroller-1SuHJo,
 .scroller-2TZvBN,
 .scroller-2XE8rp,
@@ -689,24 +717,25 @@ bd-body .floating-window #bd-editor-controls,
 .scroller-5bBood,
 .scroller-9moviB,
 .scroller-zPkAnE,
-.scrollableContainer-2NUZem,
 .searchBar-3dMhjb,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx,
 .searchHeader-2XoQg7,
-.searchResultMessage-30QnSN.hit-1CXhXT,
-.searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResult-2N9RV4.expanded-ovgtuV,
+.searchResult-2N9RV4::before,
 .searchResult-3pzFAB.expanded-v2Szsz,
 .searchResult-9tQ1uo,
 .searchResult-9tQ1uo.expanded-w_LCGl,
-.searchResult-2N9RV4::before,
-.searchResult-2N9RV4.expanded-ovgtuV,
+.searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultsWrap-3-pOjs,
 .secondary-dIudih,
+.section-2gLsgF,
 .select-1Hqz5i,
 .selected-2114Fj,
 .selected-3xBBKs,
 .selected-WP3kCM .header-2o-2hj,
 .selectorButton-EEUWed:not(.selectorButtonSelected-t5V9On),
+.selfSpeakerButton-2ZvK-g,
 .separator-2V2oIO,
 .settingCard-3w2mVL,
 .settingCard-3w2mVL.active-1ytUzX,
@@ -714,9 +743,12 @@ bd-body .floating-window #bd-editor-controls,
 .shape-2kfO2v,
 .sidebar-2K8pFh,
 .sidebarRegionScroller-3MXcoP,
+.smallCarousel-2e0IQc,
 .source-10b1ZU,
+.speakerCount-3KijLY,
 .stageIconBackground-135TMe,
 .stageIconBackground-5uF4K9,
+.stageSection-3mAD8V,
 .standardSidebarView-3F1I7i,
 .stickerCategoryShopWrapper-3EnJdQ,
 .stickerCategoryShopWrapperSelected-5VcHEr .stickerCategoryShop-d5zC3B,
@@ -766,13 +798,14 @@ bd-body .floating-window #bd-editor-controls,
 .ytp-error {
 	background: transparent;
 }
-:root div #ace_settingsmenu select,
-:root div #ace_settingsmenu input[type=text],
 :root .bd-addon-list .bd-addon-header,
 :root .bd-addon-list .bd-footer,
 :root .preview-7Gh5tS,
-bd-body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
-bd-body .monaco-editor .monaco-editor-hover,
+:root div #ace_settingsmenu input[type=text],
+:root div #ace_settingsmenu select,
+body .monaco-editor .monaco-editor-hover,
+body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
+body .monaco-editor .suggest-widget>.tree,
 #ace_settingsmenu_container .ace_optionsMenuEntry button,
 #ace_settingsmenu_container .ace_optionsMenuEntry button:hover,
 #app-mount #bd-customcss-attach-controls,
@@ -784,8 +817,6 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .action-1lSjCi,
 #app-mount .attachment-33OFj0,
 #app-mount .auditLog-3jNbM6,
-#app-mount .bda-slist .bda-footer,
-#app-mount .bda-slist .bda-header,
 #app-mount .bd-addon-error,
 #app-mount .bd-addon-list .bd-addon-card,
 #app-mount .bd-codeblock-language,
@@ -796,14 +827,17 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .bd-modal-wrapper .table-header,
 #app-mount .bd-pagination button,
 #app-mount .bd-select,
-#app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bd-select .bd-select-options,
+#app-mount .bd-select-transparent .bd-select-options,
 #app-mount .bd-server-description-container,
 #app-mount .bd-server-icon,
+#app-mount .bda-slist .bda-footer,
+#app-mount .bda-slist .bda-header,
 #app-mount .bda-slist li,
 #app-mount .BDFDB-select .css-15ejc46-control,
 #app-mount .BDFDB-select .css-ua3v5p-menu,
 #app-mount .bodyCell-dQam9V,
+#app-mount .bodySection-jqkkIP,
 #app-mount .border-2AhmKo,
 #app-mount .bottomDivider-1K9Gao,
 #app-mount .BSP-pagination-button,
@@ -816,6 +850,7 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .codeRedemptionRedirect-1wVR4b,
 #app-mount .colorPickerCustom-2CWBn2,
 #app-mount .container-1nZlH6,
+#app-mount .container-S9SaVf,
 #app-mount .copyInputDefault-21sXtF,
 #app-mount .datePicker--XZbmJ .datePickerHint-3Q1Udw,
 #app-mount .divider-3wNib3,
@@ -824,17 +859,14 @@ bd-body .monaco-editor .monaco-editor-hover,
 #app-mount .footer-1fjuF6,
 #app-mount .header-g67q9_,
 #app-mount .headerCellSorted-FMjMWK,
-#app-mount .item-3T2z1R,
 #app-mount .invite-18yqGF,
+#app-mount .item-3T2z1R,
 #app-mount .keybindShortcut-1BD6Z1 span,
 #app-mount .lookFilled-1h1y05.select-1Pkeg4,
 #app-mount .lookFilled-1h1y05.select-1Pkeg4:focus,
 #app-mount .messageGroupWrapper-o-Zw7G,
 #app-mount .messagesPopoutWrap-1MQ1bW,
 #app-mount .modalSubtitle-1Pj5nv,
-#app-mount .monaco-editor .monaco-editor-hover,
-#app-mount .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
-#app-mount .monaco-editor .suggest-widget>.tree,
 #app-mount .or-3THJsp,
 #app-mount .overridePlaceholder-14_rPI,
 #app-mount .pageButtonNext-V2kUq0,
@@ -887,13 +919,14 @@ bd-body .monaco-editor .monaco-editor-hover,
 .container-1giJp5,
 .container-3RCQyg,
 .container-3XJ8ns,
+.container-3yC5sj,
+.container-6sXIoE,
 .container-UC8Ug1,
 .css-15ejc46-control,
 .css-181m2lf-menu,
 .css-18cezq4-control,
 .css-1a8reka-control,
 .css-1ekm3mr-menu,
-.css-ljd0hx-control,
 .css-1ou54ee-control,
 .css-1px1g2v-menu,
 .css-1qm8c5n-control,
@@ -909,6 +942,7 @@ bd-body .monaco-editor .monaco-editor-hover,
 .css-gvi9bl-control,
 .css-hcn6i1-menu,
 .css-hygzao-control,
+.css-ljd0hx-control,
 .css-n1chp5-menu,
 .css-n57xjs-menu,
 .css-o88y9m-control,
@@ -937,6 +971,7 @@ bd-body .monaco-editor .monaco-editor-hover,
 .hasDivider-20M1le,
 .header-1Gj-ua,
 .header-39GIC8,
+.headerTop-2y3V6H,
 .incomingCallInner-2VmFiR,
 .input-cIJ7To,
 .itemGroup-1tL0uz,
@@ -960,18 +995,21 @@ bd-body .monaco-editor .monaco-editor-hover,
 .roleDot-ZwSovK,
 .rulesTextAreaInput-2aGfKB,
 .scopes-3GJ3xw,
+.scroller-2ZPeAD,
 .searchBar-1FaHXw,
 .searchResult-2N9RV4.expanded-ovgtuV,
 .searchResult-3pzFAB.expanded-v2Szsz,
 .searchResult-9tQ1uo.expanded-w_LCGl,
-.searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResultMessage-30QnSN.hit-1CXhXT,
 .sectionAccountCredit-1uNhnJ,
 .selectorGroup-dJ6TXV,
 .sidebar-dLM-kh,
+.skuNormal-3h1es-,
 .subscriptionDetails-1dUmjl,
 .tab-2Ixsn0.selected-16te-P,
 .tab-2Ixsn0:hover,
+.tabBar-11f3uI,
 .tabBarContainer-1s1u-z,
 .tableHeader-2Ctu7Y,
 .termsRow-2dS5nm,
@@ -985,13 +1023,17 @@ bd-body .monaco-editor .monaco-editor-hover,
 .wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r,
 .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV,
 .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r,
-.wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
+.wrapper-29NfPK.normal-2GSW0u .side-kO0bwV,
+.wrapper-3D2qGf {
 	border: none;
 }
 :root div #ace_settingsmenu,
-:root .preview-7Gh5tS,
 bd-body .floating-window,
 bd-body .floating-window #bd-editor-controls,
+body .monaco-editor .find-widget,
+body .monaco-editor .minimap-shadow-visible,
+body .monaco-editor .scroll-decoration,
+body .preview-7Gh5tS,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
 #app-mount #bd-editor-controls,
 #app-mount #bda-qem button,
@@ -1005,15 +1047,14 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .bd-modal-wrapper .bd-modal-inner,
 #app-mount .bd-modal-wrapper .header,
 #app-mount .bd-select .bd-select-options,
-#app-mount .bd-server-card:hover,
 #app-mount .bd-server-card:focus,
+#app-mount .bd-server-card:hover,
 #app-mount .button-2CgfFz,
 #app-mount .card-3_CqkU,
 #app-mount .card-3DjzTQ,
 #app-mount .card-3DjzTQ:hover,
 #app-mount .card-3EIh8J.interactive-IxbS32:hover,
-#app-mount .separator-2-RRj_,
-#app-mount .separator-3gy7tq,
+#app-mount .container-S9SaVf,
 #app-mount .contentRegion-3nDuYy #bd-customcss-attach-controls,
 #app-mount .elevationBorderHigh-2WYJ09,
 #app-mount .elevationBorderLow-2qgTRQ,
@@ -1028,8 +1069,8 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .footerSeparator-M9dQY1,
 #app-mount .game-1ipmAa,
 #app-mount .guildPopout-3CgKqR,
-#app-mount .header-ykumBX,
 #app-mount .header-1TOWci,
+#app-mount .header-ykumBX,
 #app-mount .installationPath-24giJj,
 #app-mount .installationPath-3cStrB,
 #app-mount .inviteSettingsInviteRow-3p2O-N,
@@ -1056,23 +1097,25 @@ bd-body .floating-window #bd-editor-controls,
 #app-mount .searchHeader-1l-wpR,
 #app-mount .searchResult-3pzFAB .hit-NLlWXA,
 #app-mount .searchResultsContainer-1ma_dc,
+#app-mount .separator-2-RRj_,
+#app-mount .separator-3gy7tq,
 #app-mount .spoilerContainer-331r0R.hidden-HHr2R9,
 #app-mount .streamPreview-2-WUWT,
 #app-mount .subscribersPopout-2CP6Ln,
+#app-mount .tile-2OwFgW,
 #app-mount .tile-QA_yMc,
 #app-mount .tiles-2aXG_k,
-#app-mount .tile-2OwFgW,
 #app-mount .toast-g4bfgI,
 #app-mount .tooltip-2QfLtc,
-#app-mount .userPopout-3XzG_A,
 #app-mount .uploadModal-2ifh8j,
+#app-mount .userPopout-3XzG_A,
 #app-mount .video-1FfuMD.noChat-3nt48u .videoBackgroundTransition-3wpOSl,
 #app-mount .wrapper-9ppXpy,
 .animatedContainer-1NSq4T,
 .animatedContainer-1pJv5C,
+.authBox-hW6HRx,
 .autocomplete-3l_oCd,
 .autocomplete-Z9HwQh,
-.authBox-hW6HRx,
 .button-F9qN4n.focused-3ZzkKr,
 .channelNotice-3DDmsB,
 .channelNotice-3hkOiI,
@@ -1081,7 +1124,6 @@ bd-body .floating-window #bd-editor-controls,
 .container-2x5lvQ,
 .container-3cGP6G,
 .container-3JTnYm,
-.css-dwar6a-menu,
 .container-enaOkj,
 .container-ZRw2kD,
 .containerDragAfter-1F4fgZ::after,
@@ -1091,15 +1133,17 @@ bd-body .floating-window #bd-editor-controls,
 .css-181m2lf-menu,
 .css-1ekm3mr-menu,
 .css-1px1g2v-menu,
-.css-1s13zip-menu,
 .css-1rckt42-menu,
+.css-1s13zip-menu,
 .css-1wqqa50-container,
 .css-1x99fvh-menu,
 .css-3vaxre-menu,
+.css-dwar6a-menu,
 .css-hcn6i1-menu,
 .css-ix84ef-menu,
 .css-n1chp5-menu,
 .css-n57xjs-menu,
+.css-xgwd95-menu,
 .emojiPicker-3m1S-j .header-1nkwgG,
 .emojiPicker-3PwZFl,
 .exampleModal-2oh58d,
@@ -1110,6 +1154,7 @@ bd-body .floating-window #bd-editor-controls,
 .header-2o-2hj,
 .header-2V-4Sw,
 .header-8ilj5e,
+.headerBarContainer-31FKNA,
 .headerContainer-3Dbfbk,
 .incomingCallInner-2VmFiR,
 .input-2A_zIr:focus,
@@ -1117,9 +1162,9 @@ bd-body .floating-window #bd-editor-controls,
 .languageSelector-2LVJrh,
 .menu-3sdvDG,
 .menu-Sp6bN1,
+.modal-6GHvdM .tabBarContainer-1s1u-z,
 .newMessagesBar-265mhP,
 .newMessagesBar-mujexs,
-.modal-6GHvdM .tabBarContainer-1s1u-z,
 .noiseCancellationPopout-iRK2A0,
 .notice-2FJMB4,
 .notificationsSound-27jFSh,
@@ -1134,8 +1179,8 @@ bd-body .floating-window #bd-editor-controls,
 .searchBar-6Kv8R2,
 .searchHeader-1EzJGH,
 .searchHeader-2XoQg7,
-.searchResultMessage-30QnSN.hit-1CXhXT,
 .searchResultMessage-1fxgXh.hit-1fVM9e,
+.searchResultMessage-30QnSN.hit-1CXhXT,
 .shadow-1g4H9H,
 .spinner-3lb-NU,
 .stickyHeaderElevated-I6QUOA,
@@ -1143,6 +1188,7 @@ bd-body .floating-window #bd-editor-controls,
 .styleFlexible-wGDiIL,
 .themedPopout-1TrfdI,
 .titleElevated-c_kdi7,
+.tooltip-1_vJJI,
 .tooltip-3oByQd,
 .unavailableIcon-e1M1SS,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
@@ -1153,9 +1199,9 @@ bd-body .floating-window #bd-editor-controls,
 }
 body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount #bd-settings-sidebar .ui-tab-bar-separator,
+#app-mount .bd-guild-separator,
 #app-mount .bd-setting-divider,
 #app-mount .bd-settings-group.collapsible .bd-settings-title::before,
-#app-mount .bd-guild-separator,
 #app-mount .channelSeparator-1X1FuH::before,
 #app-mount .checkboxContainer-2vV9zd::before,
 #app-mount .container-2x5lvQ hr,
@@ -1184,11 +1230,12 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .checkboxMute-14hTGS::before,
 .children-19S4PO::after,
 .container-19hC9u::before,
-.container-3T1zWi::before,
 .container-3ISnnM::after,
+.container-3T1zWi::before,
 .container-xm7Ad0::before,
 .content-yTz4x3::before,
 .divider-1luoRp,
+.divider-21LyPb,
 .divider-24xeUg,
 .divider-25_-sM,
 .divider-2FB3wK,
@@ -1203,8 +1250,8 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .dividerEnabled-2TTlcf,
 .ephemeral-1PsL1r::before,
 .fixed-3zCC84::after,
-.friendsTable-133bsv::before,
 .form-2fGMdU::before,
+.friendsTable-133bsv::before,
 .gradientOverlayLeft-3w159C,
 .gradientOverlayRight-3vMuS8,
 .guildSeparator-3s64Iy,
@@ -1212,10 +1259,10 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .isMentionedCozy-3isp7y::after,
 .localBot-GrCgVt::before,
 .mentioned-xhSam7::before,
-.planSelectDivider-3KU5-l,
 .pill-1m5BUr,
 .pill-2uzAFe,
 .pill-3YxEhL,
+.planSelectDivider-3KU5-l,
 .popoutLoadingForeground-2mZT61,
 .progress-YsDrV-::after,
 .replying-1x3H0T::before,
@@ -1226,9 +1273,9 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .searchResult-9tQ1uo::before,
 .selectPlanDivider-1mx_6q,
 .separator-1COOpU,
-.separator-2xbLUz,
 .separator-2I32lJ,
 .separator-2IZ9ro,
+.separator-2xbLUz,
 .separator-2zcjq8,
 .separator-3wQM3d,
 .separator-42rNt0,
@@ -1256,13 +1303,17 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .emptyChannelIcon-3IXV5M,
 .emptyChannelIcon-cc932w,
 .footer-1lnhms,
-.guildIcon-38Zs0M,
 .guildIcon-3Co6k-,
+.guildIcon-38Zs0M,
 .guildIcon-3h-1IH,
 .guildsError-b7zR5H,
 .item-26Dhrx:hover:not([aria-checked=true]),
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
 	background-color: transparent;
+}
+body #app-mount .bd-pagination button:hover[disabled],
+body #app-mount .bd-pagination button:active[disabled] {
+	background: none;
 }
 .disableColor-MwOAZf,
 .iconBackgroundTierNone-3MPhMJ,
@@ -1286,7 +1337,7 @@ body,
 .fieldList-21DyL8 > div > div > div,
 .wrapper-1Rf91z,
 .wrapper-3NnKdC {
-	opacity: var(--Blank, 0);
+	opacity: var(--Blank, 1);
 	transition: 0.4s ease-in-out;
 }
 body:hover,
@@ -1300,38 +1351,37 @@ body:hover,
 	opacity: 1;
 }
 /* Scrollbars */
+.theme-dark body .thin-1ybCId::-webkit-scrollbar-thumb,
+body .ace_scrollbar-v::-webkit-scrollbar-thumb,
 #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
 #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-thumb,
-#app-mount .ace_scrollbar-v::-webkit-scrollbar-thumb,
 #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar-thumb,
+#app-mount .member-perms::-webkit-scrollbar-thumb,
 #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 #app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .auto-3V-QBl::-webkit-scrollbar-thumb,
 .auto-Ge5KZx::-webkit-scrollbar-thumb,
 .css-1xl5y6s::-webkit-scrollbar-thumb,
 .css-1ye7vu0::-webkit-scrollbar-thumb,
-#app-mount .member-perms::-webkit-scrollbar-thumb,
 .none-2Eo-qx::-webkit-scrollbar-thumb,
 .scroller-1Bvpku::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
-.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-thumb,
-.thin-1ybCId::-webkit-scrollbar-thumb,
 .webkit-HjD9Er::-webkit-scrollbar-thumb {
 	background: linear-gradient(0deg, transparent, rgb(var(--Just_Black_Accent1, 91, 187, 255)), transparent);
 	background-repeat: repeat-x;
 }
+.theme-light body .ace_scrollbar-v::-webkit-scrollbar-thumb,
 .theme-light #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb,
 .theme-light #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-thumb,
-.theme-light #app-mount .ace_scrollbar-v::-webkit-scrollbar-thumb,
 .theme-light #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar-thumb,
+.theme-light #app-mount .member-perms::-webkit-scrollbar-thumb,
 .theme-light #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-light #app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-light .auto-3V-QBl::-webkit-scrollbar-thumb,
 .theme-light .auto-Ge5KZx::-webkit-scrollbar-thumb,
 .theme-light .css-1xl5y6s::-webkit-scrollbar-thumb,
 .theme-light .css-1ye7vu0::-webkit-scrollbar-thumb,
-.theme-light .member-perms::-webkit-scrollbar-thumb,
 .theme-light .none-2Eo-qx::-webkit-scrollbar-thumb,
 .theme-light .scroller-1Bvpku::-webkit-scrollbar-thumb,
 .theme-light .scroller-2FKFPG::-webkit-scrollbar-thumb,
@@ -1340,9 +1390,10 @@ body:hover,
 .theme-light .webkit-HjD9Er::-webkit-scrollbar-thumb {
 	background: linear-gradient(0deg, transparent, rgb(var(--Just_White_Accent1, 164, 68, 0)), transparent);
 }
+.theme-dark body .thin-1ybCId::-webkit-scrollbar-track,
+body .ace_scrollbar-v::-webkit-scrollbar-track,
 #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-track,
 #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-track,
-#app-mount .ace_scrollbar-v::-webkit-scrollbar-track,
 #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar-track,
 #app-mount .member-perms::-webkit-scrollbar-track,
 #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
@@ -1358,13 +1409,12 @@ body:hover,
 .scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
-.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-track,
-.thin-1ybCId::-webkit-scrollbar-track {
+.webkit-HjD9Er::-webkit-scrollbar-track {
 	background: linear-gradient(0deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 0%, transparent 5%, transparent 95%, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 100%);
 }
+.theme-light body .ace_scrollbar-v::-webkit-scrollbar-track,
 .theme-light #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-track,
 .theme-light #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-track,
-.theme-light #app-mount .ace_scrollbar-v::-webkit-scrollbar-track,
 .theme-light #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar-track,
 .theme-light #app-mount .member-perms::-webkit-scrollbar-track,
 .theme-light #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
@@ -1378,9 +1428,11 @@ body:hover,
 .theme-light .none-2Eo-qx::-webkit-scrollbar-track,
 .theme-light .scroller-1Bvpku::-webkit-scrollbar-track,
 .theme-light .scroller-2FKFPG::-webkit-scrollbar-track,
+.theme-light .scroller-zPkAnE::-webkit-scrollbar-track,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .theme-light .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
-.theme-light .thin-1ybCId::-webkit-scrollbar-track {
+.theme-light .thin-1ybCId::-webkit-scrollbar-track,
+.theme-light .webkit-HjD9Er::-webkit-scrollbar-track {
 	background: linear-gradient(0deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) 0%, transparent 5%, transparent 95%, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) 100%);
 }
 .scrolling-1Cdwk-::-webkit-scrollbar-thumb,
@@ -1393,22 +1445,22 @@ body:hover,
 .theme-light #app-mount .member-perms::-webkit-scrollbar-corner {
 	background-color: rgb(var(--Just_White_Accent1, 164, 68, 0), 0.4);
 }
-#app-mount .ace_scrollbar-h::-webkit-scrollbar-thumb,
+body .ace_scrollbar-h::-webkit-scrollbar-thumb,
 #app-mount .member-perms::-webkit-scrollbar-thumb:horizontal,
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:horizontal {
+.theme-dark body .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:horizontal {
 	background: linear-gradient(90deg, transparent, rgb(var(--Just_Black_Accent1, 91, 187, 255)), transparent);
 }
-.theme-light #app-mount .ace_scrollbar-h::-webkit-scrollbar-thumb,
+.theme-light body .ace_scrollbar-h::-webkit-scrollbar-thumb,
 .theme-light #app-mount .member-perms::-webkit-scrollbar-thumb:horizontal,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:horizontal {
 	background: linear-gradient(90deg, transparent, rgb(var(--Just_White_Accent1, 164, 68, 0)), transparent);
 }
-#app-mount .ace_scrollbar-h::-webkit-scrollbar-track,
+body .ace_scrollbar-h::-webkit-scrollbar-track,
 #app-mount .member-perms::-webkit-scrollbar-track:horizontal,
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:horizontal {
+.theme-dark body .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:horizontal {
 	background: linear-gradient(90deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 0%, transparent 5%, transparent 95%, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 100%);
 }
-.theme-light #app-mount .ace_scrollbar-h::-webkit-scrollbar-track,
+.theme-light body .ace_scrollbar-h::-webkit-scrollbar-track,
 .theme-light #app-mount .member-perms::-webkit-scrollbar-track:horizontal,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:horizontal {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) 0%, transparent 5%, transparent 95%, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) 100%);
@@ -1451,55 +1503,53 @@ body:hover,
 .thin-1ybCId::-webkit-scrollbar-track {
 	visibility: visible;
 }
+body .ace_scrollbar-h::-webkit-scrollbar-thumb:active,
+body .ace_scrollbar-v::-webkit-scrollbar-thumb:active,
+body #app-mount .thin-1ybCId::-webkit-scrollbar-thumb:active,
 #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-thumb:active,
 #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-thumb:active,
-#app-mount .ace_scrollbar-h::-webkit-scrollbar-thumb:active,
-#app-mount .ace_scrollbar-v::-webkit-scrollbar-thumb:active,
 #app-mount .bd-addon-list .bd-addon-card.settings-open::-webkit-scrollbar-thumb:active,
+#app-mount .member-perms::-webkit-scrollbar-thumb:active,
 #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
 #app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
 .auto-3V-QBl::-webkit-scrollbar-thumb:active,
 .auto-Ge5KZx::-webkit-scrollbar-thumb:active,
 .css-1xl5y6s::-webkit-scrollbar-thumb:active,
 .css-1ye7vu0::-webkit-scrollbar-thumb:active,
-.member-perms::-webkit-scrollbar-thumb:active,
 .none-2Eo-qx::-webkit-scrollbar-thumb:active,
 .scroller-1Bvpku::-webkit-scrollbar-thumb:active,
 .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:active,
-.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-thumb:active,
-.thin-1ybCId::-webkit-scrollbar-thumb:active,
 .webkit-HjD9Er::-webkit-scrollbar-thumb:active {
 	background-color: var(--Active, rgb(51, 153, 51));
 }
-#app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-track:disabled,
-#app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-track:disabled,
-#app-mount .member-perms::-webkit-scrollbar-track:disabled,
-#app-mount .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track:disabled,
-#app-mount .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track:disabled,
-#app-mount .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track:disabled,
-#app-mount .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track:disabled,
-.auto-3V-QBl::-webkit-scrollbar-track:disabled,
-.auto-Ge5KZx::-webkit-scrollbar-track:disabled,
-.css-1xl5y6s::-webkit-scrollbar-track:disabled,
-.css-1ye7vu0::-webkit-scrollbar-track:disabled,
-.none-2Eo-qx::-webkit-scrollbar-track:disabled,
-.scroller-1Bvpku::-webkit-scrollbar-track:disabled,
-.scroller-2FKFPG::-webkit-scrollbar-track:disabled,
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:disabled,
-.scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
-.theme-dark .theme-light .thin-1ybCId::-webkit-scrollbar-track:disabled,
-.thin-1ybCId::-webkit-scrollbar-track:disabled {
-	background: transparent;
+body #app-mount #permissions-modal-wrapper .perm-scroller::-webkit-scrollbar-track:disabled,
+body #app-mount #permissions-modal-wrapper .role-scroller::-webkit-scrollbar-track:disabled,
+body #app-mount .member-perms::-webkit-scrollbar-track:disabled,
+body #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track:disabled,
+body #app-mount .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track:disabled,
+body #app-mount .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track:disabled,
+body #app-mount .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track:disabled,
+body .auto-3V-QBl::-webkit-scrollbar-track:disabled,
+body .auto-Ge5KZx::-webkit-scrollbar-track:disabled,
+body .css-1xl5y6s::-webkit-scrollbar-track:disabled,
+body .css-1ye7vu0::-webkit-scrollbar-track:disabled,
+body .none-2Eo-qx::-webkit-scrollbar-track:disabled,
+body .scroller-1Bvpku::-webkit-scrollbar-track:disabled,
+body .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
+body .scroller-zPkAnE::-webkit-scrollbar-track:disabled,
+body .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:disabled,
+body .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
+body .thin-1ybCId::-webkit-scrollbar-track:disabled,
+body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
+    background: transparent;
 }
+#app-mount .member-perms::-webkit-scrollbar-thumb,
 .auto-3V-QBl::-webkit-scrollbar-thumb,
 .auto-3V-QBl::-webkit-scrollbar-track,
-#app-mount .member-perms::-webkit-scrollbar-thumb {
-	border: none;
-}
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-track {
-	border-width: 0;
+	border: none;
 }
 .scroller-2LSbBU::-webkit-scrollbar-track {
 	margin: 0;
@@ -1528,7 +1578,7 @@ body:hover,
 .winButtonMinMax-PBQ2gm:hover {
 	background-color: #4747F0;
 }
-/* Help Button */
+/* Help button */
 .toolbar-1t6TWx a {
 	display: none;
 }
@@ -1541,20 +1591,20 @@ body:hover,
 /* See Server as any Role Banner */
 .notice-1tZwqv,
 .noticeContents-F1kZZo {
-	width: calc(100% - 100px);
+    width: calc(100% - 100px);
 }
 /* Chat Notices */
 .button-2DhvE9 {
-	top: 12px;
+    top: 12px;
 }
 .notice-3bPHh- {
-	margin-right: 84px;
-	height: 48px;
-	line-height: 48px;
-	box-shadow: none;
+    margin-right: 84px;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: none;
 }
 .updateNotice-2DjjHs {
-	padding: 6px 0;
+    padding: 6px 0;
 }
 #app-mount #pluginNotice,
 .notice-2FJMB4 {
@@ -1592,15 +1642,12 @@ body:hover,
 .expandedFolderBackground-2sPsd- {
 	left: 8px;
 }
-/* Guild pill shows only when unread */
+/* Guild pill */
 .item-2hkk8m {
 	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
 }
 .theme-light .item-2hkk8m {
 	background: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7);
-}
-.wrapper-21YSNc .listItem-GuPuDH .item-2hkk8m {
-	display: block;
 }
 .expandedGuilds-1JMD4M,
 .guildIcon-GuAC7C,
@@ -1611,14 +1658,31 @@ body:hover,
 	contain: none;
 	pointer-events: none;
 }
+.theme-dark .bd-animatable {
+	filter: drop-shadow(0 0 5px var(--Dark, black));
+}
+.theme-light .bd-animatable {
+	filter: drop-shadow(0 0 5px var(--Light, white));
+}
+/* Selected Guild */
+.bd-selected {
+    filter: drop-shadow(0 0 5px var(--Blue, blue));
+}
+.theme-light .bd-selected {
+    filter: drop-shadow(0 0 5px var(--Orange, orangered));
+}
+.listItem-2P_4kh:active,
 .listItem-GuPuDH:active {
 	filter: drop-shadow(0 0 5px var(--Active, rgb(51, 153, 51)));
 }
+.bd-audio {
+	filter: drop-shadow(0 0 5px var(--Fuchsia, fuchsia));
+}
 .guilds-1SWlCJ [style*="height: 56px;"] {
-	height: 48px !important;
+    height: 48px !important;
 }
 [style*="height: 56px;"] + [style*="height: 56px;"] {
-	margin-top: 8px;
+    margin-top: 8px;
 }
 /* Unread Channel Name */
 #app-mount .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg,
@@ -1684,94 +1748,95 @@ body:hover,
 	background-color: rgb(var(--Just_White_Accent2, 214, 118, 39));
 	color: var(--Dark, black);
 }
-[lang="da"] .unreadPill-2HyYtt::before {
+:lang(da) .unreadPill-2HyYtt::before {
 	content: "nye beskeder";
 }
-[lang="de"] .unreadPill-2HyYtt::before {
+:lang(de) .unreadPill-2HyYtt::before {
 	content: "neue nachrichten";
 }
-[lang="en-GB"] .unreadPill-2HyYtt::before,
-[lang="en-US"] .unreadPill-2HyYtt::before {
+:lang(en-GB) .unreadPill-2HyYtt::before,
+:lang(en-US) .unreadPill-2HyYtt::before {
 	content: "new messages";
 }
-[lang="es-ES"] .unreadPill-2HyYtt::before {
+:lang(es-ES) .unreadPill-2HyYtt::before {
 	content: "nuevos mensajes";
 }
-[lang="fr"] .unreadPill-2HyYtt::before {
+:lang(fr) .unreadPill-2HyYtt::before {
 	content: "nouveaux messages";
 }
-[lang="hr"] .unreadPill-2HyYtt::before {
+:lang(hr) .unreadPill-2HyYtt::before {
 	content: "nove poruke";
 }
-[lang="it"] .unreadPill-2HyYtt::before {
+:lang(it) .unreadPill-2HyYtt::before {
 	content: "nuovo messaggio";
 }
-[lang="lt"] .unreadPill-2HyYtt::before {
+:lang(lt) .unreadPill-2HyYtt::before {
 	content: "naujos žinutės";
 }
-[lang="hi"] .unreadPill-2HyYtt::before {
-	content: "नए संदेश";
-}
-[lang="hu"] .unreadPill-2HyYtt::before {
+:lang(hu) .unreadPill-2HyYtt::before {
 	content: "új üzenetek";
 }
-[lang="nl"] .unreadPill-2HyYtt::before {
+:lang(nl) .unreadPill-2HyYtt::before {
 	content: "nieuwe berichten";
 }
-[lang="no"] .unreadPill-2HyYtt::before {
+:lang(no) .unreadPill-2HyYtt::before {
 	content: "nye meldinger";
 }
-[lang="pl"] .unreadPill-2HyYtt::before {
+:lang(pl) .unreadPill-2HyYtt::before {
 	content: "nowe wiadomości";
 }
-[lang="pt-BR"] .unreadPill-2HyYtt::before {
+:lang(pt-BR) .unreadPill-2HyYtt::before {
 	content: "novas mensagens";
 }
-[lang="ro"] .unreadPill-2HyYtt::before {
+:lang(ro) .unreadPill-2HyYtt::before {
 	content: "mesaje noi";
 }
-[lang="fi"] .unreadPill-2HyYtt::before {
+:lang(fi) .unreadPill-2HyYtt::before {
 	content: "uudet viestit";
 }
-[lang="sv-SE"] .unreadPill-2HyYtt::before {
+:lang(sv-SE) .unreadPill-2HyYtt::before {
 	content: "nya meddelanden";
 }
-[lang="vi"] .unreadPill-2HyYtt::before {
+:lang(vi) .unreadPill-2HyYtt::before {
 	content: "các tin nhắn mới";
 }
-[lang="tr"] .unreadPill-2HyYtt::before {
+:lang(tr) .unreadPill-2HyYtt::before {
 	content: "yeni mesajlar";
 }
-[lang="cs"] .unreadPill-2HyYtt::before {
+:lang(cs) .unreadPill-2HyYtt::before {
 	content: "nové zprávy";
 }
-[lang="el"] .unreadPill-2HyYtt::before {
+:lang(el) .unreadPill-2HyYtt::before {
 	content: "νέα μηνύματα";
 }
-[lang="bg"] .unreadPill-2HyYtt::before {
+:lang(bg) .unreadPill-2HyYtt::before {
 	content: "нови съобщения";
 }
-[lang="ru"] .unreadPill-2HyYtt::before {
+:lang(ru) .unreadPill-2HyYtt::before {
 	content: "но́вые сообще́ния";
 }
-[lang="uk"] .unreadPill-2HyYtt::before {
+:lang(uk) .unreadPill-2HyYtt::before {
 	content: "нові повідомлення";
 }
-[lang="th"] .unreadPill-2HyYtt::before {
+:lang(hi) .unreadPill-2HyYtt::before {
+	content: "नए संदेश";
+}
+:lang(th) .unreadPill-2HyYtt::before {
 	content: "ข้อความใหม่";
 }
-[lang="zh-CN"] .unreadPill-2HyYtt::before {
+:lang(zh-CN) .unreadPill-2HyYtt::before {
 	content: "新讯息";
 }
-[lang="ja"] .unreadPill-2HyYtt::before {
+:lang(ja) .unreadPill-2HyYtt::before {
 	content: "新しいメッセージ";
 }
-[lang="zh-TW"] .unreadPill-2HyYtt::before {
+:lang(zh-TW) .unreadPill-2HyYtt::before {
 	content: "新訊息";
 }
-[lang="ko"] .unreadPill-2HyYtt::before {
+:lang(ko) .unreadPill-2HyYtt::before {
 	content: "새로운 메시지";
 }
+
 /* Textbar mentioning */
 .selector-2IcQBU {
 	padding: 0;
@@ -1782,11 +1847,11 @@ body:hover,
 }
 /* Chat Form */
 .form-2fGMdU {
-	margin: 0;
+    margin: 0;
 }
 /* Chat Keyboard Accessibility */
 .keyboard-mode.theme-light .ring-13rgEW {
-	--__adaptive-focus-color: var(--Orange, orangered) !important;
+    --__adaptive-focus-color: var(--Orange, orangered) !important;
 }
 /* Replied Message */
 .replying-1x3H0T {
@@ -1821,10 +1886,6 @@ body:hover,
 	opacity: 1;
 	animation: unread 3s ease-out infinite;
 }
-/* Channel Scroller */
-.wrapper-PY0fhH.muted-2JBAyG:hover .icon-2yIBmh {
-	color: var(--interactive-muted);
-}
 /* Unread Mention Button */
 .badge-2qGa_k::after {
 	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
@@ -1833,24 +1894,28 @@ body:hover,
 .theme-light .badge-2qGa_k::after {
 	background: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7);
 }
+/* Channel Scroller */
+.wrapper-PY0fhH.muted-2JBAyG:hover .icon-2yIBmh {
+	color: var(--interactive-muted);
+}
 /* Hide Chat Avatar Error */
 img.avatar-1BDn8e::before {
-	content: "";
-	width: 100%;
-	height: 100%;
-	display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 /* Guild Roles Tab */
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
 /* Voice Server Region */
 .theme-dark .regionSelectModal-12e-57 {
-	background: var(--Dark, black) !important;
+    background: var(--Dark, black) !important;
 }
 /* Home Nitro Tab */
 .channel-2QD9_O[href="/store"] {
-	display: none;
+    display: none;
 }
 /* Selected */
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,
@@ -1869,7 +1934,6 @@ img.avatar-1BDn8e::before {
 #app-mount .row-rrHHJU.selected-1pIgLL,
 #app-mount .selected-1Tbx07,
 #app-mount .selectorSelected-1_M1WV,
-#app-mount .tab-2j5AEF.selected-2LAck8,
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 .categoryPill-34fszg.selected-1dONk0,
 .colorDefault-2K3EoJ.focused-3afm-j,
@@ -1878,6 +1942,7 @@ img.avatar-1BDn8e::before {
 .css-1gnr91b-option,
 .css-1gxgi19-option,
 .css-1kft5vg-option,
+.css-6qzljd-option,
 .focused-dKLoQt,
 .item-26Dhrx[aria-checked=true],
 .item-3eFBNF.selected-2DeaDa,
@@ -1893,10 +1958,11 @@ img.avatar-1BDn8e::before {
 .option-3KoAJB:focus,
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected,
 .quickSelectPopoutOption-opKBx9:focus,
-.selected-31Nl7x .header-2V-4Sw,
 .selected-aXhQR6 .layout-2DM8Md,
+.selected-31Nl7x .header-2V-4Sw,
 .selectedBrand-1UKrSX.focused-dKLoQt,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.tab-2j5AEF.selected-2LAck8,
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
 	background: linear-gradient(90deg, transparent, rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4));
 }
@@ -1905,7 +1971,6 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item.selected,
 .theme-light #app-mount #pubslayer button,
 .theme-light #app-mount .bd-select .bd-select-option.selected,
-.theme-light #app-mount .bd-tab-item.selected,
 .theme-light #app-mount .friendSelected-1sa4bG,
 .theme-light #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 .theme-light #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused,
@@ -1916,7 +1981,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .row-rrHHJU.selected-1pIgLL,
 .theme-light #app-mount .selected-1Tbx07,
 .theme-light #app-mount .selectorSelected-1_M1WV,
-.theme-light #app-mount .tab-2j5AEF.selected-2LAck8,
+.theme-light .bd-tab-item.selected,
 .theme-light .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 .theme-light .categoryPill-34fszg.selected-1dONk0,
 .theme-light .colorDefault-2K3EoJ.focused-3afm-j,
@@ -1925,6 +1990,7 @@ img.avatar-1BDn8e::before {
 .theme-light .css-1gnr91b-option,
 .theme-light .css-1gxgi19-option,
 .theme-light .css-1kft5vg-option,
+.theme-light .css-6qzljd-option,
 .theme-light .focused-dKLoQt,
 .theme-light .item-26Dhrx[aria-checked=true],
 .theme-light .item-3eFBNF.selected-2DeaDa,
@@ -1940,14 +2006,16 @@ img.avatar-1BDn8e::before {
 .theme-light .option-3KoAJB:focus,
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected,
 .theme-light .quickSelectPopoutOption-opKBx9:focus,
-.theme-light .selected-31Nl7x .header-2V-4Sw,
 .theme-light .selected-aXhQR6 .layout-2DM8Md,
+.theme-light .selected-31Nl7x .header-2V-4Sw,
 .theme-light .selectedBrand-1UKrSX.focused-dKLoQt,
 .theme-light .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.theme-light .tab-2j5AEF.selected-2LAck8,
 .theme-light .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
 	background: linear-gradient(90deg, transparent, rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4));
 }
 /* Hovered */
+.theme-dark body .container-UC8Ug1:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
 #app-mount #bda-qem button:hover,
 #app-mount #permissions-modal-wrapper .role-item:hover,
@@ -1964,7 +2032,6 @@ img.avatar-1BDn8e::before {
 #app-mount .option-96V44q:hover,
 #app-mount .optionNormal-12VR9V:hover,
 #app-mount .outer-1AjyKL.interactive-3B9GmY:hover,
-#app-mount .override-2YgiXd:hover,
 #app-mount .player-3zB-0D:hover,
 #app-mount .quickSelectPopoutOption-opKBx9:hover,
 #app-mount .reactionDefault-GBA58K:hover,
@@ -1972,8 +2039,7 @@ img.avatar-1BDn8e::before {
 #app-mount .selector-2IcQBU:hover,
 #app-mount .selectableItem-1MP3MQ:hover,
 #app-mount .selectGuild-1Ygl76:hover,
-.theme-dark .theme-light .container-UC8Ug1:hover,
-.theme-dark .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
+#app-mount .override-2YgiXd:hover,
 .addMemberRow-3-w-9X.selectedRow-1QP7qb,
 .button-18p_f6:hover,
 .card-3AyPWq:hover,
@@ -1982,11 +2048,12 @@ img.avatar-1BDn8e::before {
 .clickable-1JJAn8:hover .layout-2DM8Md,
 .clickable-25tGDB .header-2V-4Sw:hover,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.container-oZq3fb:hover,
 .container-_phMUq:hover,
-.container-UC8Ug1:hover,
 .css-1aymab5-option:hover,
 .css-pkcurw-option,
 .css-qgio2y-option,
+.css-1qxn4c5-option,
 .css-rzbxvl-option,
 .friendsTable-133bsv .friendsRow-2yicud:hover,
 .item-26Dhrx:hover,
@@ -2001,9 +2068,10 @@ img.avatar-1BDn8e::before {
 .memberRow-1wwtfV:hover,
 .navButton-2gQCx-:hover,
 .navButton-3Mnpqt:hover,
-.option-3KoAJB:focus:not([aria-selected=true]),
 .option-3KoAJB:hover,
+.option-3KoAJB:focus:not([aria-selected=true]),
 .peopleListItem-2nzedh:hover,
+.privacyItemContainer-1v4YvZ:hover:not(.privacyItemDisabled-3l-cdI)
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9:hover,
 .resultFocused-3aIoYe,
 .role-3ulsK-:hover,
@@ -2024,7 +2092,6 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item:hover,
 .theme-light #app-mount #pubslayer .ui-tab-bar-item:hover,
 .theme-light #app-mount .bd-select .bd-select-option:hover,
-.theme-light #app-mount .bd-tab-item:hover,
 .theme-light #app-mount .enabled-1t_Gxm:hover,
 .theme-light #app-mount .enabled-5QKLzu:hover,
 .theme-light #app-mount .friend-3KALPe:hover,
@@ -2035,7 +2102,6 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .option-96V44q:hover,
 .theme-light #app-mount .optionNormal-12VR9V:hover,
 .theme-light #app-mount .outer-1AjyKL.interactive-3B9GmY:hover,
-.theme-light #app-mount .override-2YgiXd:hover,
 .theme-light #app-mount .player-3zB-0D:hover,
 .theme-light #app-mount .quickSelectPopoutOption-opKBx9:hover,
 .theme-light #app-mount .reactionDefault-GBA58K:hover,
@@ -2043,7 +2109,9 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .selector-2IcQBU:hover,
 .theme-light #app-mount .selectableItem-1MP3MQ:hover,
 .theme-light #app-mount .selectGuild-1Ygl76:hover,
+.theme-light #app-mount .override-2YgiXd:hover,
 .theme-light .addMemberRow-3-w-9X.selectedRow-1QP7qb,
+.theme-light .bd-tab-item:hover,
 .theme-light .button-18p_f6:hover,
 .theme-light .card-3AyPWq:hover,
 .theme-light .categoryPill-34fszg:hover,
@@ -2051,11 +2119,13 @@ img.avatar-1BDn8e::before {
 .theme-light .clickable-1JJAn8:hover .layout-2DM8Md,
 .theme-light .clickable-25tGDB .header-2V-4Sw:hover,
 .theme-light .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.theme-light .container-oZq3fb:hover,
 .theme-light .container-_phMUq:hover,
 .theme-light .container-UC8Ug1:hover,
 .theme-light .css-1aymab5-option:hover,
 .theme-light .css-pkcurw-option,
 .theme-light .css-qgio2y-option,
+.theme-light .css-1qxn4c5-option,
 .theme-light .css-rzbxvl-option,
 .theme-light .friendsTable-133bsv .friendsRow-2yicud:hover,
 .theme-light .item-26Dhrx:hover,
@@ -2070,9 +2140,10 @@ img.avatar-1BDn8e::before {
 .theme-light .memberRow-1wwtfV:hover,
 .theme-light .navButton-2gQCx-:hover,
 .theme-light .navButton-3Mnpqt:hover,
-.theme-light .option-3KoAJB:focus:not([aria-selected=true]),
 .theme-light .option-3KoAJB:hover,
+.theme-light .option-3KoAJB:focus:not([aria-selected=true]),
 .theme-light .peopleListItem-2nzedh:hover,
+.theme-light .privacyItemContainer-1v4YvZ:hover:not(.privacyItemDisabled-3l-cdI),
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9:hover,
 .theme-light .resultFocused-3aIoYe,
 .theme-light .role-3ulsK-:hover,
@@ -2106,7 +2177,6 @@ img.avatar-1BDn8e::before {
 #app-mount .row-rrHHJU.selected-1pIgLL:hover,
 #app-mount .selected-1Tbx07:hover,
 #app-mount .selectorSelected-1_M1WV:hover,
-#app-mount .tab-2j5AEF.selected-2LAck8:hover,
 .categoryPill-34fszg:hover.selected-1dONk0,
 .colorDefault-2K3EoJ.focused-3afm-j:hover,
 .css-12o7ek3-option:hover,
@@ -2114,25 +2184,27 @@ img.avatar-1BDn8e::before {
 .css-1gnr91b-option:hover,
 .css-1gxgi19-option:hover,
 .css-1kft5vg-option:hover,
-.item-26Dhrx[aria-checked=true]:hover,
+.css-6qzljd-option:hover,
 .item-2J2GlB:hover.focused-dKLoQt,
+.item-26Dhrx[aria-checked=true]:hover,
 .item-3eFBNF.selected-2DeaDa:hover,
 .itemActive-2V2HNc:hover,
 .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ:hover .content-3xS9Lh,
 .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj:hover .content-1Wq3SX,
 .modeSelected-1zApJ_:hover .content-3at_AU,
 .modeSelected-346R90:hover .content-1x5b-n,
+.navButtonActive-1MkytQ:hover,
+.navButtonActive-3RPAJy:hover,
 .option-3KoAJB[aria-selected=true]:focus,
 .option-3KoAJB[aria-selected=true]:hover,
 .option-3KoAJB.focused-1T6PE5:hover,
 .option-3KoAJB:focus:hover,
-.navButtonActive-1MkytQ:hover,
-.navButtonActive-3RPAJy:hover,
 .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected:hover,
 .selected-31Nl7x .header-2V-4Sw:hover,
 .selected-aXhQR6 .layout-2DM8Md:hover,
 .selectedBrand-1UKrSX.focused-dKLoQt:hover,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.tab-2j5AEF.selected-2LAck8:hover,
 .tag-2gHSR7:hover,
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4));
@@ -2142,7 +2214,6 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item.selected:hover,
 .theme-light #app-mount #pubslayer button:hover,
 .theme-light #app-mount .bd-select .bd-select-option.selected:hover,
-.theme-light #app-mount .bd-tab-item.selected:hover,
 .theme-light #app-mount .friendSelected-1sa4bG:hover,
 .theme-light #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa:hover,
 .theme-light #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused:hover,
@@ -2154,7 +2225,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount .row-rrHHJU.selected-1pIgLL:hover,
 .theme-light #app-mount .selected-1Tbx07:hover,
 .theme-light #app-mount .selectorSelected-1_M1WV:hover,
-.theme-light #app-mount .tab-2j5AEF.selected-2LAck8:hover,
+.theme-light .bd-tab-item.selected:hover,
 .theme-light .categoryPill-34fszg:hover.selected-1dONk0,
 .theme-light .colorDefault-2K3EoJ.focused-3afm-j:hover,
 .theme-light .css-12o7ek3-option:hover,
@@ -2162,8 +2233,9 @@ img.avatar-1BDn8e::before {
 .theme-light .css-1gnr91b-option:hover,
 .theme-light .css-1gxgi19-option:hover,
 .theme-light .css-1kft5vg-option:hover,
-.theme-light .item-26Dhrx[aria-checked=true]:hover,
+.theme-light .css-6qzljd-option:hover,
 .theme-light .item-2J2GlB:hover.focused-dKLoQt,
+.theme-light .item-26Dhrx[aria-checked=true]:hover,
 .theme-light .item-3eFBNF.selected-2DeaDa:hover,
 .theme-light .itemActive-2V2HNc:hover,
 .theme-light .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ:hover .content-3xS9Lh,
@@ -2177,17 +2249,20 @@ img.avatar-1BDn8e::before {
 .theme-light .option-3KoAJB.focused-1T6PE5:hover,
 .theme-light .option-3KoAJB:focus:hover,
 .theme-light .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected:hover,
-.theme-light .selected-31Nl7x .header-2V-4Sw:hover,
 .theme-light .selected-aXhQR6 .layout-2DM8Md:hover,
+.theme-light .selected-31Nl7x .header-2V-4Sw:hover,
 .theme-light .selectedBrand-1UKrSX.focused-dKLoQt:hover,
 .theme-light .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.theme-light .tab-2j5AEF.selected-2LAck8:hover,
 .theme-light .tag-2gHSR7:hover,
 .theme-light .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4));
 }
 /* Square Hovered */
+.theme-dark body .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 body #bd-editor-controls button:hover,
-bd-body .floating-window-buttons .maximize-button:hover,
+body .floating-window-buttons .maximize-button:hover,
+body .monaco-editor .find-widget .button:not(.disabled):hover,
 #app-mount .bd-addon-views .bd-view-button:hover,
 #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 #app-mount .bd-emote-item:hover,
@@ -2198,7 +2273,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 #app-mount .closeButton-1tv5uR:hover,
 #app-mount .dim-1l4L4y span,
 #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
-.theme-dark .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
+#app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
 .actionButton-uPB8Fs.highlight-Lf97TE,
 .button-14-BFJ.enabled-2cQ-u7:hover,
 .button-1I8KM5:hover,
@@ -2219,28 +2294,33 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover,
 .hover-28QbSq:hover,
 .icon-TYbVk4:hover,
-.theme-dark .iconSwatch-_78Ghj:hover,
+.iconSwatch-_78Ghj:hover,
 .item-1yAxl1:hover,
-.lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-.pageButton-2ruNwd:hover,
 .participantsButton-KYW-IW:hover,
+.pageButton-2ruNwd:hover,
+.reaction-1hd86g:hover,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i:hover,
 .secondary-dIudih:hover,
 .selected-3xBBKs:hover,
+.stickerInspected-2EM4w- .stickerBackground-2XECKi,
 .stickerCategoryShopWrapper-3EnJdQ:hover .stickerCategoryShop-d5zC3B,
 .tertiary-aMXF0g:hover,
 .tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover,
 .tileContainer-BaRAZF:hover,
+.viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh,
+.viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh,
+.winButtonMinMax-PBQ2gm:hover,
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .wrapper-2siovq:hover {
 	background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4));
 }
-.theme-light #bd-editor-controls button:hover,
-.theme-light .floating-window-buttons .maximize-button:hover,
+.theme-light body #bd-editor-controls button:hover,
+.theme-light body .floating-window-buttons .maximize-button:hover,
+.theme-light body .monaco-editor .find-widget .button:not(.disabled):hover,
 .theme-light #app-mount .bd-addon-views .bd-view-button:hover,
-.theme-light #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 .theme-light #app-mount .bd-emote-item:hover,
+.theme-light #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
 .theme-light #app-mount .bd-pagination button:hover,
 .theme-light #app-mount .bf-toolbar .format:hover,
 .theme-light #app-mount .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover,
@@ -2248,7 +2328,7 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .theme-light #app-mount .closeButton-1tv5uR:hover,
 .theme-light #app-mount .dim-1l4L4y span,
 .theme-light #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
-.theme-light .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
+.theme-light #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
 .theme-light .actionButton-uPB8Fs.highlight-Lf97TE,
 .theme-light .button-14-BFJ.enabled-2cQ-u7:hover,
 .theme-light .button-1I8KM5:hover,
@@ -2267,18 +2347,25 @@ bd-body .floating-window-buttons .maximize-button:hover,
 .theme-light .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
 .theme-light .emote-container:hover,
 .theme-light .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover,
+.theme-light .hover-28QbSq:hover,
 .theme-light .icon-TYbVk4:hover,
 .theme-light .iconSwatch-_78Ghj:hover,
 .theme-light .item-1yAxl1:hover,
 .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-.theme-light .pageButton-2ruNwd:hover,
 .theme-light .participantsButton-KYW-IW:hover,
+.theme-light .pageButton-2ruNwd:hover,
+.theme-light .reaction-1hd86g:hover,
+.theme-light .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i:hover,
 .theme-light .secondary-dIudih:hover,
 .theme-light .selected-3xBBKs:hover,
 .theme-light .stickerCategoryShopWrapper-3EnJdQ:hover .stickerCategoryShop-d5zC3B,
+.theme-light .stickerInspected-2EM4w- .stickerBackground-2XECKi,
 .theme-light .tertiary-aMXF0g:hover,
 .theme-light .tierMarkerLabelText-F_zS1F:not(.isAccomplished-2EpZfL):hover,
 .theme-light .tileContainer-BaRAZF:hover,
+.theme-light .viewAll-2RLt-n:hover .viewAllBackground-3Bn1vh,
+.theme-light .viewAllInspected-FsmJHj .viewAllBackground-3Bn1vh,
+.theme-light .winButtonMinMax-PBQ2gm:hover,
 .theme-light .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .theme-light .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .theme-light .wrapper-2siovq:hover {
@@ -2286,18 +2373,20 @@ bd-body .floating-window-buttons .maximize-button:hover,
 }
 /* Active */
 body #bd-editor-controls button:active,
-bd-body .floating-window-buttons .maximize-button:active,
+body .floating-window-buttons .maximize-button:active,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:active,
-#app-mount .bd-pagination button:active,
 #app-mount .bd-select .bd-select-option:active,
 #app-mount .bd-select .bd-select-option.selected:active,
+#app-mount .bd-pagination button:active,
 #app-mount .bd-tab-item:active,
-#app-mount .iconSwatch-_78Ghj.selected-P5oePO,
-#app-mount .peopleListItem-2nzedh:active,
 #app-mount #pubslayer button:active,
 #app-mount #pubslayer .ui-tab-bar-item:active,
+#app-mount .iconSwatch-_78Ghj.selected-P5oePO,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:active,
 #app-mount .lookGhost-2Fn_0-.colorGrey-2DXtkV:active,
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6:active,
+#app-mount .peopleListItem-2nzedh:active,
+#app-mount .tab-2j5AEF:active,
 .active-2HPddW,
 .button-1ZiXG9:active,
 .clickable-11uBi-:active,
@@ -2317,18 +2406,18 @@ bd-body .floating-window-buttons .maximize-button:active,
 .listDefault-2y5Z9D .clickable-23RaYz:active .content-3xS9Lh,
 .listDefault-3ir5aS .clickable-1lCRLF:active .content-1Wq3SX,
 .lookFilled-1Gx00P.colorBrand-3pXr91:active,
-.lookFilled-1Gx00P.colorGrey-2DXtkV:active,
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active,
 .memberRow-1wwtfV:active,
+.reaction-1hd86g:active,
 .role-3ulsK-:active,
 .selected-aXhQR6:active .layout-2DM8Md,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:active,
-.tab-2j5AEF:active,
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:active,
 .wrapper-1ucjTd:active .content-3at_AU,
 .wrapper-2jXpOf:active .content-1x5b-n {
 	background-color: var(--Active, rgb(51, 153, 51));
 }
+/* Highlight */
 .peopleListItem-2nzedh.active-rhSpJJ {
 	background-color: var(--Fuchsia, fuchsia);
 }
@@ -2358,7 +2447,7 @@ bd-body .floating-window-buttons .maximize-button:active,
 	top: 0;
 }
 .zalgo-jN1Ica .messageContent-2qWWxC .emotewrapper {
-	overflow: visible;
+    overflow: visible;
 	margin: 0;
 }
 /* Guild Member Role Search */
@@ -2373,6 +2462,9 @@ bd-body .floating-window-buttons .maximize-button:active,
 }
 .theme-light .selectableItem-1MP3MQ.selected-31soGA:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
+}
+.theme-light .colorPickerSwatch-5GX3Ve.default-cS_caM svg path {
+	fill: var(--Dark, black);
 }
 :root.theme-light .hue-13HAGb > div > div > div > div,
 :root.theme-light .alpha-VcPGeR > div > div > div > div {
@@ -2400,7 +2492,11 @@ bd-body .floating-window-buttons .maximize-button:active,
 /* Server Search */
 .theme-light .searchAnswer-3Dz2-q,
 .theme-light .searchFilter-2ESiM3 {
-	color: var(--Dark, black);
+    color: var(--Dark, black);
+}
+/* Roles Plugin */
+.theme-light .roleName-1JcOmP {
+    color: var(--Dark, black);
 }
 /* Direct Message Group Creator selected people */
 .tag-2gHSR7:hover {
@@ -2433,38 +2529,38 @@ bd-body .floating-window-buttons .maximize-button:active,
 	background-color: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6);
 }
 /* Tooltip */
+.tooltip-1_vJJI,
+.tooltip-BPhxJN,
 #app-mount .tooltipBlack-PPG47z,
 #app-mount .tooltipBrand-g03Nz8,
 #app-mount .tooltipGrey-1hnvTt,
-#app-mount .tooltipPrimary-1d1ph4,
-.tooltip-1_vJJI,
-.tooltip-BPhxJN {
+.theme-dark .tooltipPrimary-1d1ph4 {
 	background: var(--Dark, black);
 	border: 2px solid var(--Blue, blue);
 }
+.theme-light .tooltip-1_vJJI,
+.theme-light .tooltip-BPhxJN,
+.theme-light .tooltip-3oByQd,
 .theme-light #app-mount .tooltipBlack-PPG47z,
 .theme-light #app-mount .tooltipBrand-g03Nz8,
 .theme-light #app-mount .tooltipGrey-1hnvTt,
-.theme-light #app-mount .tooltipPrimary-1d1ph4,
-.theme-light .tooltip-1_vJJI,
-.theme-light .tooltip-3oByQd,
-.theme-light .tooltip-BPhxJN {
+.theme-light .tooltipPrimary-1d1ph4 {
 	background: var(--Light, white);
 	border: 2px solid var(--Orange, orangered);
 	color: var(--Dark, black);
 }
+.tooltipPointer-lElcog,
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,
 #app-mount .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK,
 #app-mount .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK,
-#app-mount .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK,
-.tooltipPointer-lElcog {
+.theme-dark .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
 	border-top-color: var(--Blue, blue);
 }
+.theme-light .tooltipPointer-lElcog,
 .theme-light #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,
 .theme-light #app-mount .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK,
 .theme-light #app-mount .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK,
-.theme-light #app-mount .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK,
-.theme-light .tooltipPointer-lElcog {
+.theme-light .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
 	border-top-color: var(--Orange, orangered);
 }
 .tooltipPointer-1awMxk {
@@ -2515,6 +2611,7 @@ bd-body .bd-toast,
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) 0%, transparent 70%);
 }
 .iconBadge-qZ4Ksk,
+.newTag-38ErDv,
 .numberBadge-2s8kKX,
 .mention-1f5kbO,
 .wrapper-232cHJ {
@@ -2522,6 +2619,7 @@ bd-body .bd-toast,
 	animation: unread 3s ease-out infinite;
 }
 .theme-light .iconBadge-qZ4Ksk,
+.theme-light .newTag-38ErDv,
 .theme-light .numberBadge-2s8kKX,
 .theme-light .mention-1f5kbO,
 .theme-light .wrapper-232cHJ {
@@ -2544,6 +2642,11 @@ bd-body .bd-toast,
 .theme-light .unread-3zKkbm,
 .theme-light .unread-2lAfLh {
 	background-color: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7);
+}
+/* Reactions */
+#app-mount .reaction-1hd86g:hover,
+#app-mount .reaction-1hd86g.reactionMe-wv5HKu {
+	border-color: transparent;
 }
 /* Text Input */
 .scrollableContainer-2NUZem {
@@ -2643,8 +2746,8 @@ bd-body .bd-toast,
 }
 /* Message Sending */
 .messageContent-2qWWxC.isSending-9nvak6::after {
-	content: " [sending]";
-	color: yellow;
+    content: " [sending]";
+    color: yellow;
 }
 /* Embed Colour */
 .embedFull-2tM8-- {
@@ -2693,6 +2796,23 @@ bd-body .bd-toast,
 	white-space: unset;
 	word-break: break-word;
 }
+.avatar-22FtUu,
+.avatar-2PN2-j {
+  border-color: transparent;
+}
+.avatar-22FtUu img {
+	background: var(--Dark, black);
+}
+.theme-light .avatar-22FtUu img {
+	background: var(--Light, white);
+}
+/* Upload Media Popout */
+.footer-3mqk7D {
+	overflow: hidden;
+}
+.icon-kyxXVr {
+    margin-left: 0 !important;
+}
 /* Compact Time Stamps */
 .timestampVisibleOnHover-2bQeI4 {
 	opacity: 1;
@@ -2718,10 +2838,6 @@ bd-body .bd-toast,
 .theme-light .expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) {
 	box-shadow: 0 0 0 1px rgb(var(--Just_White_Accent1, 164, 68, 0));
 }
-/* Upload Media Popout */
-.footer-3mqk7D {
-	overflow: hidden;
-}
 /* Voice Guild Icon */
 .iconBadge-2wi9r4,
 .iconBadge-3qSJIw {
@@ -2733,17 +2849,20 @@ bd-body .bd-toast,
 }
 /* Partner Server Badge, Server Header */
 #app-mount .partnered-3nJayh {
-	color: #4087ed;
+    color: #4087ed;
 }
 #app-mount .partnered-3nJayh .flowerStar-1GeTsn path {
 	fill: #4087ed;
 }
 .flowerStar-1GeTsn {
-	stroke: none;
+    stroke: none;
+}
+.theme-light .icon-1ihkOt {
+	color: var(--Dark, black);
 }
 /* Server Custom Emoji Naming */
 #app-mount .emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-	max-width: inherit !important;
+    max-width: inherit !important;
 }
 /* Guild Edit Confirmation */
 #app-mount .elevationHigh-1PneE4 {
@@ -2751,6 +2870,30 @@ bd-body .bd-toast,
 }
 .theme-light #app-mount .elevationHigh-1PneE4 {
 	background: var(--Light, white) !important;
+}
+/* Server Boost Page */
+.tierWrapper-W9ajqp {
+    box-shadow: none !important;
+}
+.theme-light .moreSubscribers-1cuWDE {
+	color: var(--Dark, black);
+}
+/* Join Server Modal */
+.theme-dark .theme-light .colorHeaderSecondary-3Sp3Ft,
+.theme-dark .theme-light .close-hZ94c6 {
+	color: rgb(185, 187, 190);
+}
+.theme-dark .theme-light .colorStandard-2KCXvj,
+.theme-dark .theme-light .close-hZ94c6:hover,
+.theme-dark .theme-light .input-cIJ7To {
+	color: rgb(220, 221, 222);
+}
+.theme-dark .theme-light .base-1x0h_U,
+.theme-dark .theme-light .colorHeaderPrimary-26Jzh-,
+.theme-dark .theme-light .lookFilled-1Gx00P .contents-18-Yxp,
+.theme-dark .theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6,
+.theme-dark .theme-light .sampleLink-2NLvZg {
+	color: var(--Light, white);
 }
 /* Server Discovery Cards */
 .cardHeader-Int16m foreignObject {
@@ -2772,6 +2915,14 @@ bd-body .bd-toast,
 .theme-light .categoryItem-3zFJns.selectedCategoryItem-3X8ujp {
 	color: var(--Black, black);
 }
+/* Store Channel */
+.theme-light .arrow-vOpU7R,
+.theme-light .arrowContainer-10m4Cy {
+	color: var(--Dark, black);
+}
+.theme-light .dot-2Q_mMZ {
+	background: var(--Dark, black);
+}
 /* Noise Cancellation Progress Bar*/
 #app-mount .progress-1IcQ3A {
 	background: rgb(var(--Just_Black_Accent1, 91, 187, 255));
@@ -2785,20 +2936,20 @@ bd-body .bd-toast,
 }
 /* Game Name (not Custom Status) */
 .activity-2myFBH .text-3MU_QQ strong {
-	filter: sepia(1);
+    filter: sepia(1);
 }
 /* User Status Friends List (not Custom Status) */
 .subtext-24R4-w > .text-3MU_QQ {
-	filter: opacity(50%);
+    filter: opacity(50%);
 }
 /* Chat Mention Toolbar */
 .wrapper-3t9DeA {
-	min-width: 24px;
+    min-width: 24px;
 }
 /* Emoji previewer */
 .emoji-SKwJi3 {
-	height: 8rem;
-	width: 8rem;
+    height: 8rem;
+    width: 8rem;
 }
 /* Voice Call name */
 .overlayTitle-8IcS01.idle-U-LIlZ {
@@ -2806,7 +2957,7 @@ bd-body .bd-toast,
 }
 /* Direct Message Call Notification to appear over settings */
 .wrapper-3lJCnD {
-	z-index: 103;
+    z-index: 103;
 }
 /* Voice Channel Member Count */
 .users-3kndPl,
@@ -2842,22 +2993,23 @@ bd-body .bd-toast,
 	background-color: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6);
 }
 /* Move typing indicator above text input */
+.applicationCommandEducation-2jAJ0B,
 .typing-2GQL18 {
-	top: 0;
+    top: 0;
 }
 .form-2fGMdU > div {
-	bottom: 0;
+    bottom: 0;
 }
 .channelTextArea-rNsIhG {
-	margin: 24px 0 6px;
+    margin: 24px 0 6px;
 }
 .scrollerSpacer-1Rp0XE,
 .scrollerSpacer-avRLaA {
-	display: none;
+    display: none;
 }
 .form-2fGMdU .autocomplete-Z9HwQh,
 .positionContainer-DEuh7X {
-	bottom: calc(100% + 24px);
+    bottom: calc(100% + 24px);
 }
 .positionContainerEditingMessage-13cck- {
 	bottom: calc(100% + 8px);
@@ -2865,17 +3017,13 @@ bd-body .bd-toast,
 .jumpToPresentBar-G1R9s6 {
 	padding: 0;
 }
+/* Download Application */
+.theme-dark .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255);"] {
+	background: var(--Dark, black) !important;
+}
 /* Better Discord Search */
 .theme-light .bd-search {
 	color: var(--Dark, black);
-}
-/* Better Discord Settings */
-.theme-light:root #bd-settings-sidebar .ui-tab-bar-item.selected {
-	color: var(--Dark, black);
-}
-.theme-dark #ace_settingsmenu,
-.theme-dark #kbshortcutmenu {
-	color: var(--Light, white);
 }
 /* Custom CSS Tab */
 #app-mount .bd-detached-css-editor #bd-customcss-attach-controls button,
@@ -2883,14 +3031,14 @@ bd-body .bd-toast,
 	border: none !important;
 	background: none;
 }
-#app-mount .monaco-editor .suggest-widget>.tree {
+body .monaco-editor .suggest-widget>.tree {
 	background: var(--Dark, black) !important;
 }
 .theme-light .monaco-editor .suggest-widget>.tree {
 	background: var(--Light, white) !important;
 }
-bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
-#app-mount .ace-monokai .ace_gutter-active-line {
+#app-mount .ace-monokai .ace_gutter-active-line,
+bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line {
 	background: linear-gradient(270deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), transparent);
 }
 .theme-light bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
@@ -2908,18 +3056,7 @@ bd-body .editor-wrapper .bd-monokai .ace_gutter-active-line,
 .theme-light .bd-detached-css-editor #bd-customcss-attach-controls button,
 .theme-light .contentRegion-3nDuYy #bd-customcss-attach-controls,
 .theme-light #bd-customcss-detach-container #bd-customcss-attach-controls {
-	color: var(--Dark, black);
-}
-#floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-titlebar {
-	margin-top: 10px;
-}
-#floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-buttons {
-	margin-right: 80px;
-	top: 0;
-	right: 0;
-}
-#floating-editor-window[style*="height: 100%; width: 100%;"] .floating-window-buttons {
-	height: 48px;
+    color: var(--Dark, black);
 }
 body .monaco-editor .minimap-shadow-visible,
 body .monaco-editor .scroll-decoration,
@@ -2947,28 +3084,14 @@ body .monaco-scrollable-element {
 .theme-light .action-item.focused:hover > .action-menu-item {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
 }
-/* Server Boost Page */
-.tierWrapper-W9ajqp {
-	box-shadow: none !important;
+body .monaco-editor .find-widget>.find-part .monaco-inputbox,
+body .monaco-editor .find-widget>.find-part .monaco-inputbox>.wrapper>.input,
+body .monaco-editor .find-widget>.replace-part .monaco-inputbox,
+body .monaco-editor .find-widget>.replace-part .monaco-inputbox>.wrapper>.input {
+	background: transparent !important;
 }
-.theme-light .moreSubscribers-1cuWDE {
-	color: var(--Dark, black);
-}
-/* Join Server Modal */
-.theme-dark .theme-light .colorHeaderSecondary-3Sp3Ft,
-.theme-dark .theme-light .close-hZ94c6 {
-	color: rgb(185, 187, 190);
-}
-.theme-dark .theme-light .colorStandard-2KCXvj,
-.theme-dark .theme-light .close-hZ94c6:hover,
-.theme-dark .theme-light .input-cIJ7To {
-	color: rgb(220, 221, 222);
-}
-.theme-dark .theme-light .colorHeaderPrimary-26Jzh-,
-.theme-dark .theme-light .lookFilled-1Gx00P .contents-18-Yxp,
-.theme-dark .theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6,
-.theme-dark .theme-light .sampleLink-2NLvZg {
-	color: var(--Light, white);
+body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
+	outline: none;
 }
 /* Cloudflare and Public Servers */
 #cf-wrapper a:hover,
@@ -2977,25 +3100,25 @@ body .monaco-scrollable-element {
 }
 /* Selected Server without icon */
 .bd-selected::after {
-	background: var(--Blue, blue);
-	content: "";
-	position: absolute;
-	height: 12px;
-	width: 12px;
-	pointer-events: none;
-	margin-top: 18px;
-	z-index: -1;
-	border-radius: 50%;
+    background: var(--Blue, blue);
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    pointer-events: none;
+    margin-top: 18px;
+    z-index: -1;
+    border-radius: 50%;
 }
 .theme-light .bd-selected::after {
-	background: var(--Orange, orangered);
+    background: var(--Orange, orangered);
 }
 /* Notification Bar */
 .closeButton-3cJIM4 {
-	padding: 6px 0 6px 0;
+    padding: 6px 0 6px 0;
 }
 #outdatedPlugins {
-	padding-top: 6px;
+    padding-top: 6px;
 }
 /* Devil Bro Toast Progress */
 .theme-dark .colorDefault-XdNdIp .bar-95Sdw1 {
@@ -3012,7 +3135,7 @@ body .monaco-scrollable-element {
 }
 /* Direct Download Plugin */
 #app-mount #files_directDownload {
-	bottom: 50px;
+    bottom: 50px;
 }
 /* Permission Viewer Plugin */
 .theme-light .roleName-1JcOmP {
@@ -3021,33 +3144,33 @@ body .monaco-scrollable-element {
 /* Image Details Plugin */
 .theme-light .backdropWithLayer-3_uhz4[style*="background-color: rgb(0, 0, 0);"],
 .theme-light .backdrop-1wrmKB {
-	background-color: var(--Light, white) !important;
+    background-color: var(--Light, white) !important;
 }
 .theme-light .detailsWrapper-TE1mu5,
 .theme-light .downloadLink-1ywL9o {
-	filter: invert(1);
+    filter: invert(1);
 }
 /* Server Search Plugin */
 #server-search .circleButtonMask-1_597P:not(:hover) {
-	background: transparent !important;
+    background: transparent !important;
 }
 #server-search .circleButtonMask-1_597P:hover {
-	background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
+    background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
 }
 .theme-light #server-search .circleButtonMask-1_597P:hover {
-	background: radial-gradient(rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
+    background: radial-gradient(rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
 }
 #app-mount .guildSeparator-33mFX6 {
-	display: none;
+    display: none;
 }
 #app-mount #server-search {
-	padding: 0;
-	margin: -8px 0 0;
+    padding: 0;
+    margin: -8px 0 0;
 }
 /* DateViewer Plugin */
 .hasCounter #dv-mount #dv-main {
-	height: calc(100% - 30px);
-	margin-top: 30px;
+    height: calc(100% - 30px);
+    margin-top: 30px;
 }
 /* Better Not-Safe-for-Wumpus Tag Plugin */
 .theme-dark .textBadge-1iylP6 {
@@ -3055,6 +3178,10 @@ body .monaco-scrollable-element {
 }
 .theme-light .textBadge-1iylP6 {
 	background: radial-gradient(rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
+}
+input {
+	background: transparent;
+	border: none;
 }
 /* Character Counter Plugin */
 #app-mount .chatCounter-XOMPsh {
@@ -3074,36 +3201,36 @@ body .monaco-scrollable-element {
 .theme-light .friendsOnline-2JkivW:hover {
 	color: var(--Dark, black);
 }
-/* Horizontal Server List Theme and  Toggle Servers and Channels Plugin */
+/* Horizontal Server List Theme & Toggle Servers and Channels Plugin */
 body #app-mount ._closed + .base-3dtUhz {
     top: 0 !important;
 }
-._closed {
+#app-mount ._closed {
     width: 0 !important;
 }
 /* watermark in preview */
 html:not([lang])::before {
-	content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
-	pointer-events: none;
-	position: absolute;
-	opacity: 0.5;
-	top: 50%;
+    content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
+    pointer-events: none;
+    position: absolute;
+    opacity: 0.5;
+    top: 50%;
 	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 	z-index:101;
 }
 /* Watermark */
 .info-1VyQPT {
-	white-space: pre;
+    white-space: pre;
 }
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_Black v4.1.0";
+	content: "\00000AJust_Black v4.2.0";
 	text-transform: none;
 	cursor: text;
 }
 .theme-light .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_White v4.1.0";
+	content: "\00000AJust_White v4.2.0";
 }
 /* Download Discord Application */
 .backdrop-1wrmKB[style="opacity: 0.95; background-color: rgb(255, 255, 255); z-index: 1000; transform: translateZ(0px);"] {
@@ -3120,24 +3247,24 @@ html:not([lang])::before {
 }
 .theme-dark #ace_settingsmenu,
 .theme-dark #kbshortcutmenu {
-	color: var(--Light, white);
+    color: var(--Light, white);
 }
 #app-mount .video-1FESK- {
-	box-shadow: none;
-	max-width: 100%;
+    box-shadow: none;
+    max-width: 100%;
 }
 @keyframes unread {
-	0%{opacity: 0.3;}
-	50%{opacity: 1;}
-	100%{opacity: 0.3;}
+    0%{opacity: 0.3;}
+    50%{opacity: 1;}
+    100%{opacity: 0.3;}
 }
 @keyframes mentions {
-	0%{border: 1px solid rgba(41, 137, 216, 0);}
-	10%{border: 1px solid rgb(41, 137, 216);}
-	20%{border: 1px solid rgb(51, 147, 226);}
-	30%{border: 1px solid rgb(81, 177, 255);}
-	40%{border: 1px solid rgb(101, 197, 255);}
-	50%{border: 1px solid rgba(101, 197, 255, 0);}
-	100%{border: 1px solid rgba(41, 137, 216, 0);}
+    0%{border: 1px solid rgba(41, 137, 216, 0);}
+    10%{border: 1px solid rgb(41, 137, 216);}
+    20%{border: 1px solid rgb(51, 147, 226);}
+    30%{border: 1px solid rgb(81, 177, 255);}
+    40%{border: 1px solid rgb(101, 197, 255);}
+    50%{border: 1px solid rgba(101, 197, 255, 0);}
+    100%{border: 1px solid rgba(41, 137, 216, 0);}
 }
 /* =================================================================================================== */
