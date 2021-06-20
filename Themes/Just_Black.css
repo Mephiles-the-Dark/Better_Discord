@@ -64,6 +64,7 @@
 .theme-dark #app-mount .subscribersPopout-2CP6Ln,
 .theme-dark #app-mount .tooltipGrey-1hnvTt,
 .theme-dark #app-mount .uploadModal-2ifh8j,
+.theme-dark .BetterBannedUsers-select-container,
 .theme-dark .body-3HBlXn,
 .theme-dark .categoryWrapper-UZ5YNj,
 .theme-dark .channelHeader-3Gd2xq,
@@ -190,6 +191,7 @@
 .theme-light #app-mount .subscribersPopout-2CP6Ln,
 .theme-light #app-mount .tooltipGrey-1hnvTt,
 .theme-light #app-mount .uploadModal-2ifh8j,
+.theme-light .BetterBannedUsers-select-container,
 .theme-light .body-3HBlXn,
 .theme-light .categoryWrapper-UZ5YNj,
 .theme-light .channelHeader-3Gd2xq,
@@ -433,14 +435,17 @@ body .monaco-editor-background,
 #app-mount .table-moqjM0 .stickyHeader-r2k9DK,
 #app-mount .tier1Banner-1B_WXY,
 #app-mount .tierBody-16Chc9,
+#app-mount .tierBody-3aUxuc,
 #app-mount .tierBody-x9kBBp,
 #app-mount .tierHeaderLocked-1a2opw,
 #app-mount .tierHeaderLocked-1s2JJz,
+#app-mount .tierHeaderLocked-3S508x,
 #app-mount .tierHeaderUnlocked-2RhWqn,
 #app-mount .tierPill-1yRO48,
 #app-mount .tile-2OwFgW,
 #app-mount .tile-QA_yMc,
 #app-mount .tiles-2aXG_k,
+#app-mount .UserDetails-settings-settingsPanel .UserDetails-settings-category .UserDetails-settings-categoryHeader,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 #app-mount .wrapper-29NfPK,
 #app-mount .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r,
@@ -854,6 +859,7 @@ body .monaco-editor .suggest-widget>.tree,
 #app-mount .bda-slist li,
 #app-mount .BDFDB-select .css-15ejc46-control,
 #app-mount .BDFDB-select .css-ua3v5p-menu,
+#app-mount .BetterBannedUsers-select-container,
 #app-mount .bodyCell-dQam9V,
 #app-mount .bodySection-jqkkIP,
 #app-mount .border-2AhmKo,
@@ -909,6 +915,7 @@ body .monaco-editor .suggest-widget>.tree,
 #app-mount .table-moqjM0 .stickyHeader-r2k9DK,
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-x9kBBp,
+#app-mount .UserDetails-settings-settingsPanel .UserDetails-settings-category.UserDetails-settings-opened .UserDetails-settings-categoryContent .UserDetails-settings-replacementVariable,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 #app-mount .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r,
 #app-mount .wrapper-35wsBm,
@@ -1332,6 +1339,8 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .guildsError-b7zR5H,
 .item-26Dhrx:hover:not([aria-checked=true]),
 .profileBannerPremium-35utuo,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
 	background-color: transparent;
 }
@@ -1948,6 +1957,7 @@ img.avatar-1BDn8e::before {
 #app-mount #pubslayer button,
 #app-mount .bd-select .bd-select-option.selected,
 #app-mount .bd-tab-item.selected,
+#app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option.BetterBannedUsers-select-selected,
 #app-mount .friendSelected-1sa4bG,
 #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused,
@@ -1996,6 +2006,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item.selected,
 .theme-light #app-mount #pubslayer button,
 .theme-light #app-mount .bd-select .bd-select-option.selected,
+.theme-light #app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option.BetterBannedUsers-select-selected,
 .theme-light #app-mount .friendSelected-1sa4bG,
 .theme-light #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 .theme-light #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused,
@@ -2047,6 +2058,7 @@ img.avatar-1BDn8e::before {
 #app-mount #pubslayer .ui-tab-bar-item:hover,
 #app-mount .bd-select .bd-select-option:hover,
 #app-mount .bd-tab-item:hover,
+#app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option:hover,
 #app-mount .enabled-1t_Gxm:hover,
 #app-mount .enabled-5QKLzu:hover,
 #app-mount .friend-3KALPe:hover,
@@ -2118,6 +2130,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item:hover,
 .theme-light #app-mount #pubslayer .ui-tab-bar-item:hover,
 .theme-light #app-mount .bd-select .bd-select-option:hover,
+.theme-light #app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option:hover,
 .theme-light #app-mount .enabled-1t_Gxm:hover,
 .theme-light #app-mount .enabled-5QKLzu:hover,
 .theme-light #app-mount .friend-3KALPe:hover,
@@ -2193,6 +2206,7 @@ img.avatar-1BDn8e::before {
 #app-mount #pubslayer button:hover,
 #app-mount .bd-select .bd-select-option.selected:hover,
 #app-mount .bd-tab-item.selected:hover,
+#app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option.BetterBannedUsers-select-selected:hover,
 #app-mount .friendSelected-1sa4bG:hover,
 #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa:hover,
 #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused:hover,
@@ -2241,6 +2255,7 @@ img.avatar-1BDn8e::before {
 .theme-light #app-mount #permissions-modal-wrapper .role-item.selected:hover,
 .theme-light #app-mount #pubslayer button:hover,
 .theme-light #app-mount .bd-select .bd-select-option.selected:hover,
+.theme-light #app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option.BetterBannedUsers-select-selected:hover,
 .theme-light #app-mount .friendSelected-1sa4bG:hover,
 .theme-light #app-mount .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa:hover,
 .theme-light #app-mount .monaco-list[class*="list_id_"] .monaco-list-row.focused:hover,
@@ -2440,7 +2455,9 @@ body .floating-window-buttons .maximize-button:active,
 .role-3ulsK-:active,
 .selected-aXhQR6:active .layout-2DM8Md,
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:active,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:active:not(.disabled-1Hwwfb),
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:active,
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:active:not(.disabled-1Hwwfb),
 .wrapper-1ucjTd:active .content-3at_AU,
 .wrapper-2jXpOf:active .content-1x5b-n {
 	background-color: var(--Active, rgb(51, 153, 51));
@@ -2475,7 +2492,7 @@ body .floating-window-buttons .maximize-button:active,
 	top: 0;
 }
 .zalgo-jN1Ica .messageContent-2qWWxC .emotewrapper {
-    overflow: visible;
+	overflow: visible;
 	margin: 0;
 }
 /* Guild Member Role Search */
@@ -2520,11 +2537,11 @@ body .floating-window-buttons .maximize-button:active,
 /* Server Search */
 .theme-light .searchAnswer-3Dz2-q,
 .theme-light .searchFilter-2ESiM3 {
-    color: var(--Dark, black);
+	color: var(--Dark, black);
 }
 /* Roles Plugin */
 .theme-light .roleName-1JcOmP {
-    color: var(--Dark, black);
+	color: var(--Dark, black);
 }
 /* Direct Message Group Creator selected people */
 .tag-2gHSR7:hover {
@@ -2660,6 +2677,7 @@ bd-body .bd-toast,
 .newBrand .headerNormal-1l1Znk .textBadge-1iylP6,
 .newBrand .headerNormal-1mX3KY .textBadge-1iylP6,
 .newBrand .root-217Brm .textBadge-1iylP6,
+.newBrand .root-3QyAh1 .textBadge-1iylP6,
 .newBrand .title-3qD0b- .textBadge-1iylP6,
 .newBrand .voiceUser-1K6Xox .textBadge-1iylP6,
 .numberBadge-2s8kKX[style*="var(--bdfdb-blurple);"] {
@@ -2781,8 +2799,8 @@ bd-body .bd-toast,
 }
 /* Message Sending */
 .messageContent-2qWWxC.isSending-9nvak6::after {
-    content: " [sending]";
-    color: yellow;
+	content: " [sending]";
+	color: yellow;
 }
 /* Embed Colour */
 .embedFull-2tM8-- {
@@ -2848,7 +2866,7 @@ bd-body .bd-toast,
 	overflow: hidden;
 }
 .icon-kyxXVr {
-    margin-left: 0 !important;
+	margin-left: 0 !important;
 }
 /* Compact Time Stamps */
 .timestampVisibleOnHover-2bQeI4 {
@@ -2886,20 +2904,20 @@ bd-body .bd-toast,
 }
 /* Partner Server Badge, Server Header */
 #app-mount .partnered-3nJayh {
-    color: #4087ed;
+	color: #4087ed;
 }
 #app-mount .partnered-3nJayh .flowerStar-1GeTsn path {
 	fill: #4087ed;
 }
 .flowerStar-1GeTsn {
-    stroke: none;
+	stroke: none;
 }
 .theme-light .icon-1ihkOt {
 	color: var(--Dark, black);
 }
 /* Server Custom Emoji Naming */
 #app-mount .emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-    max-width: inherit !important;
+	max-width: inherit !important;
 }
 /* Guild Edit Confirmation */
 #app-mount .elevationHigh-1PneE4 {
@@ -2910,7 +2928,7 @@ bd-body .bd-toast,
 }
 /* Server Boost Page */
 .tierWrapper-W9ajqp {
-    box-shadow: none !important;
+	box-shadow: none !important;
 }
 .theme-light .moreSubscribers-1cuWDE {
 	color: var(--Dark, black);
@@ -2973,20 +2991,20 @@ bd-body .bd-toast,
 }
 /* Game Name (not Custom Status) */
 .activity-2myFBH .text-3MU_QQ strong {
-    filter: sepia(1);
+	filter: sepia(1);
 }
 /* User Status Friends List (not Custom Status) */
 .subtext-24R4-w > .text-3MU_QQ {
-    filter: opacity(50%);
+	filter: opacity(50%);
 }
 /* Chat Mention Toolbar */
 .wrapper-3t9DeA {
-    min-width: 24px;
+	min-width: 24px;
 }
 /* Emoji previewer */
 .emoji-SKwJi3 {
-    height: 8rem;
-    width: 8rem;
+	height: 8rem;
+	width: 8rem;
 }
 /* Voice Call name */
 .overlayTitle-8IcS01.idle-U-LIlZ {
@@ -2994,7 +3012,7 @@ bd-body .bd-toast,
 }
 /* Direct Message Call Notification to appear over settings */
 .wrapper-3lJCnD {
-    z-index: 103;
+	z-index: 103;
 }
 /* Voice Channel Member Count */
 .users-3kndPl,
@@ -3032,17 +3050,17 @@ bd-body .bd-toast,
 /* Move typing indicator above text input */
 .applicationCommandEducation-2jAJ0B,
 .typing-2GQL18 {
-    top: 0;
+	top: 0;
 }
 .form-2fGMdU > div {
-    bottom: 0;
+	bottom: 0;
 }
 .channelTextArea-rNsIhG {
-    margin: 24px 0 6px;
+	margin: 24px 0 6px;
 }
 .scrollerSpacer-1Rp0XE,
 .scrollerSpacer-avRLaA {
-    display: none;
+	display: none;
 }
 .form-2fGMdU .autocomplete-Z9HwQh,
 .positionContainer-DEuh7X {
@@ -3137,25 +3155,25 @@ body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
 }
 /* Selected Server without icon */
 .bd-selected::after {
-    background: var(--Blue, blue);
-    content: "";
-    position: absolute;
-    height: 12px;
-    width: 12px;
-    pointer-events: none;
-    margin-top: 18px;
-    z-index: -1;
-    border-radius: 50%;
+	background: var(--Blue, blue);
+	content: "";
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	pointer-events: none;
+	margin-top: 18px;
+	z-index: -1;
+	border-radius: 50%;
 }
 .theme-light .bd-selected::after {
-    background: var(--Orange, orangered);
+	background: var(--Orange, orangered);
 }
 /* Notification Bar */
 .closeButton-3cJIM4 {
-    padding: 6px 0 6px 0;
+	padding: 6px 0 6px 0;
 }
 #outdatedPlugins {
-    padding-top: 6px;
+	padding-top: 6px;
 }
 /* Devil Bro Toast Progress */
 .theme-dark .colorDefault-XdNdIp .bar-95Sdw1 {
@@ -3172,7 +3190,7 @@ body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
 }
 /* Direct Download Plugin */
 #app-mount #files_directDownload {
-    bottom: 50px;
+	bottom: 50px;
 }
 /* Permission Viewer Plugin */
 .theme-light .roleName-1JcOmP {
@@ -3181,33 +3199,33 @@ body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
 /* Image Details Plugin */
 .theme-light .backdropWithLayer-3_uhz4[style*="background-color: rgb(0, 0, 0);"],
 .theme-light .backdrop-1wrmKB {
-    background-color: var(--Light, white) !important;
+	background-color: var(--Light, white) !important;
 }
 .theme-light .detailsWrapper-TE1mu5,
 .theme-light .downloadLink-1ywL9o {
-    filter: invert(1);
+	filter: invert(1);
 }
 /* Server Search Plugin */
 #server-search .circleButtonMask-1_597P:not(:hover) {
-    background: transparent !important;
+	background: transparent !important;
 }
 #server-search .circleButtonMask-1_597P:hover {
-    background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
+	background: radial-gradient(rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.6), rgba(var(--Just_Black_Accent2, 41, 137, 216), 0.4)) !important;
 }
 .theme-light #server-search .circleButtonMask-1_597P:hover {
-    background: radial-gradient(rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
+	background: radial-gradient(rgba(var(--Just_White_Accent1, 164, 68, 0), 0.6), rgba(var(--Just_White_Accent2, 214, 118, 39), 0.4)) !important;
 }
 #app-mount .guildSeparator-33mFX6 {
-    display: none;
+	display: none;
 }
 #app-mount #server-search {
-    padding: 0;
-    margin: -8px 0 0;
+	padding: 0;
+	margin: -8px 0 0;
 }
 /* DateViewer Plugin */
 .hasCounter #dv-mount #dv-main {
-    height: calc(100% - 30px);
-    margin-top: 30px;
+	height: calc(100% - 30px);
+	margin-top: 30px;
 }
 /* Better Not-Safe-for-Wumpus Tag Plugin */
 .theme-dark .textBadge-1iylP6 {
@@ -3240,26 +3258,43 @@ input {
 }
 /* Horizontal Server List Theme & Toggle Servers and Channels Plugin */
 body #app-mount ._closed + .base-3dtUhz {
-    top: 0 !important;
+	top: 0 !important;
 }
 #app-mount ._closed {
-    width: 0 !important;
+	width: 0 !important;
+}
+/* User Details Plugin */
+.theme-light .UserDetails-settings-settingsPanel .UserDetails-settings-category {
+	color: var(--Dark, black);
+}
+.theme-light .UserDetails-dates-container svg {
+	fill: var(--Dark, black);
+}
+#app-mount .UserDetails-dates-container.UserDetails-dates-icons .UserDetails-dates-loading {
+	animation: none;
+	fill: transparent;
+}
+/* Better Banned Users Plugin */
+.theme-light .BetterBannedUsers-select-container .BetterBannedUsers-select-option,
+.theme-light .BetterBannedUsers-select-container .BetterBannedUsers-select-option.BetterBannedUsers-select-selected,
+.theme-light #app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option:hover {
+	color: var(--Dark, black);
 }
 /* watermark in preview */
 html:not([lang])::before {
-    content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
-    pointer-events: none;
-    position: absolute;
-    opacity: 0.5;
-    top: 50%;
+	content: url(https://icon-library.net/images/deviantart-logo-icon/deviantart-logo-icon-4.jpg);
+	pointer-events: none;
+	position: absolute;
+	opacity: 0.5;
+	top: 50%;
 	left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 	z-index:101;
 }
 /* Watermark */
 .info-1VyQPT {
-    white-space: pre;
+	white-space: pre;
 }
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
 	content: "\00000AJust_Black v4.2.0";
@@ -3284,24 +3319,15 @@ html:not([lang])::before {
 }
 .theme-dark #ace_settingsmenu,
 .theme-dark #kbshortcutmenu {
-    color: var(--Light, white);
+	color: var(--Light, white);
 }
 #app-mount .video-1FESK- {
-    box-shadow: none;
-    max-width: 100%;
+	box-shadow: none;
+	max-width: 100%;
 }
 @keyframes unread {
-    0%{opacity: 0.3;}
-    50%{opacity: 1;}
-    100%{opacity: 0.3;}
-}
-@keyframes mentions {
-    0%{border: 1px solid rgba(41, 137, 216, 0);}
-    10%{border: 1px solid rgb(41, 137, 216);}
-    20%{border: 1px solid rgb(51, 147, 226);}
-    30%{border: 1px solid rgb(81, 177, 255);}
-    40%{border: 1px solid rgb(101, 197, 255);}
-    50%{border: 1px solid rgba(101, 197, 255, 0);}
-    100%{border: 1px solid rgba(41, 137, 216, 0);}
+	0%{opacity: 0.3;}
+	50%{opacity: 1;}
+	100%{opacity: 0.3;}
 }
 /* =================================================================================================== */
