@@ -64,6 +64,7 @@
 .theme-dark #app-mount .subscribersPopout-2CP6Ln,
 .theme-dark #app-mount .tooltipGrey-1hnvTt,
 .theme-dark #app-mount .uploadModal-2ifh8j,
+.theme-dark .attachedBars-tZDmyV,
 .theme-dark .BetterBannedUsers-select-container,
 .theme-dark .body-3HBlXn,
 .theme-dark .categoryWrapper-UZ5YNj,
@@ -71,6 +72,7 @@
 .theme-dark .colorable-1bkp8v.primaryDark-3mSFDl,
 .theme-dark .colorNeutral-3uXvGN,
 .theme-dark .container-16j22k,
+.theme-dark .container-1eFT6O,
 .theme-dark .container-1gR2ZK,
 .theme-dark .container-2dqNWc,
 .theme-dark .container-2x5lvQ,
@@ -131,6 +133,7 @@
 .theme-dark .toolbar-2bjZV7,
 .theme-dark .unicodeShortcut-15J8Ck,
 .theme-dark .userPopout-3XzG_A,
+.theme-dark .userPopout-xaxa6l,
 .theme-dark .wrapper-1-Fsb8,
 .theme-dark .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r,
 .theme-dark .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV,
@@ -191,6 +194,7 @@
 .theme-light #app-mount .subscribersPopout-2CP6Ln,
 .theme-light #app-mount .tooltipGrey-1hnvTt,
 .theme-light #app-mount .uploadModal-2ifh8j,
+.theme-light .attachedBars-tZDmyV,
 .theme-light .BetterBannedUsers-select-container,
 .theme-light .body-3HBlXn,
 .theme-light .categoryWrapper-UZ5YNj,
@@ -198,6 +202,7 @@
 .theme-light .colorable-1bkp8v.primaryDark-3mSFDl,
 .theme-light .colorNeutral-3uXvGN,
 .theme-light .container-16j22k,
+.theme-light .container-1eFT6O,
 .theme-light .container-1gR2ZK,
 .theme-light .container-2dqNWc,
 .theme-light .container-2x5lvQ,
@@ -258,6 +263,7 @@
 .theme-light .toolbar-2bjZV7,
 .theme-light .unicodeShortcut-15J8Ck,
 .theme-light .userPopout-3XzG_A,
+.theme-light .userPopout-xaxa6l,
 .theme-light .wrapper-1-Fsb8,
 .theme-light .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r,
 .theme-light .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV,
@@ -283,6 +289,7 @@ body .monaco-editor .inputarea.ime-input,
 body .monaco-editor .margin,
 body .monaco-editor .monaco-editor-hover .hover-row .actions,
 body .monaco-editor-background,
+textarea,
 #ace_settingsmenu_container .ace_optionsMenuEntry:hover,
 #app-mount #bd-customcss-detach-container,
 #app-mount #bd-customcss-detach-container #bd-customcss-attach-controls,
@@ -488,6 +495,7 @@ body .monaco-editor-background,
 .blob-2w7iIK,
 .body-3ND3kc,
 .body-r6_QPy,
+.bodyInnerWrapper-26fQXj,
 .button-11zvza,
 .button-1I8KM5,
 .button-1YfofB.buttonColor-7qQbGO,
@@ -622,6 +630,7 @@ body .monaco-editor-background,
 .folder-21wGz3.hover-2ji_A7,
 .footer-2yA7Ep,
 .footer-3OAEzG,
+.footer-3UKYOU,
 .footer-3ZalXG,
 .formFieldWrapper-malor5,
 .formSection-1NFAGI,
@@ -829,6 +838,7 @@ body .monaco-editor-background,
 body .monaco-editor .monaco-editor-hover,
 body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty),
 body .monaco-editor .suggest-widget>.tree,
+textarea,
 #ace_settingsmenu_container .ace_optionsMenuEntry button,
 #ace_settingsmenu_container .ace_optionsMenuEntry button:hover,
 #app-mount #bd-customcss-attach-controls,
@@ -880,6 +890,7 @@ body .monaco-editor .suggest-widget>.tree,
 #app-mount .divider-3wNib3,
 #app-mount .emptyApplications-3GTmw-,
 #app-mount .emptyUsers--hiToV,
+#app-mount .feature-2w65J5,
 #app-mount .footer-1fjuF6,
 #app-mount .header-g67q9_,
 #app-mount .headerCellSorted-FMjMWK,
@@ -983,6 +994,7 @@ body .monaco-editor .suggest-widget>.tree,
 .divider-JfaTT5,
 .featureBorder-7j4v58,
 .finePrint-ULGqdp,
+.finePrintWithOverheadSeparator-3Ck7zO,
 .footer-2yA7Ep,
 .form-2fGMdU,
 .formFieldWrapper-malor5,
@@ -990,6 +1002,7 @@ body .monaco-editor .suggest-widget>.tree,
 .friendsTable-133bsv .friendsTableHeader-32yE7d,
 .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ,
 .giftCodeRow-24nTuI,
+.grabber-3mFHz2,
 .group-1WdBVp,
 .guildCategorySeparator-_An-MP,
 .guildsSection-3AvK09,
@@ -1091,6 +1104,7 @@ body .preview-7Gh5tS,
 #app-mount .elevationHigh-3A9Xbf,
 #app-mount .elevationLow-2lY09M,
 #app-mount .emojiRow-zIc7ZX,
+#app-mount .feature-2w65J5,
 #app-mount .footer-1JuRYY,
 #app-mount .footer-2gL1pp,
 #app-mount .footer-3mqk7D,
@@ -1144,10 +1158,12 @@ body .preview-7Gh5tS,
 .animatedContainer-1pJv5C,
 .authBox-hW6HRx,
 .autocomplete-3l_oCd,
+.autocomplete-OOX59Q,
 .autocomplete-Z9HwQh,
 .button-F9qN4n.focused-3ZzkKr,
 .channelNotice-3DDmsB,
 .channelNotice-3hkOiI,
+.container-1eFT6O,
 .container-1gR2ZK,
 .container-2dqNWc,
 .container-2x5lvQ,
@@ -1178,6 +1194,7 @@ body .preview-7Gh5tS,
 .exampleModal-2oh58d,
 .footer-1lnhms,
 .full-motion .wrapper-2aW0bm:hover,
+.grabber-3mFHz2,
 .hasMore-3e72_v,
 .header-2k4I2o,
 .header-2o-2hj,
@@ -1202,6 +1219,7 @@ body .preview-7Gh5tS,
 .outer-o9SjPm:hover .input-2A_zIr,
 .outerWrapper-3-llkA,
 .overlay-4k_Q4-,
+.overlay-qP93Id,
 .popout-2iWAc-,
 .popoutContainer-1MXdqN,
 .quickswitcher-3JagVE,
@@ -1274,6 +1292,7 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .divider-3FBTu8,
 .divider-3M6rki,
 .divider-3ZGpsB,
+.divider-ewBQKj,
 .divider-J3ken9,
 .divider-JMvf_l,
 .divider-Uf0Wob,
@@ -1399,6 +1418,7 @@ body .ace_scrollbar-v::-webkit-scrollbar-thumb,
 .none-2Eo-qx::-webkit-scrollbar-thumb,
 .scroller-1Bvpku::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
 .webkit-HjD9Er::-webkit-scrollbar-thumb {
 	background: linear-gradient(0deg, transparent, rgb(var(--Just_Black_Accent1, 91, 187, 255)), transparent);
@@ -1418,6 +1438,7 @@ body .ace_scrollbar-v::-webkit-scrollbar-thumb,
 .theme-light .none-2Eo-qx::-webkit-scrollbar-thumb,
 .theme-light .scroller-1Bvpku::-webkit-scrollbar-thumb,
 .theme-light .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-light .scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb,
 .theme-light .thin-1ybCId::-webkit-scrollbar-thumb,
 .theme-light .webkit-HjD9Er::-webkit-scrollbar-thumb {
@@ -1440,6 +1461,7 @@ body .ace_scrollbar-v::-webkit-scrollbar-track,
 .none-2Eo-qx::-webkit-scrollbar-track,
 .scroller-1Bvpku::-webkit-scrollbar-track,
 .scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-track,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
 .webkit-HjD9Er::-webkit-scrollbar-track {
@@ -1462,6 +1484,7 @@ body .ace_scrollbar-v::-webkit-scrollbar-track,
 .theme-light .scroller-1Bvpku::-webkit-scrollbar-track,
 .theme-light .scroller-2FKFPG::-webkit-scrollbar-track,
 .theme-light .scroller-zPkAnE::-webkit-scrollbar-track,
+.theme-light .scrollbarDefault-3COgCQ::-webkit-scrollbar-track,
 .theme-light .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track,
 .theme-light .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track,
 .theme-light .thin-1ybCId::-webkit-scrollbar-track,
@@ -1552,6 +1575,7 @@ body #app-mount .thin-1ybCId::-webkit-scrollbar-thumb:active,
 .none-2Eo-qx::-webkit-scrollbar-thumb:active,
 .scroller-1Bvpku::-webkit-scrollbar-thumb:active,
 .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb:active,
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb:active,
 .webkit-HjD9Er::-webkit-scrollbar-thumb:active {
 	background-color: var(--Active, rgb(51, 153, 51));
@@ -1571,6 +1595,7 @@ body .none-2Eo-qx::-webkit-scrollbar-track:disabled,
 body .scroller-1Bvpku::-webkit-scrollbar-track:disabled,
 body .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
 body .scroller-zPkAnE::-webkit-scrollbar-track:disabled,
+body .scrollbarDefault-3COgCQ::-webkit-scrollbar-track:disabled,
 body .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track:disabled,
 body .scrollerFade-1Ijw5y .scroller-2FKFPG::-webkit-scrollbar-track:disabled,
 body .thin-1ybCId::-webkit-scrollbar-track:disabled,
@@ -1941,6 +1966,11 @@ img.avatar-1BDn8e::before {
 /* Guild Roles Tab */
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
 	background-color: transparent !important;
+}
+/* Guild Roles Fix */
+.permissionsWrapper-1amySy .disabledButtonWrapper-3wH6-b {
+	position: absolute;
+	right: 0;
 }
 /* Voice Server Region */
 .theme-dark .regionSelectModal-12e-57 {
@@ -2643,32 +2673,45 @@ bd-body .bd-toast,
 	background-color: #ffa600;
 }
 /* Mentions */
+.ephemeral-1PsL1r,
 .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
+.message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z,
+.message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,
+.mouse-mode.full-motion .ephemeral-1PsL1r:hover,
+.mouse-mode.full-motion .replying-1x3H0T:hover,
 .mouse-mode.full-motion .mentioned-xhSam7:hover,
 .mouse-mode .mentioned-xhSam7:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) 0%, transparent 70%);
 }
+.theme-light .ephemeral-1PsL1r,
 .theme-light .mentioned-xhSam7,
 .theme-light .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
+.theme-light .message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z,
+.theme-light .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,
+.theme-light.mouse-mode.full-motion .ephemeral-1PsL1r:hover,
+.theme-light.mouse-mode.full-motion .replying-1x3H0T:hover
 .theme-light.mouse-mode.full-motion .mentioned-xhSam7:hover,
 .theme-light.mouse-mode .mentioned-xhSam7:hover {
 	background: linear-gradient(90deg, rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) 0%, transparent 70%);
 }
 .iconBadge-qZ4Ksk,
+.mention-1f5kbO,
+.newBadge-1Is7Nf,
 .newBrand .textBadge-1iylP6,
 .newTag-38ErDv,
 .numberBadge-2s8kKX,
-.mention-1f5kbO,
+.side-8zPYf6 .textBadge-1iylP6,
 .wrapper-232cHJ {
 	background-color: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7) !important;
 	animation: unread 3s ease-out infinite;
 }
 .theme-light .iconBadge-qZ4Ksk,
-.theme-light .newBrand .textBadge-1iylP6,
+.theme-light .newBadge-1Is7Nf,
+.theme-light .mention-1f5kbO,
 .theme-light .newTag-38ErDv,
 .theme-light .numberBadge-2s8kKX,
-.theme-light .mention-1f5kbO,
+.theme-light .side-8zPYf6 .textBadge-1iylP6,
 .theme-light .wrapper-232cHJ {
 	background-color: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7) !important;
 }
@@ -3279,6 +3322,19 @@ body #app-mount ._closed + .base-3dtUhz {
 .theme-light .BetterBannedUsers-select-container .BetterBannedUsers-select-option.BetterBannedUsers-select-selected,
 .theme-light #app-mount .BetterBannedUsers-select-container .BetterBannedUsers-select-option:hover {
 	color: var(--Dark, black);
+}
+/* Keyboard Tracker Plugin */
+.theme-light .plugin-input-group .plugin-input-group h2 {
+	color: var(--Dark, black) !important;
+}
+.bd-addon-modal textarea {
+	background-color:  rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.2) !important;
+	border: 1px solid rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.4) !important;
+	border-radius: 5px;
+}
+.theme-light .bd-addon-modal textarea {
+	background-color:  rgba(var(--Just_White_Accent1, 164, 68, 0), 0.2) !important;
+	border: 1px solid rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) !important;
 }
 /* watermark in preview */
 html:not([lang])::before {
