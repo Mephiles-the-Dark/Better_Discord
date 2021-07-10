@@ -2598,7 +2598,7 @@ body .floating-window-buttons .maximize-button:active,
 	background: transparent;
 }
 /* Hide the GIF then the Gift then the Sticker Button */
-.buttonContainer-28fw2U:not(#sendAudioButtons):not(.send-button) .button-3AYNKb:not(.stickerButton-3OEgwj),
+.buttonContainer-28fw2U:not(#sendAudioButtons):not(.send-button) .button-38aScr[aria-label] .button-3AYNKb:not(.stickerButton-3OEgwj),
 .buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8),
 .stickerButton-3OEgwj {
 	display: none;
@@ -2922,6 +2922,14 @@ bd-body .bd-toast,
 }
 .theme-light .avatar-22FtUu img {
 	background: var(--Light, white);
+}
+/* User Banner */
+.bannerPremium-2hSAwz:not(.settingsBanner-15-pZk) {
+	background-color: transparent !important;
+}
+/* Move Chat Search right */
+.search-36MZv- {
+	order: 1;
 }
 /* Upload Media Popout */
 .footer-3mqk7D {
@@ -3354,6 +3362,20 @@ body #app-mount ._closed + .base-3dtUhz {
 .theme-light .bd-addon-modal textarea {
 	background-color:  rgba(var(--Just_White_Accent1, 164, 68, 0), 0.2) !important;
 	border: 1px solid rgba(var(--Just_White_Accent1, 164, 68, 0), 0.4) !important;
+}
+/* Favourite Media Plugin */
+#app-mount .categoryFade-2ybR1J {
+	background: transparent !important;
+}
+.theme-dark #app-mount .categoryText-2-8pri {
+	color: var(--Light, white);
+}
+.theme-light #app-mount .categoryText-2-8pri {
+	color: var(--Dark, black);
+}
+/* Quick Toggler */
+#app-mount .scroller-zPkAnE::-webkit-scrollbar-track {
+	background-color: transparent !important;
 }
 /* watermark in preview */
 html:not([lang])::before {
