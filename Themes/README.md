@@ -16,3 +16,8 @@ Whirlpool theme is a miniature theme that is optimised for Just_Black theme, but
 Download `Whirlpool.theme.css` for this wallpaper theme.
 
 ![](https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Previews/Whirlpool_1.png)
+
+## Codeblock_Identifier
+A revived, miniature theme of codeblockLangIdentifier by intrnl: "Shows the corresponding language's syntax highlighting that was used on the code block."  The codeblock's language will appear in the top-left margin of the codeblock.
+
+![](https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Previews/Codeblock_Identifier_1.png)
