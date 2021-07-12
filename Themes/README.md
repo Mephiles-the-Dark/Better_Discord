@@ -4,22 +4,22 @@
 
 # Themes for Better Discord
 ## Just_Black
-A revival of JustBlack theme by Dddsasul: "A nice and black theme."  This theme runs with dark theme for best experience, but features a 'Just_White' variant.  One can change the highlights in a code editor, such as Notepad.
+A revival of JustBlack theme by Dddsasul: "A nice and black theme."  This theme runs with dark theme for best experience, but features a 'Just_White' variant when using Discord's Light Theme.  One can change the highlights in a code editor, such as Notepad.
 
-Download `Just_Black.theme.css` for this dark theme.
+Download <a href="https://Mephiles-the-Dark.github.io/Better_Discord/Themes/Just_Black.theme.css" target="_blank" />Just_Black.theme.css</a> for this dark theme.
 
 ![](https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Previews/Just_Black_2.png)
 
 ## Whirlpool
 Whirlpool theme is a miniature theme that is optimised for Just_Black theme, but works by itself or other themes.
 
-Download `Whirlpool.theme.css` for this wallpaper theme.
+Download <a href="https://Mephiles-the-Dark.github.io/Better_Discord/Themes/Whirlpool.theme.css" target="_blank" />Whirlpool.theme.css</a> for this wallpaper theme.
 
 ![](https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Previews/Whirlpool_2.png)
 
 ## Codeblock_Identifier
 A revived, miniature theme of codeblockLangIdentifier by intrnl: "Shows the corresponding language's syntax highlighting that was used on the code block."  The codeblock's language will appear in the top-left margin of the codeblock.
 
-Download <a href="https://Mephiles-the-Dark.github.io/Better_Discord/Themes/Codeblock_Identifier.theme.css" target="_blank" />Codeblock_Identifier.theme.css</a> for this wallpaper theme.
+Download <a href="https://Mephiles-the-Dark.github.io/Better_Discord/Themes/Codeblock_Identifier.theme.css" target="_blank" />Codeblock_Identifier.theme.css</a> for this theme.
 
 ![](https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Previews/Codeblock_Identifier_1.png)
