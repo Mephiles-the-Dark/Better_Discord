@@ -1685,24 +1685,80 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 	height: 36px;
 	padding-bottom: 12px;
 }
+/* Guild pill shows only when unread */
+.bd-guild:not(.bd-unread) .item-2hkk8m,
+.wrapper-3Njo_c .item-2hkk8m:not([style*="height: 8px;"]):not([style*="height: 40px;"]),
+[style="opacity: 1; height: 56px; transform: scale(1);"] .item-2hkk8m,
+.tutorialContainer-2sGCg9 .item-2hkk8m,
+.wrapper-3Njo_c .bd-guild:not(.bd-unread) .item-2hkk8m {
+    display: none;
+}
+.pill-1z4sAY .item-2hkk8m {
+	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
+	width: 15px;
+	height: 15px !important;
+	position: absolute;
+	z-index: 1;
+	left: 4px;
+	bottom: 0;
+	border-radius: 50%;
+	animation: unread 3s ease-out infinite;
+}
+.theme-light .bd-unread .pill-1z4sAY .item-2hkk8m,
+.theme-light .pill-1z4sAY .item-2hkk8m {
+	background: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.7);
+}
+.listItem-2P_4kh .item-2hkk8m {
+	display: block;
+}
+/* Selected Guild */
+.bd-selected {
+    filter: drop-shadow(0 0 5px var(--Blue, blue));
+}
+.theme-light .bd-selected {
+    filter: drop-shadow(0 0 5px var(--Orange, orangered));
+}
+.theme-dark .bd-selected .item-2hkk8m {
+		border: 2px ridge white;
+}
+.theme-dark .wrapper-3Njo_c .item-2hkk8m[style*="height: 40px;"] {
+    border: 2px ridge white;
+		background: white;
+		animation: none;
+}
+.theme-light .bd-selected .item-2hkk8m {
+		border: 2px ridge black;
+}
+.theme-light .wrapper-3Njo_c .item-2hkk8m[style*="height: 40px;"] {
+    border: 2px ridge black;
+		background: black;
+		animation: none;
+}
+.bd-audio {
+	filter: drop-shadow(0 0 5px var(--Fuchsia, fuchsia));
+}
 /* Guild Scroller */
-.expandedGuilds-1JMD4M,
-.guilds-1SWlCJ,
-.listItem-2P_4kh,
-.listItem-GuPuDH,
 .scroller-2TZvBN,
+.scroller-1Bvpku > div[aria-label],
 .scrollerWrap-1IAIlv,
 .unreadMentionsIndicatorBottom-2mDYbI,
-.unreadMentionsIndicatorBottom-BXS58x,
 .unreadMentionsIndicatorTop-2-tcdU,
-.unreadMentionsIndicatorTop-gA6RCh,
-.wrapper-21YSNc,
-.wrapper-3Njo_c {
+.wrapper-3Njo_c,
+.wrapper-3NnKdC {
 	max-width: 65px;
 }
-.expandedFolderBackground-1cujaW,
-.expandedFolderBackground-2sPsd- {
-	left: 8px;
+.listItem-GuPuDH {
+	max-width: 48px;
+}
+.expandedFolderBackground-1cujaW {
+	left: 4px;
+}
+.wrapper-sa6paO,
+.pill-1aYSec .item-2hkk8m {
+	width: 0;
+}
+.listItem-GuPuDH {
+	margin-left: 4px;
 }
 /* Guild pill */
 .item-2hkk8m {
@@ -1711,29 +1767,18 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 .theme-light .item-2hkk8m {
 	background: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7);
 }
-.expandedGuilds-1JMD4M,
-.guildIcon-GuAC7C,
-.wrapper-sa6paO {
-	overflow: visible;
-}
 .wrapper-sa6paO {
 	contain: none;
+	overflow: visible;
 	pointer-events: none;
-}
-.theme-dark .bd-animatable {
-	filter: drop-shadow(0 0 5px var(--Dark, black));
-}
-.theme-light .bd-animatable {
-	filter: drop-shadow(0 0 5px var(--Light, white));
 }
 /* Selected Guild */
 .bd-selected {
-	filter: drop-shadow(0 0 5px var(--Blue, blue));
+    filter: drop-shadow(0 0 5px var(--Blue, blue));
 }
 .theme-light .bd-selected {
-	filter: drop-shadow(0 0 5px var(--Orange, orangered));
+    filter: drop-shadow(0 0 5px var(--Orange, orangered));
 }
-.listItem-2P_4kh:active,
 .listItem-GuPuDH:active {
 	filter: drop-shadow(0 0 5px var(--Active, rgb(51, 153, 51)));
 }
@@ -1741,10 +1786,10 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 	filter: drop-shadow(0 0 5px var(--Fuchsia, fuchsia));
 }
 .guilds-1SWlCJ [style*="height: 56px;"] {
-	height: 48px !important;
+    height: 48px !important;
 }
 [style*="height: 56px;"] + [style*="height: 56px;"] {
-	margin-top: 8px;
+    margin-top: 8px;
 }
 /* Unread Channel Name */
 #app-mount .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg,
@@ -3254,6 +3299,7 @@ body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
 }
 /* Server Counter Plugin */
 #app-mount .label-2wRs_g {
+	margin-left: -4px;
 	position: absolute;
 	width: 57px;
 	left: 0;
@@ -3376,6 +3422,10 @@ body #app-mount ._closed + .base-3dtUhz {
 /* Quick Toggler */
 #app-mount .scroller-zPkAnE::-webkit-scrollbar-track {
 	background-color: transparent !important;
+}
+/* Guild and Friend Removal Alerts Plugin */
+.theme-light .GuildAndFriendRemovalAlerts-styles-modal {
+	color: var(--Dark, black);
 }
 /* watermark in preview */
 html:not([lang])::before {
