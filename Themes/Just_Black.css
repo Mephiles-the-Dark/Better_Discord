@@ -1346,6 +1346,9 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .stickerCategoryShopWrapper-3EnJdQ::after,
 .tabBody-3YRQ8W::before,
 .textDivider-3RoZIQ,
+.tutorialContainer-2sGCg9 .pill-3N7f9r,
+.tutorialContainer-30WoTp .pill-1aYSec,
+.tutorialContainer-30WoTp + .listItem-GuPuDH .pill-1aYSec,
 .unreadPillCap-3_K2q2 {
 	display: none;
 }
@@ -1359,6 +1362,7 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 #app-mount .citar-btn,
 #app-mount .guildIconExpired-2Qcq05,
 #app-mount .guildIconImage-3qTk45,
+#app-mount .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA,
 #app-mount .invalidPoop-pnUbq7,
 #app-mount .tier1Banner-1BTgv0,
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs,
@@ -1693,81 +1697,6 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 .dismiss-SCAH9H {
 	height: 36px;
 	padding-bottom: 12px;
-}
-/* Guild pill shows only when unread */
-.bd-guild:not(.bd-unread) .item-2hkk8m,
-.wrapper-3Njo_c .item-2hkk8m:not([style*="height: 8px;"]):not([style*="height: 40px;"]),
-[style="opacity: 1; height: 56px; transform: scale(1);"] .item-2hkk8m,
-.tutorialContainer-2sGCg9 .item-2hkk8m,
-.wrapper-3Njo_c .bd-guild:not(.bd-unread) .item-2hkk8m {
-    display: none;
-}
-.pill-1z4sAY .item-2hkk8m {
-	background: rgba(var(--Just_Black_Accent1, 91, 187, 255), 0.7);
-	width: 15px;
-	height: 15px !important;
-	position: absolute;
-	z-index: 1;
-	left: 4px;
-	bottom: 0;
-	border-radius: 50%;
-	animation: unread 3s ease-out infinite;
-}
-.theme-light .bd-unread .pill-1z4sAY .item-2hkk8m,
-.theme-light .pill-1z4sAY .item-2hkk8m {
-	background: rgba(var(--Just_Light_Accent1, 164, 68, 0), 0.7);
-}
-.listItem-2P_4kh .item-2hkk8m {
-	display: block;
-}
-/* Selected Guild */
-.bd-selected {
-    filter: drop-shadow(0 0 5px var(--Blue, blue));
-}
-.theme-light .bd-selected {
-    filter: drop-shadow(0 0 5px var(--Orange, orangered));
-}
-.theme-dark .bd-selected .item-2hkk8m {
-		border: 2px ridge white;
-}
-.theme-dark .wrapper-3Njo_c .item-2hkk8m[style*="height: 40px;"] {
-    border: 2px ridge white;
-		background: white;
-		animation: none;
-}
-.theme-light .bd-selected .item-2hkk8m {
-		border: 2px ridge black;
-}
-.theme-light .wrapper-3Njo_c .item-2hkk8m[style*="height: 40px;"] {
-    border: 2px ridge black;
-		background: black;
-		animation: none;
-}
-.bd-audio {
-	filter: drop-shadow(0 0 5px var(--Fuchsia, fuchsia));
-}
-/* Guild Scroller */
-.scroller-2TZvBN,
-.scroller-1Bvpku > div[aria-label],
-.scrollerWrap-1IAIlv,
-.unreadMentionsIndicatorBottom-2mDYbI,
-.unreadMentionsIndicatorTop-2-tcdU,
-.wrapper-3Njo_c,
-.wrapper-3NnKdC {
-	max-width: 65px;
-}
-.listItem-GuPuDH {
-	max-width: 48px;
-}
-.expandedFolderBackground-1cujaW {
-	left: 4px;
-}
-.wrapper-sa6paO,
-.pill-1aYSec .item-2hkk8m {
-	width: 0;
-}
-.listItem-GuPuDH {
-	margin-left: 4px;
 }
 /* Guild pill */
 .item-2hkk8m {
@@ -2523,6 +2452,7 @@ body .floating-window-buttons .maximize-button:active,
 #app-mount .bd-tab-item:active,
 #app-mount #pubslayer button:active,
 #app-mount #pubslayer .ui-tab-bar-item:active,
+#app-mount .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA:active,
 #app-mount .iconSwatch-_78Ghj.selected-P5oePO,
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:active,
 #app-mount .lookGhost-2Fn_0-.colorGrey-2DXtkV:active,
@@ -3312,10 +3242,7 @@ body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus {
 }
 /* Server Counter Plugin */
 #app-mount .label-2wRs_g {
-	margin-left: -4px;
 	position: absolute;
-	width: 57px;
-	left: 0;
 }
 /* Direct Download Plugin */
 #app-mount #files_directDownload {
