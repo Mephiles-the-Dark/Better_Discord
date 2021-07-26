@@ -439,6 +439,7 @@ textarea,
 #app-mount .searchResult-3pzFAB::after,
 #app-mount .searchResult-3pzFAB::before,
 #app-mount .searchResultsWrap-2DKFzt,
+#app-mount .ShowSessions-list-item,
 #app-mount .sidebar-1-SQro,
 #app-mount .slideBody-2nMrnU,
 #app-mount .table-moqjM0 .spacerHeader-3eoEE2,
@@ -2333,6 +2334,7 @@ body .monaco-editor .find-widget .button:not(.disabled):hover,
 #app-mount .dim-1l4L4y span,
 #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
 #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
+#app-mount .VoiceChannelField:hover,
 .actionButton-uPB8Fs.highlight-Lf97TE,
 .button-14-BFJ.enabled-2cQ-u7:hover,
 .button-1I8KM5:hover,
@@ -2394,6 +2396,7 @@ body .monaco-editor .find-widget .button:not(.disabled):hover,
 .theme-light #app-mount .dim-1l4L4y span,
 .theme-light #app-mount .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
 .theme-light #app-mount .styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .folder-1hbNCn.hover-qTxTR_,
+.theme-light #app-mount .VoiceChannelField:hover,
 .theme-light .actionButton-uPB8Fs.highlight-Lf97TE,
 .theme-light .button-14-BFJ.enabled-2cQ-u7:hover,
 .theme-light .button-1I8KM5:hover,
@@ -2812,6 +2815,7 @@ bd-body .bd-toast,
 #app-mount .bd-changelog-modal code.inline,
 #app-mount .keybindShortcut-1BD6Z1 span,
 #app-mount .markdown-11q6EU .codeInline-1FHKS7,
+#app-mount .ShowSessions-list-sessionInfo code,
 .after_inlineCode-1KfVgj,
 .before_inlineCode-1G9rTK,
 .inlineCode-2ngu6Y,
@@ -2823,6 +2827,7 @@ bd-body .bd-toast,
 .theme-light #app-mount .bd-changelog-modal code.inline,
 .theme-light #app-mount .keybindShortcut-1BD6Z1 span,
 .theme-light #app-mount .markdown-11q6EU .codeInline-1FHKS7,
+.theme-light #app-mount .ShowSessions-list-sessionInfo code,
 .theme-light .after_inlineCode-1KfVgj,
 .theme-light .before_inlineCode-1G9rTK,
 .theme-light .inlineCode-2ngu6Y,
@@ -3366,6 +3371,14 @@ body #app-mount ._closed + .base-3dtUhz {
 /* Guild and Friend Removal Alerts Plugin */
 .theme-light .GuildAndFriendRemovalAlerts-styles-modal {
 	color: var(--Dark, black);
+}
+/* Show Sessions Plugin */
+.theme-light .ShowSessions-list-sessionsList b {
+	color: var(--Dark, black);
+}
+/* User Voice Show Plugin */
+.theme-light .VoiceChannelField {
+	color: var(--Dark, black) !important;
 }
 /* watermark in preview */
 html:not([lang])::before {
