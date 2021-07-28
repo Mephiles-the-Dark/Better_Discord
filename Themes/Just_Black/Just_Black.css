@@ -541,6 +541,7 @@ textarea,
 .channelTextArea-rNsIhG,
 .chat-1WUuAG .select-Upjed1>svg,
 .chat-3bRxxu,
+.chatHeaderBar-4vZS1x,
 .checklistContainer-mFJZEJ,
 .checklistHeader-1KWcEY,
 .childWrapper-anI2G9,
@@ -1305,6 +1306,7 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .builtInSeparator-1ku6s5,
 .channelSeparator-1DOiGt::before,
 .channelSeparator-dTqJ4K::before,
+.chat-15Vmww::before,
 .chat-1WUuAG::before,
 .checkboxMute-14hTGS::before,
 .children-19S4PO::after,
@@ -1940,6 +1942,9 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 }
 .theme-light .spine--Wla_O {
 	color: rgba(var(--Just_White_Accent2, 214, 118, 39), 0.6);
+}
+.threadSidebar-1o3BTy {
+	filter: none;
 }
 /* Jump to Present Bar */
 .jumpToPresentBar-9P20AM,
