@@ -121,6 +121,7 @@
 .theme-dark .monaco-editor .monaco-editor-hover,
 .theme-dark .noiseCancellationPopout-iRK2A0,
 .theme-dark .oauth2Wrapper-mHbF5q,
+.theme-dark .popout-APcvZm,
 .theme-dark .popout-VcNcHB,
 .theme-dark .popoutContainer-1MXdqN,
 .theme-dark .premiumPromo-fVlLu-,
@@ -254,6 +255,7 @@
 .theme-light .monaco-editor .monaco-editor-hover,
 .theme-light .noiseCancellationPopout-iRK2A0,
 .theme-light .oauth2Wrapper-mHbF5q,
+.theme-light .popout-APcvZm,
 .theme-light .popout-VcNcHB,
 .theme-light .popoutContainer-1MXdqN,
 .theme-light .premiumPromo-fVlLu-,
@@ -504,6 +506,7 @@ textarea,
 .body-3ND3kc,
 .body-r6_QPy,
 .bodyInnerWrapper-26fQXj,
+.box-J4N4jE,
 .button-11zvza,
 .button-1I8KM5,
 .button-1YfofB.buttonColor-7qQbGO,
@@ -1045,6 +1048,7 @@ textarea,
 .lookOutlined-3sRXeN,
 .marketingRefreshSectionTier1-dRwS-6,
 .marketingRefreshTier2Cta-bw9Vyc,
+.more-3VADkW,
 .optionalHeader-mLQoIx,
 .paginationButton-1RB6mQ,
 .paginationButton-3QkyMT,
@@ -1728,6 +1732,9 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 .theme-light .item-2hkk8m {
 	background: rgba(var(--Just_White_Accent1, 164, 68, 0), 0.7);
 }
+.bd-unread .item-2hkk8m {
+	animation: unread 3s ease-out infinite;
+}
 .wrapper-sa6paO {
 	contain: none;
 	overflow: visible;
@@ -1945,6 +1952,10 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 }
 .threadSidebar-1o3BTy {
 	filter: none;
+}
+/* View More Threads */
+.modal-2DCYwU {
+	background: transparent !important;
 }
 /* Jump to Present Bar */
 .jumpToPresentBar-9P20AM,
@@ -2741,6 +2752,7 @@ bd-body .bd-toast,
 .mention-1f5kbO,
 .newBadge-1Is7Nf,
 .newBadge-25C6UM,
+.newBadge-3izl4X,
 .newBrand .textBadge-1iylP6,
 .newTag-38ErDv,
 .numberBadge-2s8kKX,
@@ -2752,6 +2764,7 @@ bd-body .bd-toast,
 .theme-light .iconBadge-qZ4Ksk,
 .theme-light .newBadge-1Is7Nf,
 .theme-light .newBadge-25C6UM,
+.theme-light .newBadge-3izl4X,
 .theme-light .mention-1f5kbO,
 .theme-light .newTag-38ErDv,
 .theme-light .numberBadge-2s8kKX,
