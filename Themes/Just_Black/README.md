@@ -7,4 +7,4 @@ This theme also has a 'Just_White' variant when using Discord's light theme.
 
 ![](https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Previews/Just_Black_4.png)
 
-Click here to download: <a href="https://github.com/Mephiles-the-Dark/Better_Discord/blob/master/Themes/Just_Black/Just_Black.theme.css" target="_blank" />Just_Black.theme.css</a>
+Download from BetterDiscord.app: <a href="https://betterdiscord.app/Download?id=411" target="_blank" />Just_Black.theme.css</a>
