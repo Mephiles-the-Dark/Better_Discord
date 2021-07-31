@@ -3441,12 +3441,12 @@ html:not([lang])::before {
 }
 /* Watermark */
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_Black v4.2.0";
+	content: "\00000AJust_Black v4.2.1";
 	text-transform: none;
 	cursor: text;
 }
 .theme-light .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child::after {
-	content: "\00000AJust_White v4.2.0";
+	content: "\00000AJust_White v4.2.1";
 }
 /* Download Discord Application */
 .backdrop-1wrmKB[style="opacity: 0.95; background-color: rgb(255, 255, 255); z-index: 1000; transform: translateZ(0px);"] {
