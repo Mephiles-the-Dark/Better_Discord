@@ -1,6 +1,6 @@
 /**
  * @name Just_Black
- * @version 4.2.0
+ * @version 4.2.1
  * @author Ме́филес#9198
  * @authorId 376086802961793024
  * @description Revival of JustBlack Theme by Dddsasul: "A nice and black theme"
@@ -19,6 +19,6 @@
 	--Orange: orangered; /* An extra accent colour for Light Theme (default: orangered) */
 	--Fuchsia: fuchsia; /* A colour (default: fuchsia) */
 	--Active: rgb(51, 153, 51); /* A colour for clicking (default: rgb(51, 153, 51)) */
-	--Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0) */
+	--Blank: 0.7; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0.7) */
 }
 /* One may post code snippets below this line */
