@@ -9,7 +9,7 @@
 	--Orange: orangered; /* An extra accent colour for Light Theme (default: orangered) */
 	--Fuchsia: fuchsia; /* A colour (default: fuchsia) */
 	--Active: rgb(51, 153, 51); /* A colour for clicking (default: rgb(51, 153, 51)) */
-	--Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0) */
+	--Blank: 0.7; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0.7) */
 	--server-container: calc(var(--server-size) + 27px) !important; /* Horizontal Server List Theme Support */
 }
 .theme-dark:root,
@@ -1433,7 +1433,7 @@ body,
 .fieldList-21DyL8 > div > div > div,
 .wrapper-1Rf91z,
 .wrapper-3NnKdC {
-	opacity: var(--Blank, 1);
+	opacity: var(--Blank, 0.7);
 	transition: 0.4s ease-in-out;
 }
 body:hover,
