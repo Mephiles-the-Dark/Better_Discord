@@ -28,6 +28,7 @@
 .theme-dark #app-mount .bd-modal-wrapper .bd-modal-inner,
 .theme-dark #app-mount .bd-select .bd-select-options,
 .theme-dark #app-mount .bf-toolbar::before,
+.theme-dark #app-mount .calendarPicker-2yf6Ci .react-datepicker,
 .theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-dark #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-dark #app-mount .colorPickerCustom-2CWBn2,
@@ -163,6 +164,7 @@
 .theme-light #app-mount .bd-modal-wrapper .bd-modal-inner,
 .theme-light #app-mount .bd-select .bd-select-options,
 .theme-light #app-mount .bf-toolbar::before,
+.theme-light #app-mount .calendarPicker-2yf6Ci .react-datepicker,
 .theme-light #app-mount .colorDefault-XdNdIp .bg-8df5St,
 .theme-light #app-mount .colorPickerCustom-2CWBn2,
 .theme-light #app-mount .container-3ayLPN,
@@ -1430,7 +1432,7 @@ body,
 .contentRegion-3nDuYy,
 .sidebar-2K8pFh,
 .sidebarRegion-VFTUkN,
-.fieldList-21DyL8 > div > div > div,
+.field-1HUseB:not(:first-child) > div:first-child > div > div,
 .wrapper-1Rf91z,
 .wrapper-3NnKdC {
 	opacity: var(--Blank, 0.7);
@@ -1441,7 +1443,7 @@ body:hover,
 .contentRegion-3nDuYy:hover,
 .sidebar-2K8pFh:hover,
 .sidebarRegion-VFTUkN:hover,
-.fieldList-21DyL8 > div > div > div:hover,
+.field-1HUseB:not(:first-child) > div:first-child > div > div:hover,
 .wrapper-1Rf91z:hover,
 .wrapper-3NnKdC:hover {
 	opacity: 1;
