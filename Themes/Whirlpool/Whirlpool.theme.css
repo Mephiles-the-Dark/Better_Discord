@@ -10,6 +10,7 @@
 :root::after {
 	background-image: url(https://images6.alphacoders.com/420/420351.jpg);
 	background-image: url(https://i.imgur.com/uTVZzkC.jpg);
+	background-image: url(https://thumbs.gfycat.com/DecisiveSorrowfulGuineapig-size_restricted.gif);
 	mix-blend-mode: screen; /* Use multiply for the opposite effect {default: screen} */
 	background-position: center;
 	background-size: auto; /* Use cover for small images and contain for large images {default: auto} */
