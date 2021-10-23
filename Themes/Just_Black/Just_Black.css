@@ -64,6 +64,7 @@
 .theme-dark #app-mount .spoilerWarning-2aAZq1,
 .theme-dark #app-mount .streamPreview-2-WUWT,
 .theme-dark #app-mount .subscribersPopout-2CP6Ln,
+.theme-dark #app-mount .themedPopout-1TrfdI,
 .theme-dark #app-mount .tooltipGrey-1hnvTt,
 .theme-dark #app-mount .uploadModal-2ifh8j,
 .theme-dark .attachedBars-tZDmyV,
@@ -201,6 +202,7 @@
 .theme-light #app-mount .spoilerWarning-2aAZq1,
 .theme-light #app-mount .streamPreview-2-WUWT,
 .theme-light #app-mount .subscribersPopout-2CP6Ln,
+.theme-light #app-mount .themedPopout-1TrfdI,
 .theme-light #app-mount .tooltipGrey-1hnvTt,
 .theme-light #app-mount .uploadModal-2ifh8j,
 .theme-light .attachedBars-tZDmyV,
@@ -515,12 +517,14 @@ textarea,
 .avatar-37jOim,
 .avatar-AvHqJA,
 .avatar-VxgULZ::before,
+.avatarUploaderInnerSquareDisabled-1GiI3m,
 .background-1QDuV2,
 .background-1vAsyP,
 .background-ujHpbY,
 .banner-WELp4M,
 .bannerImage-1jOskm::before,
 .bar-AokMp3,
+.bd-addon-modal-settings .container,
 .bg-h5JY_x,
 .blob-2w7iIK,
 .body-3ND3kc,
@@ -570,6 +574,7 @@ textarea,
 .checklistHeader-1KWcEY,
 .childWrapper-anI2G9,
 .circleIconButton-1QV--U,
+.circleIconButton-1XqULR,
 .circleIconButton-jET_ig,
 .clickable-2ap7je .header-2o-2hj:hover,
 .closeButton-3zQgWY,
@@ -637,6 +642,7 @@ textarea,
 .developerPortalCtaWrapper-2XNafh,
 .divider-mDc_D8,
 .dragInner-_SHftW,
+.dragInner-37Nf0z,
 .dragInner-Oq_toX,
 .editButton-1MavoF,
 .editCircle-ityklj,
@@ -698,6 +704,7 @@ textarea,
 .icon-1HfuQI,
 .icon-1Itzco,
 .icon-1SdhiF,
+.icon-2BoU5V,
 .icon-3_8HGa,
 .icon-3pEw1v,
 .iconBackground-1clSpP,
@@ -1398,6 +1405,7 @@ body .monaco-menu .monaco-action-bar.vertical .action-label.separator,
 .gradientOverlayRight-3vMuS8,
 .guildCategorySeparator-3IdPnM,
 .guildSeparator-3s64Iy,
+.guildSeparator-EOYZLM,
 .improved-1NJK-y::after,
 .isMentionedCozy-3isp7y::after,
 .localBot-GrCgVt::before,
@@ -1780,6 +1788,10 @@ body .webkit-HjD9Er::-webkit-scrollbar-track:disabled {
 .dismiss-SCAH9H {
 	height: 36px;
 	padding-bottom: 12px;
+}
+/* Guild pill shows only when unread */
+.tutorialContainer-32VdNI + .listItem-1hlISG .pill-2IYbPt {
+	display: none;
 }
 /* Guild pill */
 .item-2hkk8m {
@@ -2830,6 +2842,7 @@ bd-body .bd-toast,
 .new-2Mtscr,
 .newBadge-1Is7Nf,
 .newBadge-25C6UM,
+.newBadge-34a1Fs,
 .newBadge-3izl4X,
 .newBrand .textBadge-1iylP6,
 .newTag-38ErDv,
@@ -2843,6 +2856,7 @@ bd-body .bd-toast,
 .theme-light .new-2Mtscr,
 .theme-light .newBadge-1Is7Nf,
 .theme-light .newBadge-25C6UM,
+.theme-light .newBadge-34a1Fs,
 .theme-light .newBadge-3izl4X,
 .theme-light .mention-1f5kbO,
 .theme-light .newTag-38ErDv,
@@ -3515,6 +3529,17 @@ body #app-mount ._closed + .base-3dtUhz {
 /* User Voice Show Plugin */
 .theme-light .VoiceChannelField {
 	color: var(--Dark, black) !important;
+}
+/* Server Themes Plugin */
+#app-mount .container .row .themeChoice {
+	border: none;
+}
+.theme-dark .container .row .themeChoice {
+	background: black;
+	color: white;
+}
+.theme-light .container .row .themeChoice {
+	background: white;
 }
 /* watermark in preview */
 html:not([lang])::before {
